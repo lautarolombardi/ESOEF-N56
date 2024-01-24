@@ -1,0 +1,30 @@
+---
+import NewsCard from './NewsCard.astro'
+import news from '../data/news.json'
+import Button from './Button.astro'
+import Angle from '../icons/Angle.astro'
+---
+
+<div
+  class='mb-12 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center'
+>
+  {
+    Array.from(news.news).map(
+      ({ title, description, media, mediaType, date }) => (
+        <NewsCard
+          title={title}
+          description={description}
+          media={media}
+          mediaType={mediaType}
+          button='Leer más'
+          date={date}
+        />
+      )
+    )
+  }
+</div>
+<a href='#'
+  ><Button class='h-max flex items-center gap-3'>
+    Ver todas las novedades <Angle class='w-3 -rotate-90' />
+  </Button></a
+>

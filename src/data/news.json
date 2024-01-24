@@ -1,0 +1,25 @@
+{
+  "news": [
+    {
+      "title": "Egresados 2023",
+      "description": "Fue un largo y arduo trayecto de 12 años desde la primaria hasta hoy. A pesar de las dificultades, llegaron hasta aquí. Ante nuevos desafíos, miren su pasado, vean lo que lograron. Que esto sea el impulso para seguir con más fuerza.",
+      "media": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/graduated2023.webp?alt=media&token=7dcc85e4-37f0-4184-8a1f-fbeb6f0d4432",
+      "mediaType": "image",
+      "date": "2023"
+    },
+    {
+      "title": "Balance del año 2023",
+      "description": "Fue un largo y arduo trayecto de 12 años desde la primaria hasta hoy. A pesar de las dificultades, llegaron hasta aquí. Ante nuevos desafíos, miren su pasado, vean lo que lograron. Que esto sea el impulso para seguir con más fuerza.",
+      "media": "https://www.youtube.com/embed/KUernMi-g9g?si=apsHRmD6qBGuJCwC",
+      "mediaType": "video",
+      "date": "2023"
+    },
+    {
+      "title": "Alexander Brítez",
+      "description": "Compartimos el tema musical compuesto por nuestro estudiante de 4to. año Alexander Britez. Va con la dedicatoria del locutor de FM Espacio Buenos Aires, en el programa 'Haciendo Caminos'.",
+      "media": "https://www.youtube.com/embed/9Z26NFZ8GVY?si=8g4jka0hXvipFSty",
+      "mediaType": "video",
+      "date": "2023"
+    }
+  ]
+}

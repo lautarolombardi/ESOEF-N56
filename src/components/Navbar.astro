@@ -1,0 +1,31 @@
+---
+import { HEADER_NAV } from '../app/consts'
+import MenuIcon from '../icons/Menu.astro'
+import Link from './Link.astro'
+import Logo from './Logo.astro'
+---
+
+<nav
+  class='h-[80px] fixed top-0 left-0 w-full bg-[var(--primary-color)] shadow-sm shadow-[#0d2d527e]'
+>
+  <div class='custom-container flex items-center justify-between'>
+    <a
+      href='/'
+      class='transition-all duration-300 hover:text-[var(--accent-color)]'
+    >
+      <Logo class='h-20' />
+    </a>
+    <button class='md:hidden' id='menuBtn'>
+      <MenuIcon class='w-7' />
+    </button>
+    <ul class='hidden md:flex items-center gap-10 font-bold'>
+      {
+        HEADER_NAV.map(item => (
+          <li>
+            <Link href={item.href}>{item.name}</Link>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,43 @@
+---
+import { HEADER_NAV } from '../app/consts'
+import CloseIcon from '../icons/Close.astro'
+import Link from './Link.astro'
+---
+
+<div class='bg-[rgba(0,0,0,.5)] fixed inset-0 hidden' id='overlay'></div>
+<nav
+  class='bg-[var(--primary-color)] shadow-[0_0_0_1px_#0d2d527e] fixed top-0 right-0 bottom-0 w-3/4 translate-x-full transition-all duration-300'
+  id='sidebarNav'
+>
+  <div class='custom-container py-6 flex flex-col gap-12'>
+    <div class='h-max flex items-center justify-end'>
+      <button id='closeBtn'><CloseIcon class='w-6' /></button>
+    </div>
+    <ul class='flex flex-col gap-5 font-bold'>
+      {
+        HEADER_NAV.map(item => (
+          <li>
+            <Link href={item.href}>{item.name}</Link>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</nav>
+
+<script>
+  const menuBtn = document.querySelector('#menuBtn')
+  const closeBtn = document.querySelector('#closeBtn')
+  const overlay = document.querySelector('#overlay')
+  const sidebarNav = document.querySelector('#sidebarNav')
+
+  menuBtn.addEventListener('click', () => {
+    overlay.classList.toggle('hidden')
+    sidebarNav.classList.toggle('translate-x-full')
+  })
+
+  closeBtn.addEventListener('click', () => {
+    overlay.classList.toggle('hidden')
+    sidebarNav.classList.toggle('translate-x-full')
+  })
+</script>

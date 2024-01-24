@@ -1,0 +1,15 @@
+---
+interface Props {
+  title: string
+  listGap: number
+}
+
+const { title, listGap } = Astro.props
+---
+
+<section>
+  <h4 class='font-bold text-xl mb-5'>{title}</h4>
+  <ul class={`flex flex-col gap-${listGap}`}>
+    <slot />
+  </ul>
+</section>
