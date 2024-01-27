@@ -1,0 +1,61 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import news from '../../data/news.json'
+import Section from '../../components/Section.astro'
+const { id } = Astro.params
+const novelty = news.news.find(novelty => novelty.id === Number(id))
+const { title, description, media, mediaType, date } = novelty
+---
+
+<Layout title='Novedades' description='Novedades'>
+  <main>
+    <Section
+      title={title}
+      centerTitle={true}
+      centerMdTitle={true}
+      class='pt-40 pb-20'
+    >
+      <p class='mb-5 leading-7'>{description}</p>
+      <div
+        class='flex flex-col gap-5 md:grid md:grid-cols-[repeat(2,1fr)] lg:hidden'
+      >
+        {
+          media.map(img => {
+            return <img src={img} class='border border-[var(--accent-color)]' />
+          })
+        }
+      </div>
+      <div class='hidden lg:grid lg:grid-cols-[25%,75%] lg:gap-5'>
+        <div class='flex flex-col gap-3'>
+          {
+            media.map(img => {
+              return (
+                <img
+                  src={img}
+                  class='transition-all duration-300 cursor-pointer hover:scale-95 border border-[var(--accent-color)] img'
+                />
+              )
+            })
+          }
+        </div>
+        <picture>
+          <img
+            src={media[0]}
+            class='h-full w-full object-cover object-center border border-[var(--accent-color)]'
+            id='noveltyImg'
+          />
+        </picture>
+      </div>
+    </Section>
+  </main>
+</Layout>
+<script>
+  const imgs = document.querySelectorAll('.img')
+  const noveltyImg = document.querySelector('#noveltyImg')
+
+  imgs.forEach(img => {
+    img.addEventListener('click', () => {
+      noveltyImg.setAttribute('src', img.getAttribute('src'))
+    })
+  })
+</script>

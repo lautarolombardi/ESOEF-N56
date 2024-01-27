@@ -1,0 +1,37 @@
+---
+import Section from '../components/Section.astro'
+import NewsCard from '../components/NewsCard.astro'
+import news from '../data/news.json'
+import Layout from '../layouts/Layout.astro'
+---
+
+<Layout title='Novedades' description='Novedades'>
+  <main>
+    <Section
+      title='Novedades'
+      class='pt-40 pb-20'
+      centerTitle={true}
+      centerMdTitle={true}
+    >
+      <div
+        class='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center'
+      >
+        {
+          Array.from(news.news).map(
+            ({ title, description, media, mediaType, date, id }) => (
+              <NewsCard
+                id={id}
+                title={title}
+                description={description}
+                media={media[0]}
+                mediaType={mediaType}
+                button='Leer más'
+                date={date}
+              />
+            )
+          )
+        }
+      </div>
+    </Section>
+  </main>
+</Layout>

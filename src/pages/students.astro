@@ -1,0 +1,69 @@
+---
+import Card from '../components/Card.astro'
+import Section from '../components/Section.astro'
+import Layout from '../layouts/Layout.astro'
+---
+
+<Layout title='ESOEF N56 - Estudiantes' description='ESOEF N56 - Estudiantes'>
+  <header class='custom-container pt-40 pb-20'>
+    <h1 class='text-center font-bold text-3xl'>Estudiantes</h1>
+  </header>
+  <main>
+    <Section
+      class='pb-20'
+      title='Material de estudio'
+      centerTitle
+      centerMdTitle
+    >
+      <div
+        class='grid place-items-center gap-5 grid-cols-[repeat(auto-fill,minmax(300px,1fr))]'
+      >
+        <Card
+          title='Manual de historia'
+          description='Descargá el manual de historia de 4to año.'
+          link='https://drive.google.com/file/d/1-7e3vbXSnUSlmxN1xLRPEdJD-tpIo5zB/view'
+        />
+        <Card
+          title='Ciencias sociales'
+          description='Descargá el manual de ciencias sociales de 1er año.'
+          link='https://drive.google.com/file/d/1-7XungUc7QP_j2LTjCusgqZkq8crpZoZ/view'
+        />
+        <Card
+          title='Profesor Vidal'
+          description='Buscá el material que necesites dado por el profesor Vidal.'
+          link='https://drive.google.com/drive/folders/1Is_4N94buRuOOTcCKiOf-U6hMe3Gv2XH'
+        />
+        <Card
+          title='Mapas'
+          description='Encontrá variedad de mapas de nuestro país y continente.'
+          link='https://www.ign.gob.ar/AreaServicios/Descargas/MapasEscolares'
+        />
+        <Card
+          title='Lecturas grabadas'
+          description='Explorá una selección de lecturas grabadas para mejorar tu experiencia de aprendizaje.'
+          link='https://www.educ.ar/recursos/123487/lecturas-grabadas'
+        />
+        <Card
+          title='Biblioteca de la escuela'
+          description='Explora nuestra biblioteca digital con recursos académicos seleccionados para mejorar tu aprendizaje escolar.'
+          link='https://www.educ.ar/recursos/123487/lecturas-grabadas'
+        />
+        <Card
+          title='Biblioteca virtual'
+          description='Explora nuestra biblioteca virtual con diversos recursos educativos, libros digitales y material didáctico.'
+          link='https://www.educ.ar/recursos/123487/lecturas-grabadas'
+        />
+      </div>
+    </Section>
+    <Section class='pb-20' title='Tu futuro' centerTitle centerMdTitle>
+      <p class='mb-10 leading-8 text-pretty text-center'>
+        Universidades de cercanía. Encontrá toda la información necesaria sobre
+        tus próximos estudios
+      </p>
+      <div
+        class='flex flex-col items-center gap-10 md:flex-row md:justify-evenly'
+      >
+      </div>
+    </Section>
+  </main>
+</Layout>

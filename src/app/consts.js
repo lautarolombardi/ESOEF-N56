@@ -1,7 +1,7 @@
 export const HEADER_NAV = [
   {
-    name: 'Inicio',
-    path: '/',
+    name: 'Novedades',
+    path: '/news',
   },
   {
     name: 'Estudiantes',

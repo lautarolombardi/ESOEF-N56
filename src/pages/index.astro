@@ -1,12 +1,12 @@
 ---
-import MainHeader from '../components/MainHeader.astro'
-import Presentation from '../components/Presentation.astro'
+import MainHeader from '../components/Home/MainHeader.astro'
+import Presentation from '../components/Home/Presentation.astro'
 import Section from '../components/Section.astro'
-import Mission from '../components/Mission.astro'
-import SubjectsTable from '../components/SubjectsTable.astro'
-import Faq from '../components/Faq.astro'
+import Mission from '../components/Home/Mission.astro'
+import SubjectsTable from '../components/Home/SubjectsTable.astro'
+import Faq from '../components/Home/Faq.astro'
 import Layout from '../layouts/Layout.astro'
-import LastNews from '../components/LastNews.astro'
+import LastNews from '../components/Home/LastNews.astro'
 ---
 
 <Layout title='ESOEF N56' description='ESOEF N56'>
@@ -14,41 +14,41 @@ import LastNews from '../components/LastNews.astro'
   <main class='overflow-x-hidden'>
     <Section
       title='Presentación'
-      className='py-20'
-      centerSubtitle={true}
-      centerMdSubtitle={true}
+      class='py-20'
+      centerTitle={true}
+      centerMdTitle={true}
     >
       <Presentation />
     </Section>
     <Section
       title='Nuestra misión'
-      className='pb-20'
-      centerSubtitle={true}
-      centerMdSubtitle={true}
+      class='pb-20'
+      centerTitle={true}
+      centerMdTitle={true}
     >
       <Mission />
     </Section>
     <Section
       title='Estructura curricular'
-      className='pb-20'
-      centerSubtitle={true}
-      centerMdSubtitle={true}
+      class='pb-20'
+      centerTitle={true}
+      centerMdTitle={true}
     >
       <SubjectsTable />
     </Section>
     <Section
       title='Ultimas novedades'
-      className='pb-20'
-      centerSubtitle={true}
-      centerMdSubtitle={false}
+      class='pb-20'
+      centerTitle={true}
+      centerMdTitle={false}
     >
       <LastNews />
     </Section>
     <Section
       title='Preguntas frecuentes'
-      className='pb-20'
-      centerSubtitle={true}
-      centerMdSubtitle={false}
+      class='pb-20'
+      centerTitle={true}
+      centerMdTitle={false}
     >
       <Faq />
     </Section>

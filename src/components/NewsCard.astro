@@ -3,6 +3,7 @@ import Button from './Button.astro'
 import LinkIcon from '../icons/Link.astro'
 
 interface Props {
+  id: number
   title: string
   description: string
   media: string
@@ -11,10 +12,10 @@ interface Props {
   date: string
 }
 
-const { title, description, media, mediaType, button, date } = Astro.props
+const { title, description, media, mediaType, button, date, id } = Astro.props
 ---
 
-<div
+<article
   class='max-w-sm bg-[var(--primary-color)] shadow border border-[var(--accent-color)]'
 >
   <div class='w-full h-[300px]'>
@@ -32,18 +33,18 @@ const { title, description, media, mediaType, button, date } = Astro.props
       )
     }
   </div>
-  <div class='p-5 flex flex-col gap-4'>
+  <div class='p-5 flex flex-col gap-4 justify-center'>
     <h5 class='text-2xl font-bold tracking-tight'>
       {title}
     </h5>
-    <p class='leading-7 truncate'>
+    <p class='leading-7 line-clamp-2'>
       {description}
     </p>
-    <a href='#'>
+    <a href={`/news/${id}`}>
       <Button class='flex h-max items-center gap-2'>
         {button}
         <LinkIcon class='w-5' />
       </Button>
     </a>
   </div>
-</div>
+</article>
