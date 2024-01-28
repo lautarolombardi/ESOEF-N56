@@ -1,5 +1,6 @@
 ---
 import Button from './Button.astro'
+import LinkIcon from '../icons/Link.astro'
 interface Props {
   title: string
   description: string
@@ -9,11 +10,15 @@ const { title, description, link } = Astro.props
 ---
 
 <div
-  class='h-full w-full bg-[var(--primary-color)] p-5 shadow-sm shadow-[var(--black)]'
+  class='h-full w-full bg-[var(--primary-color)] p-5 shadow shadow-[var(--black)]'
 >
   <h5 class='mb-2 text-xl font-bold tracking-tight'>{title}</h5>
-  <p class='mb-3 leading-8 text-pretty'>
+  <p class='mb-5 leading-8 text-pretty'>
     {description}
   </p>
-  <Button>Abrir</Button>
+  <a href={link} target='_blank'>
+    <Button class='h-max flex items-center gap-3'>
+      Abrir <LinkIcon class='w-5' />
+    </Button>
+  </a>
 </div>

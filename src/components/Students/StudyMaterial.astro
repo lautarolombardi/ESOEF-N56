@@ -1,0 +1,14 @@
+---
+import { STUDY_MATERIAL } from '../../app/consts'
+import Card from '../Card.astro'
+---
+
+<div
+  class='grid grid-cols-1 place-items-center gap-5 md:grid-cols-[repeat(auto-fill,minmax(300px,1fr))]'
+>
+  {
+    STUDY_MATERIAL.map(({ title, description, link }) => (
+      <Card title={title} description={description} link={link} />
+    ))
+  }
+</div>

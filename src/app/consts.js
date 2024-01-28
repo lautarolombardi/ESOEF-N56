@@ -84,3 +84,44 @@ export const SOCIAL_LINKS = [
     icon: 'youtube',
   },
 ]
+
+export const STUDY_MATERIAL = [
+  {
+    title: 'Manual de historia',
+    description: 'Descargá el manual de historia de 4to año.',
+    link: 'https://drive.google.com/file/d/1-7e3vbXSnUSlmxN1xLRPEdJD-tpIo5zB/view',
+  },
+  {
+    title: 'Ciencias sociales',
+    description: 'Descargá el manual de ciencias sociales de 1er año.',
+    link: 'https://drive.google.com/file/d/1-7XungUc7QP_j2LTjCusgqZkq8crpZoZ/view',
+  },
+  {
+    title: 'Profesor Vidal',
+    description: 'Buscá el material que necesites dado por el profesor Vidal.',
+    link: 'https://drive.google.com/drive/folders/1Is_4N94buRuOOTcCKiOf-U6hMe3Gv2XH',
+  },
+  {
+    title: 'Mapas',
+    description: 'Encontrá variedad de mapas de nuestro país y continente.',
+    link: 'https://www.ign.gob.ar/AreaServicios/Descargas/MapasEscolares',
+  },
+  {
+    title: 'Lecturas grabadas',
+    description:
+      'Explorá una selección de lecturas grabadas para mejorar tu experiencia de aprendizaje.',
+    link: 'https://www.educ.ar/recursos/123487/lecturas-grabadas',
+  },
+  {
+    title: 'Biblioteca de la escuela',
+    description:
+      'Explora nuestra biblioteca digital con recursos académicos para mejorar tu aprendizaje escolar.',
+    link: 'https://www.educ.ar/recursos/123487/lecturas-grabadas',
+  },
+  {
+    title: 'Biblioteca virtual',
+    description:
+      'Explora nuestra biblioteca virtual con recursos educativos, libros digitales y material didáctico.',
+    link: 'https://www.educ.ar/recursos/123487/lecturas-grabadas',
+  },
+]
