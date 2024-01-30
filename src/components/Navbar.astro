@@ -1,12 +1,13 @@
 ---
 import { HEADER_NAV } from '../app/consts'
+import AngleIcon from '../icons/Angle.astro'
 import MenuIcon from '../icons/Menu.astro'
 import Link from './Link.astro'
 import Logo from './Logo.astro'
 ---
 
 <nav
-  class='h-[80px] fixed top-0 left-0 w-full bg-[var(--primary-color)] shadow-sm shadow-[#0d2d527e] z-50'
+  class='h-[80px] fixed top-0 left-0 w-full bg-[var(--primary-color)] shadow-sm shadow-[#0d2d527e] z-40'
 >
   <div class='custom-container flex items-center justify-between'>
     <a
@@ -20,11 +21,31 @@ import Logo from './Logo.astro'
     </button>
     <ul class='hidden md:flex items-center gap-10 font-bold'>
       {
-        HEADER_NAV.map(item => (
-          <li>
-            <Link href={item.path}>{item.name}</Link>
-          </li>
-        ))
+        HEADER_NAV.map(item => {
+          return item.name !== 'Institucional' ? (
+            <li>
+              <Link href={item.path}>{item.name}</Link>
+            </li>
+          ) : (
+            <li class='h-[80px] flex items-center gap-2 relative group cursor-pointer'>
+              Institucional <AngleIcon class='w-3' />
+              <ul class='p-5 bg-[var(--primary-color)] absolute bottom-[-190px] opacity-0 invisible left-0 flex flex-col gap-5 transition-all duration-300 group-hover:visible group-hover:opacity-100'>
+                <li>
+                  <Link href={item.path}>Nosotros</Link>
+                </li>
+                <li>
+                  <Link href={item.path}>Salidas</Link>
+                </li>
+                <li>
+                  <Link href={item.path}>Competencias</Link>
+                </li>
+                <li>
+                  <Link href={item.path}>Noticiero</Link>
+                </li>
+              </ul>
+            </li>
+          )
+        })
       }
     </ul>
   </div>

@@ -6,14 +6,14 @@ import Link from './Link.astro'
 
 <div class='bg-[rgba(0,0,0,.5)] fixed inset-0 hidden' id='overlay'></div>
 <nav
-  class='bg-[var(--primary-color)] shadow-[0_0_0_1px_#0d2d527e] fixed top-0 right-0 bottom-0 w-3/4 translate-x-full transition-all duration-300'
+  class='bg-[var(--primary-color)] shadow-[0_0_0_1px_#0d2d527e] fixed top-0 right-0 bottom-0 w-3/4 translate-x-full transition-all duration-300 z-[100]'
   id='sidebarNav'
 >
-  <div class='custom-container py-6 flex flex-col gap-12'>
+  <div class='custom-container py-6 flex flex-col gap-14'>
     <div class='h-max flex items-center justify-end'>
       <button id='closeBtn'><CloseIcon class='w-6' /></button>
     </div>
-    <ul class='flex flex-col gap-5 font-bold'>
+    <ul class='flex flex-col gap-7 font-bold'>
       {
         HEADER_NAV.map(item => (
           <li>
