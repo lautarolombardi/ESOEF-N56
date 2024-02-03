@@ -1,0 +1,38 @@
+---
+import Section from '../../components/Section.astro'
+import Layout from '../../layouts/Layout.astro'
+import ImageCard from '../../components/ImageCard.astro'
+import outlings from '../../data/outlings.json'
+---
+
+<Layout title='Salidas' description='Salidas'>
+  <main>
+    <Section
+      title='Salidas'
+      class='pt-40 pb-20'
+      centerTitle={true}
+      centerMdTitle={true}
+    >
+      <div
+        class='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center'
+      >
+        {
+          Array.from(outlings.outlings).map(
+            ({ title, description, media, mediaType, date, id }) => (
+              <ImageCard
+                cardType='outlings'
+                id={id}
+                title={title}
+                description={description}
+                media={media[0]}
+                mediaType={mediaType}
+                button='Leer más'
+                date={date}
+              />
+            )
+          )
+        }
+      </div>
+    </Section>
+  </main>
+</Layout>

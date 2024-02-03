@@ -1,5 +1,5 @@
 ---
-import NewsCard from '../NewsCard.astro'
+import ImageCard from '../ImageCard.astro'
 import news from '../../data/news.json'
 import Button from '../Button.astro'
 import Angle from '../../icons/Angle.astro'
@@ -11,11 +11,12 @@ import Angle from '../../icons/Angle.astro'
   {
     Array.from(news.lastNews).map(
       ({ title, description, media, mediaType, date, id }) => (
-        <NewsCard
+        <ImageCard
+          cardType='news'
           id={id}
           title={title}
           description={description}
-          media={media}
+          media={media[0]}
           mediaType={mediaType}
           button='Leer más'
           date={date}

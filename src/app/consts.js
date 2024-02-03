@@ -13,7 +13,7 @@ export const HEADER_NAV = [
   },
   {
     name: 'Institucional',
-    path: '/about',
+    path: '/school/about',
   },
 ]
 

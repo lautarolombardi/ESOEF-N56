@@ -1,0 +1,99 @@
+{
+  "outlings": [
+    {
+      "id": 1,
+      "title": "Festival de cortos La Claqueta",
+      "description": "Nuestra salida a la Universidad Nacional de Lanús para la participación de los estudiantes en el festival de cortos La Claqueta",
+      "media": [
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fclaqueta%2Fimg1.webp?alt=media&token=83dffa2b-4987-453f-82d9-b2155016a5e8",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fclaqueta%2Fimg2.webp?alt=media&token=e9fbbf1d-9cc5-41cb-baa9-3308a31f9dcc"
+      ],
+      "mediaType": "image",
+      "date": "2023"
+    },
+    {
+      "id": 2,
+      "title": "Museo Héroes de Malvinas",
+      "description": "Nuestra salida a la Universidad Nacional de Lanús para la participación de los egresados del Museo Hôtel de Malvinas",
+      "media": [
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fmalvinas%2Fimg1.webp?alt=media&token=34a19a47-66e9-49cb-9663-278d9d902086",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fmalvinas%2Fimg2.webp?alt=media&token=59d26a64-96ef-4e59-9082-266a5afe4d9d",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fmalvinas%2Fimg3.webp?alt=media&token=6921a161-2843-4fdd-8eea-2d840e4240cf"
+      ],
+      "mediaType": "image",
+      "date": "2023"
+    },
+    {
+      "id": 3,
+      "title": "CICyT",
+      "description": "El estímulo y la comprensión empírica de los fenómenos y procesos que los visitantes vivencian generan una dinámica diferente y complementaria a la desarrollada en las aulas. La mayoría de los fenómenos científico-tecnológicos presentados permiten un abordaje complejo e interdisciplinario, que reduce la brecha existente entre la ciencias naturales y sociales.",
+      "media": [
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fcicyt%2Fimg1.webp?alt=media&token=4a7b36f1-3d14-4f70-907f-f69d59b6ce24",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fcicyt%2Fimg2.webp?alt=media&token=0bc5a710-1b01-438a-989c-61dd6ec8ba68",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fcicyt%2Fimg3.webp?alt=media&token=3637b525-4a89-4ea5-85c9-403f56dc184f"
+      ],
+      "mediaType": "image",
+      "date": "2023"
+    },
+    {
+      "id": 4,
+      "title": "Expo Carreras UNLZ",
+      "description": "Nuestra visita a la Universidad Nacional de Lomas de Zamora para la participación de la expo carreras.",
+      "media": [
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Funlz%2Fimg1.webp?alt=media&token=1cb037b9-4c6b-4f14-85c5-f7556bfb27f7",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Funlz%2Fimg2.webp?alt=media&token=38fdf5d7-6bc5-46bf-90ee-163f8bcf0115",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Funlz%2Fimg3.webp?alt=media&token=038aafb5-1123-44fc-b836-85ffeda2075d"
+      ],
+      "mediaType": "image",
+      "date": "2023"
+    },
+    {
+      "id": 5,
+      "title": "CeNaDe",
+      "description": "Nuestra salida al CeNaDe (Centro Nacional de Deportes)",
+      "media": [
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fcenade%2Fimg1.webp?alt=media&token=975ff2f4-bb3c-4b20-bbee-1b4be980fd17",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fcenade%2Fimg2.webp?alt=media&token=7d50204b-6d04-4fbd-a627-7aa8120ea1a2",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fcenade%2Fimg3.webp?alt=media&token=2522beb0-3532-44c4-b603-0edca411a88e"
+      ],
+      "mediaType": "image",
+      "date": "2023"
+    },
+    {
+      "id": 6,
+      "title": "Abremate: Segunda Salida",
+      "description": "El docente, en muchas oportunidades durante el ciclo lectivo, no tiene el tiempo ni los recursos necesarios para llevar a cabo en sus clases, observaciones de fenómenos naturales. Esto provoca una reducción de tiempo y de oportunidades para que el alumno realice razonamientos y nuevas preguntas sobre la ciencia, por lo tanto no puede acceder a deducciones y conclusiones necesarias para alcanzar la construcción del conocimiento científico.",
+      "media": [
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fabremate2%2Fimg1.webp?alt=media&token=75d94d15-4b3a-4f2b-bc54-c8ce1cb7b5d4",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fabremate2%2Fimg2.webp?alt=media&token=deb922fd-a4ca-4951-a904-6ccd9c399694",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fabremate2%2Fimg3.webp?alt=media&token=b5186641-6e34-4010-973a-bfaebc285ec2"
+      ],
+      "mediaType": "image",
+      "date": "2023"
+    },
+    {
+      "id": 7,
+      "title": "Abremate: Tercera Salida",
+      "description": "La Universidad Nacional de Lanús propone entre sus metas institucionales una íntima relación y compromiso con las necesidades culturales y educativas de su entorno social y productivo. El Centro Interactivo de Ciencia y Tecnología – CICyT abremate, surgido como museo universitario en junio de 2002, está conformado como un espacio motivador y generador de conocimientos sobre los fenómenos naturales y tecnológicos, tanto hacia el interior de la propia institución, como hacia el sistema educativo y el público en general. Su principal objetivo es poner la “ciencia en acción” para tender puentes comunicacionales con la comunidad educativa, a fin de divulgar la cultura científica a través de caminos temáticos e interactivos que permitan el tránsito lúdico de los aprendizajes. Desde siempre la educación formal necesitó complementarse con espacios libres e informales para poder acceder al conocimiento a través del juego y el entretenimiento en forma más creativa. En ese sentido, los museos interactivos ofrecen una gran flexibilidad para alcanzar este objetivo de manera rápida y concreta.",
+      "media": [
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fabremate3%2Fimg1.webp?alt=media&token=9c133bdc-eba1-4517-9e64-11a2f1a059a8",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fabremate3%2Fimg2.webp?alt=media&token=983d18ea-5ca9-49f3-95da-e37e95439291",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fabremate3%2Fimg3.webp?alt=media&token=0bca25df-9075-49ee-a385-2d3ac500b55f"
+      ],
+      "mediaType": "image",
+      "date": "2023"
+    },
+    {
+      "id": 8,
+      "title": "Salida al ISFD N ° 101",
+      "description": "Nuestra salida al ISFD N ° 101",
+      "media": [
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fisfd101%2Fimg1.webp?alt=media&token=be59c174-b74c-4bc3-a14f-f56ff9c94250",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fisfd101%2Fimg2.webp?alt=media&token=1bf083e1-795f-4fa4-8e83-534f4ebcee70",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fisfd101%2Fimg3.webp?alt=media&token=5af97f77-36d7-4761-9018-45b746c77e7f"
+      ],
+      "mediaType": "image",
+      "date": "2023"
+    }
+  ]
+}

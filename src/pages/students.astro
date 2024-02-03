@@ -11,8 +11,12 @@ import ImportantFiles from '../components/Students/ImportantFiles.astro'
     <h1 class='text-center font-bold text-3xl md:text-4xl'>Estudiantes</h1>
   </header>
   <main>
+    <div
+      class="h-[70vh] bg-no-repeat bg-cover bg-center bg-fixed bg-[url('https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/students-banner.webp?alt=media&token=ef542ab0-fe2f-457b-9d89-22f8ee947cb1')]"
+    >
+    </div>
     <Section
-      class='pb-20'
+      class='py-20'
       title='Archivos importantes'
       centerTitle
       centerMdTitle
@@ -28,6 +32,10 @@ import ImportantFiles from '../components/Students/ImportantFiles.astro'
       <StudyMaterial />
     </Section>
     <Section class='pb-20' title='Tu futuro' centerTitle centerMdTitle>
+      <p class='mb-14 leading-8 text-pretty text-center'>
+        Universidades de cercanía. Encontrá toda la información necesaria sobre
+        tus próximos estudios
+      </p>
       <Future />
     </Section>
   </main>
