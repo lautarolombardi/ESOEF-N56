@@ -1,0 +1,47 @@
+---
+import Section from '../components/Section.astro'
+import LinkIcon from '../icons/Link.astro'
+import Button from './Button.astro'
+import GridGalery from './GridGalery.astro'
+interface Props {
+  title: string
+  description: string
+  media: string[]
+  mediaType: string
+  date: string
+  link: string
+}
+const { title, description, media, mediaType, date, link } = Astro.props
+---
+
+<main>
+  <Section
+    title={title}
+    centerTitle={true}
+    centerMdTitle={true}
+    class='pt-40 pb-20'
+  >
+    <p class='mb-5 leading-7'>{description}</p>
+    <GridGalery media={media} mediaType={mediaType} />
+    {
+      mediaType === 'image' && (
+        <a href={link} target='_blank' class='btn mt-5'>
+          <Button class='h-max flex mt-10 items-center gap-3'>
+            Ver álbum completo
+            <LinkIcon class='w-5' />
+          </Button>
+        </a>
+      )
+    }
+  </Section>
+</main>
+<script>
+  const imgs = document.querySelectorAll('.img')
+  const selectedImg = document.querySelector('#selectedImg')
+
+  imgs.forEach(img => {
+    img.addEventListener('click', () => {
+      selectedImg.setAttribute('src', img.getAttribute('src'))
+    })
+  })
+</script>

@@ -31,9 +31,9 @@ import Logo from './Logo.astro'
           ) : (
             <li class='h-[80px] flex items-center gap-2 relative group cursor-pointer'>
               Institucional <AngleIcon class='w-3' />
-              <ul class='p-5 bg-[var(--primary-color)] absolute bottom-[-220px] opacity-0 invisible left-0 flex flex-col gap-5 transition-all duration-300 group-hover:visible group-hover:opacity-100'>
+              <ul class='p-5 bg-[var(--primary-color)] absolute bottom-[-220px] opacity-0 invisible left-0 flex flex-col gap-5 shadow-sm shadow-[#0d2d527e] transition-all duration-300 group-hover:visible group-hover:opacity-100'>
                 <li>
-                  <Link href={item.path} class='w-full inline-block'>
+                  <Link href='/school/about' class='w-full inline-block'>
                     Nosotros
                   </Link>
                 </li>
@@ -43,12 +43,15 @@ import Logo from './Logo.astro'
                   </Link>
                 </li>
                 <li>
-                  <Link href={item.path} class='w-full inline-block'>
+                  <Link href='/school/competitions' class='w-full inline-block'>
                     Competencias
                   </Link>
                 </li>
                 <li>
-                  <Link href={item.path} class='w-full inline-block'>
+                  <Link
+                    href='/school/media-productions'
+                    class='w-full inline-block'
+                  >
                     Producción audiovisual
                   </Link>
                 </li>

@@ -1,0 +1,125 @@
+---
+import Card from '../../components/Card.astro'
+import Section from '../../components/Section.astro'
+import Button from '../../components/Button.astro'
+import projects from '../../data/projects.json'
+import Layout from '../../layouts/Layout.astro'
+import ImageCard from '../../components/ImageCard.astro'
+---
+
+<Layout title='Docentes' description='Docentes'>
+  <header class='custom-container pt-40 pb-20'>
+    <h1 class='text-center font-bold text-3xl md:text-4xl'>Sobre nosotros</h1>
+  </header>
+  <main>
+    <Section title='Historia' centerTitle centerMdTitle class='pb-20'>
+      <div
+        class='flex flex-col items-center gap-5 xl:flex-row xl:justify-center'
+      >
+        <img
+          src='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/school-front.webp?alt=media&token=37e2279a-582c-492b-95ff-94292f5ac965'
+          alt='Frente de la escuela'
+          title='Frente de la escuela'
+          class='w-full max-w-[600px] border border-[var(--accent-color)]'
+        />
+        <div
+          class='bg-[var(--primary-color)] p-5 border border-[var(--accent-color)] w-full max-w-[600px] text-pretty xl:relative xl:right-20'
+        >
+          <p class='mb-5 leading-9'>
+            La Escuela de Educación Secundaria número 56 “Polo educativo” es una
+            institución que lleva cuatro años desde su conformación y que, con
+            matrícula creciente, es la única que sostiene jornada extendida en
+            el ciclo básico y la orientación en educación física en su ciclo
+            superior, en todo el distrito de Lanús. Tiene como principal
+            objetivo la construcción del proyecto de vida de cada uno de los
+            estudiantes tendiendo a la generación de acuerdos y acciones
+            colectivas que puedan transformar la realidad barrial y distrital.
+          </p>
+          <a
+            href='https://docs.google.com/document/d/1prjOSFVwWUC2HHSXC7cmki3tTPfCnzMc/edit'
+          >
+            <Button>Conocer más</Button>
+          </a>
+        </div>
+      </div>
+    </Section>
+    <Section
+      title='Proyecto institucional'
+      centerTitle
+      centerMdTitle
+      class='pb-20'
+    >
+      <div class='flex flex-col gap-5 items-center lg:flex-row'>
+        <img
+          src='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/school-project.webp?alt=media&token=a51baa65-d057-44c9-9508-94ea04a1587c'
+          alt='Proyecto institucional'
+          title='Proyecto institucional'
+          class='w-full max-w-[700px] mx-auto'
+        />
+        <div
+          class='bg-[var(--primary-color)] p-5 border border-[var(--accent-color)] text-pretty'
+        >
+          <p class='mb-5 leading-9'>
+            Presioná acá para conocer más sobre el proyecto institucional
+          </p>
+          <a
+            href='https://docs.google.com/document/d/1prjOSFVwWUC2HHSXC7cmki3tTPfCnzMc/edit'
+          >
+            <Button>Conocer más</Button>
+          </a>
+        </div>
+      </div>
+    </Section>
+    <Section
+      title='Proyectos principales'
+      centerTitle
+      centerMdTitle
+      class='pb-20'
+    >
+      <div
+        class='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center'
+      >
+        {
+          Array.from(projects.projects).map(
+            ({ title, description, media, mediaType, date, id }) => (
+              <ImageCard
+                cardType='projects'
+                id={id}
+                title={title}
+                description={description}
+                media={media[0]}
+                mediaType={mediaType}
+                button='Leer más'
+                date={date}
+              />
+            )
+          )
+        }
+      </div>
+    </Section>
+    <Section title='Otros proyectos' centerTitle centerMdTitle class='pb-20'>
+      <div class='grid gap-5 grid-cols-[repeat(auto-fit,minmax(270px,1fr))]'>
+        <Card
+          title='Proyectos musicales'
+          description='Documento que contiene el detalle de los proyectos musicales de nuestra escuela.'
+          link='https://drive.google.com/file/d/1K9iaFyGeUNg-pz1jHLdmbUXTvIfY3ATB/view'
+        />
+        <Card
+          title='Cuadrangular atletismo'
+          description='Documento que contiene el detalle del proyecto de atletismo.'
+          link='https://drive.google.com/file/d/1cPM6bX4v5T2sTOH8kETofQpGqE0qMu0b/view'
+        />
+        <Card
+          title='Proyecto ajedrez'
+          description='Documento que contiene el detalle del proyecto ajedrez.'
+          link='https://docs.google.com/document/d/1rsbs35Mix-6wXdV1lDdh5T80rAFtlNFw/edit'
+        />
+        <Card
+          title='Intervención del espacio'
+          description='Documento que contiene el detalle del proyecto Intervención del Espacio.'
+          link='https://drive.google.com/file/d/10gucyQw9gGfA0SWKkiYFicMlDcdAzWIq/view'
+        />
+      </div>
+    </Section>
+  </main>
+</Layout>

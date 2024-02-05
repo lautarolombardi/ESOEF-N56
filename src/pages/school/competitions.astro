@@ -1,0 +1,33 @@
+---
+import ImageCard from '../../components/ImageCard.astro'
+import Section from '../../components/Section.astro'
+import Layout from '../../layouts/Layout.astro'
+import competitions from '../../data/competitions.json'
+---
+
+<Layout title='Competencias' description='Competencias'>
+  <main>
+    <Section title='Competencias' centerTitle centerMdTitle class='pt-40 pb-20'>
+      <div
+        class='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center'
+      >
+        {
+          Array.from(competitions.competitions).map(
+            ({ title, description, media, mediaType, date, id }) => (
+              <ImageCard
+                cardType='competitions'
+                id={id}
+                title={title}
+                description={description}
+                media={media[0]}
+                mediaType={mediaType}
+                button='Leer más'
+                date={date}
+              />
+            )
+          )
+        }
+      </div>
+    </Section>
+  </main>
+</Layout>

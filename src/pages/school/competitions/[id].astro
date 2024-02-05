@@ -1,0 +1,19 @@
+---
+import Layout from '../../../layouts/Layout.astro'
+import competitions from '../../../data/competitions.json'
+import DetailPage from '../../../components/DetailPage.astro'
+const { id } = Astro.params
+const competition = competitions.competitions.find(o => o.id === Number(id))
+const { title, description, media, mediaType, date, link } = competition
+---
+
+<Layout title='Salidas' description='Salidas'>
+  <DetailPage
+    title={title}
+    description={description}
+    media={media}
+    date={date}
+    mediaType={mediaType}
+    link={link}
+  />
+</Layout>

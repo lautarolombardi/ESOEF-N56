@@ -15,6 +15,11 @@ interface Props {
 
 const { title, description, media, mediaType, button, cardType, date, id } =
   Astro.props
+const path =
+  (cardType === 'news' && `/${cardType}/${id}`) ||
+  (cardType === 'projects' && `about/${cardType}/${id}`) ||
+  `/school/${cardType}/${id}`
+cardType
 ---
 
 <article
@@ -42,9 +47,7 @@ const { title, description, media, mediaType, button, cardType, date, id } =
     <p class='leading-7 line-clamp-2'>
       {description}
     </p>
-    <a
-      href={`${cardType === 'news' ? `/news/${id}` : `/school/outlings/${id}`}`}
-    >
+    <a href={path}>
       <Button class='flex h-max items-center gap-2'>
         {button}
         <LinkIcon class='w-5' />

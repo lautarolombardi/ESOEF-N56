@@ -42,7 +42,8 @@
         "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/graduates2023%2Fimg3.webp?alt=media&token=ba0bae0c-0991-43b0-94af-a8eca24192ed"
       ],
       "mediaType": "image",
-      "date": "2023"
+      "date": "2023",
+      "link": "https://www.facebook.com/media/set/?vanity=secundarialvi.lanus.7&set=a.1008764756877257"
     },
     {
       "title": "Balance del año 2023",
@@ -52,7 +53,8 @@
         "https://www.youtube.com/embed/KUernMi-g9g?si=apsHRmD6qBGuJCwC"
       ],
       "mediaType": "video",
-      "date": "2023"
+      "date": "2023",
+      "link": ""
     },
     {
       "title": "Alexander Brítez",
@@ -62,7 +64,8 @@
         "https://www.youtube.com/embed/9Z26NFZ8GVY?si=8g4jka0hXvipFSty"
       ],
       "mediaType": "video",
-      "date": "2023"
+      "date": "2023",
+      "link": ""
     }
   ]
 }
