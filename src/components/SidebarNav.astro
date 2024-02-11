@@ -1,5 +1,6 @@
 ---
 import { HEADER_NAV } from '../app/consts'
+import Angle from '../icons/Angle.astro'
 import CloseIcon from '../icons/Close.astro'
 import Link from './Link.astro'
 ---
@@ -15,11 +16,37 @@ import Link from './Link.astro'
     </div>
     <ul class='flex flex-col gap-7 font-bold'>
       {
-        HEADER_NAV.map(item => (
-          <li>
-            <Link href={item.path}>{item.name}</Link>
-          </li>
-        ))
+        HEADER_NAV.map(item => {
+          return item.name !== 'Institucional' ? (
+            <li>
+              <Link href={item.path}>{item.name}</Link>
+            </li>
+          ) : (
+            <li class='h-max flex items-center gap-3 relative' id='dropdown'>
+              Institucional
+              <Angle class='w-3 transition-all duration-300' id='angle-arrow' />
+              <ul
+                class='absolute left-0 top-10 max-h-0 overflow-hidden flex flex-col gap-3 transition-all duration-300'
+                id='dropdownList'
+              >
+                <li>
+                  <Link href='/school/about'>Nosotros</Link>
+                </li>
+                <li>
+                  <Link href='/school/outlings'>Salidas</Link>
+                </li>
+                <li>
+                  <Link href='/school/competitions'>Competencias</Link>
+                </li>
+                <li>
+                  <Link href='/school/media-productions'>
+                    Producción audiovisual
+                  </Link>
+                </li>
+              </ul>
+            </li>
+          )
+        })
       }
     </ul>
   </div>
@@ -30,6 +57,9 @@ import Link from './Link.astro'
   const closeBtn = document.querySelector('#closeBtn')
   const overlay = document.querySelector('#overlay')
   const sidebarNav = document.querySelector('#sidebarNav')
+  const dropdown = document.querySelector('#dropdown')
+  const dropdownList = document.querySelector('#dropdownList')
+  const angleArrow = document.querySelector('#angle-arrow')
 
   menuBtn.addEventListener('click', () => {
     overlay.classList.toggle('hidden')
@@ -39,5 +69,11 @@ import Link from './Link.astro'
   closeBtn.addEventListener('click', () => {
     overlay.classList.toggle('hidden')
     sidebarNav.classList.toggle('translate-x-full')
+  })
+
+  dropdown.addEventListener('click', () => {
+    dropdownList.classList.toggle('max-h-0')
+    dropdownList.classList.toggle('max-h-screen')
+    angleArrow.classList.toggle('rotate-180')
   })
 </script>

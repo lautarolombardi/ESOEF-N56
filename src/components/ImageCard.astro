@@ -53,5 +53,12 @@ cardType
         <LinkIcon class='w-5' />
       </Button>
     </a>
+    {
+      cardType === 'news' && (
+        <span class='inline-block ml-auto py-1 px-2 text-sm text-right bg-[var(--accent-color)] text-[var(--white)]'>
+          {date}
+        </span>
+      )
+    }
   </div>
 </article>

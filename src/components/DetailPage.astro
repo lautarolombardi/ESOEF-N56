@@ -10,8 +10,10 @@ interface Props {
   mediaType: string
   date: string
   link: string
+  cardType: string
 }
-const { title, description, media, mediaType, date, link } = Astro.props
+const { title, description, media, mediaType, date, link, cardType } =
+  Astro.props
 ---
 
 <main>
@@ -31,6 +33,13 @@ const { title, description, media, mediaType, date, link } = Astro.props
             <LinkIcon class='w-5' />
           </Button>
         </a>
+      )
+    }
+    {
+      cardType === 'news' && (
+        <span class='w-max mt-8 flex ml-auto py-2 px-3 text-right justify-end bg-[var(--accent-color)] text-[var(--white)]'>
+          {date}
+        </span>
       )
     }
   </Section>
