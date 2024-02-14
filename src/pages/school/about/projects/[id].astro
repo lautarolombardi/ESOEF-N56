@@ -7,8 +7,9 @@ const project = projects.projects.find(p => p.id === Number(id))
 const { title, description, media, mediaType, date, link } = project
 ---
 
-<Layout title='Salidas' description='Salidas'>
+<Layout title='Proyectos' description='Proyectos'>
   <DetailPage
+    cardType='projects'
     title={title}
     description={description}
     media={media}

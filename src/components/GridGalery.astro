@@ -25,13 +25,13 @@ const { media, mediaType } = Astro.props
             )
           })}
         </div>
-        <picture>
+        <figure>
           <img
             src={media[0]}
             class='h-full w-full object-cover object-center border border-[var(--accent-color)]'
-            id='noveltyImg'
+            id='selectedImg'
           />
-        </picture>
+        </figure>
       </div>
     </>
   ) : (
@@ -44,3 +44,13 @@ const { media, mediaType } = Astro.props
     />
   )
 }
+<script>
+  const imgs = document.querySelectorAll('.img')
+  const selectedImg = document.querySelector('#selectedImg')
+
+  imgs.forEach(img => {
+    img.addEventListener('click', () => {
+      selectedImg.setAttribute('src', img.getAttribute('src'))
+    })
+  })
+</script>
