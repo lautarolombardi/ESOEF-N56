@@ -51,23 +51,16 @@ import ImageCard from '../../components/ImageCard.astro'
     >
       <div class='flex flex-col gap-5 items-center lg:flex-row'>
         <img
-          src='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/school-project.webp?alt=media&token=a51baa65-d057-44c9-9508-94ea04a1587c'
+          src='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/school-project.webp?alt=media&token=ee4cfced-79c2-4cb1-ba00-c8888646eb3d'
           alt='Proyecto institucional'
           title='Proyecto institucional'
           class='w-full max-w-[700px] mx-auto'
         />
-        <div
-          class='bg-[var(--primary-color)] p-5 border border-[var(--accent-color)] text-pretty'
-        >
-          <p class='mb-5 leading-9'>
-            Presioná acá para conocer más sobre el proyecto institucional
-          </p>
-          <a
-            href='https://docs.google.com/document/d/1prjOSFVwWUC2HHSXC7cmki3tTPfCnzMc/edit'
-          >
-            <Button>Conocer más</Button>
-          </a>
-        </div>
+        <Card
+          title='Proyecto institucional'
+          description='Presione sobre el siguiente botón para conocer más acerca del proyecto'
+          link='https://docs.google.com/document/d/12qgqx4EMZy6xitV6n7vrGcko1165hVZZ/edit?usp=sharing&ouid=111141329733704389804&rtpof=true&sd=true'
+        />
       </div>
     </Section>
     <Section title='Proyectos' centerTitle centerMdTitle class='pb-20'>
