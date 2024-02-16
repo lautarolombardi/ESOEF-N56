@@ -44,13 +44,3 @@ const { title, description, media, mediaType, date, link, cardType } =
     }
   </Section>
 </main>
-<script>
-  const imgs = document.querySelectorAll('.img')
-  const selectedImg = document.querySelector('#selectedImg')
-
-  imgs.forEach(img => {
-    img.addEventListener('click', () => {
-      selectedImg.setAttribute('src', img.getAttribute('src'))
-    })
-  })
-</script>

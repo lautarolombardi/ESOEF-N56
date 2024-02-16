@@ -51,6 +51,19 @@
       "mediaType": "image",
       "date": "2023",
       "link": "https://www.facebook.com/media/set/?set=a.910282980058769&type=3"
+    },
+    {
+      "id": 5,
+      "title": "Torneo de fútbol",
+      "description": "El deporte es un factor esencial en el correcto desarrollo físico y mental de los niños y adolescentes; además gracias a la práctica deportiva se fortalecen valores y actitudes como el esfuerzo, el respeto, el compañerismo y el trabajo en equipo",
+      "media": [
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/competitions%2Ftorneofutbol%2Ftorneo1.webp?alt=media&token=08e73440-fbf7-4cc7-ac75-380211d3a992",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/competitions%2Ftorneofutbol%2Ftorneo2.webp?alt=media&token=f9f0bd01-39bb-4ff9-ae94-b285bfd5b049",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/competitions%2Ftorneofutbol%2Ftorneo3.webp?alt=media&token=e8e5bf69-7495-450c-ba00-5736c5ef4d42"
+      ],
+      "mediaType": "image",
+      "date": "2023",
+      "link": "https://www.facebook.com/media/set/?vanity=secundarialvi.lanus.7&set=a.1003632667390466"
     }
   ]
 }
