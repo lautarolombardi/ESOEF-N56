@@ -113,12 +113,6 @@ export const STUDY_MATERIAL = [
     link: 'https://www.educ.ar/recursos/123487/lecturas-grabadas',
   },
   {
-    title: 'Biblioteca de la escuela',
-    description:
-      'Explora nuestra biblioteca digital con recursos académicos para mejorar tu aprendizaje escolar.',
-    link: 'https://www.educ.ar/recursos/123487/lecturas-grabadas',
-  },
-  {
     title: 'Biblioteca virtual',
     description:
       'Explora nuestra biblioteca virtual con recursos educativos, libros digitales y material didáctico.',

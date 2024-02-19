@@ -1,11 +1,21 @@
 ---
+import ImageCard from '../../components/ImageCard.astro'
 import Section from '../../components/Section.astro'
 import Layout from '../../layouts/Layout.astro'
+import mediaProductions from '../../data/media-productions.json'
 ---
 
-<Layout title='Producción Audiovisual' description='Producción audiovisual'>
+<Layout title='Producción' description='Producción'>
+  <header class='custom-container pt-40 pb-20'>
+    <h1 class='text-center font-bold text-3xl md:text-4xl'>Producción</h1>
+  </header>
   <main>
-    <Section title='Producción' centerTitle centerMdTitle class='pt-40 pb-20'>
+    <Section
+      title='Producción audiovisual'
+      centerTitle
+      centerMdTitle
+      class='pb-20'
+    >
       <div
         class='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center'
       >
@@ -113,6 +123,28 @@ import Layout from '../../layouts/Layout.astro'
           title='YouTube video player'
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
           allowfullscreen></iframe>
+      </div>
+    </Section>
+    <Section centerMdTitle centerTitle title='Otras producciones' class='pb-20'>
+      <div
+        class='custom-container pb-20 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center'
+      >
+        {
+          Array.from(mediaProductions.mediaProductions).map(
+            ({ title, description, media, mediaType, date, id }) => (
+              <ImageCard
+                cardType='media-productions'
+                id={id}
+                title={title}
+                description={description}
+                media={media[0]}
+                mediaType={mediaType}
+                button='Leer más'
+                date={date}
+              />
+            )
+          )
+        }
       </div>
     </Section>
   </main>

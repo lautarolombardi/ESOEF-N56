@@ -19,16 +19,6 @@
       ],
       "mediaType": "video",
       "date": "11-2023"
-    },
-    {
-      "title": "Alexander Brítez",
-      "id": 3,
-      "description": "Compartimos el tema musical compuesto por nuestro estudiante de 4to. año Alexander Britez. Va con la dedicatoria del locutor de FM Espacio Buenos Aires, en el programa 'Haciendo Caminos'.",
-      "media": [
-        "https://www.youtube.com/embed/9Z26NFZ8GVY?si=8g4jka0hXvipFSty"
-      ],
-      "mediaType": "video",
-      "date": "11-2023"
     }
   ],
   "news": [
@@ -51,17 +41,6 @@
       "description": "Balance del año 2023 en una producción audiovisual de los estudiantes de la escuela.",
       "media": [
         "https://www.youtube.com/embed/KUernMi-g9g?si=apsHRmD6qBGuJCwC"
-      ],
-      "mediaType": "video",
-      "date": "11-2023",
-      "link": ""
-    },
-    {
-      "title": "Alexander Brítez",
-      "id": 3,
-      "description": "Compartimos el tema musical compuesto por nuestro estudiante de 4to. año Alexander Britez. Va con la dedicatoria del locutor de FM Espacio Buenos Aires, en el programa 'Haciendo Caminos'.",
-      "media": [
-        "https://www.youtube.com/embed/9Z26NFZ8GVY?si=8g4jka0hXvipFSty"
       ],
       "mediaType": "video",
       "date": "11-2023",
