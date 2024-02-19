@@ -122,6 +122,6 @@ export const STUDY_MATERIAL = [
     title: 'Biblioteca virtual',
     description:
       'Explora nuestra biblioteca virtual con recursos educativos, libros digitales y material didáctico.',
-    link: 'https://www.educ.ar/recursos/123487/lecturas-grabadas',
+    link: 'https://sites.google.com/view/biblioteca-digital-emilce/inicio?authuser=0',
   },
 ]

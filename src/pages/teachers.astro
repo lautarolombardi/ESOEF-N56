@@ -1,5 +1,7 @@
 ---
+import Button from '../components/Button.astro'
 import Card from '../components/Card.astro'
+import LinkIcon from '../icons/Link.astro'
 import Section from '../components/Section.astro'
 import TeachersPhoto from '../components/Teachers/TeachersPhoto.astro'
 import Layout from '../layouts/Layout.astro'
@@ -10,21 +12,37 @@ import Layout from '../layouts/Layout.astro'
     <h1 class='text-center font-bold text-3xl md:text-4xl'>Docentes</h1>
   </header>
   <main>
-    <!-- <Section title='Normativa docente' centerTitle centerMdTitle class='pb-20'>
-      <div class='leading-8 text-pretty font-semibold'>
-        <p>
-          Lo primero que debemos tener en cuenta como docentes es que todas
-          nuestras acciones deben estar enmarcadas en la normativa vigente.
-        </p>
-        <p>
-          En el momento en que tomamos el primer cargo, aceptamos y nos
-          comprometemos a cumplir y hacer cumplir las normas bajo cualquier
-          situación de revista (Art3 Estatuto Docente). No puede justificarse
-          una falta por desconocimiento, en ninguna circunstancia. Por ello, es
-          importante que la tengas siempre presente.
-        </p>
+    <Section title='Normativa docente' centerTitle centerMdTitle class='pb-20'>
+      <div class='flex flex-col gap-5 md:flex-row'>
+        <Card
+          title='Normativa docente'
+          description='Toda la normativa docente disponible haciendo click en el boton de abajo'
+          link='https://normas.gba.gob.ar/documentos/BodONdhz.html'
+        >
+          <Button class='h-max flex items-center gap-3'>
+            Abrir <LinkIcon class='w-5' />
+          </Button>
+        </Card>
+        <Card
+          title='Ley 10579'
+          description='Ley 10579 disponible haciendo click en el boton de abajo'
+          link='https://drive.google.com/file/d/1D-1Vc0jecqnkNEXXcUIU2oT0ZnxI_ncK/view?usp=sharing'
+        >
+          <Button class='h-max flex items-center gap-3'>
+            Abrir <LinkIcon class='w-5' />
+          </Button>
+        </Card>
+        <Card
+          title='Ley 26206'
+          description='Ley 26206 disponible haciendo click en el boton de abajo'
+          link='https://drive.google.com/file/d/1p6zZytrrWJv5DnGqA386YSc_thNPNMZb/view?usp=sharing'
+        >
+          <Button class='h-max flex items-center gap-3'>
+            Abrir <LinkIcon class='w-5' />
+          </Button>
+        </Card>
       </div>
-    </Section> -->
+    </Section>
     <Section
       title='Equipo de conducción'
       centerTitle
@@ -272,11 +290,6 @@ import Layout from '../layouts/Layout.astro'
           name='Fernando Guagnini'
           description='Filosofía'
           img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/fernando-guagnini.webp?alt=media&token=e05e068c-7cf8-46f0-aab8-ec220f80ed53'
-        />
-        <TeachersPhoto
-          name='Silvia Rodríguez'
-          description='HIstoria'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/silvia-rodriguez.webp?alt=media&token=c4a73a38-97f0-48db-920e-9d760be02c9b'
         />
         <TeachersPhoto
           name='Rodríguez'
