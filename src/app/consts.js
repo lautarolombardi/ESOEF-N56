@@ -50,7 +50,7 @@ export const INTERESTING_LINKS = [
 
 export const CONTACT = [
   {
-    value: '113575185',
+    value: '4357-5185',
     icon: 'phone',
   },
   {
