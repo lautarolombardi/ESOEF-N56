@@ -83,6 +83,18 @@ import mediaProductions from '../../data/media-productions.json'
           allowfullscreen></iframe>
         <iframe
           class='h-[300px] w-full'
+          src='https://www.youtube.com/embed/A_7MOXn1dN4?si=c3CHRmW_HpvM64Pn'
+          title='YouTube video player'
+          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+          allowfullscreen></iframe>
+      </div>
+    </Section>
+    <Section centerMdTitle centerTitle title='Noticiero' class='pb-20'>
+      <div
+        class='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center'
+      >
+        <iframe
+          class='h-[300px] w-full'
           src='https://www.youtube.com/embed/YKk3-yuvuzw?si=cX-__mNIcAcPxJ0A'
           title='YouTube video player'
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
@@ -90,12 +102,6 @@ import mediaProductions from '../../data/media-productions.json'
         <iframe
           class='h-[300px] w-full'
           src='https://www.youtube.com/embed/IatOB-gUlww?si=Z_igFMZTlddfkGAs'
-          title='YouTube video player'
-          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-          allowfullscreen></iframe>
-        <iframe
-          class='h-[300px] w-full'
-          src='https://www.youtube.com/embed/_NmYEOf8Rnk?si=wNX06kjxpHPK54nV'
           title='YouTube video player'
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
           allowfullscreen></iframe>
@@ -117,17 +123,11 @@ import mediaProductions from '../../data/media-productions.json'
           title='YouTube video player'
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
           allowfullscreen></iframe>
-        <iframe
-          class='h-[300px] w-full'
-          src='https://www.youtube.com/embed/A_7MOXn1dN4?si=c3CHRmW_HpvM64Pn'
-          title='YouTube video player'
-          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-          allowfullscreen></iframe>
       </div>
     </Section>
     <Section centerMdTitle centerTitle title='Otras producciones' class='pb-20'>
       <div
-        class='custom-container pb-20 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center'
+        class='custom-container pb-20 flex flex-col items-center gap-5 lg:flex-row'
       >
         {
           Array.from(mediaProductions.mediaProductions).map(
@@ -145,6 +145,12 @@ import mediaProductions from '../../data/media-productions.json'
             )
           )
         }
+        <iframe
+          class='h-[500px] w-full max-w-[700px]'
+          src='https://www.youtube.com/embed/EX316IpH8Ls?si=gw-Ai89rkcw07JZo'
+          title='YouTube video player'
+          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+          allowfullscreen></iframe>
       </div>
     </Section>
   </main>
