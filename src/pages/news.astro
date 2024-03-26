@@ -9,6 +9,9 @@ import Novelty from '../components/News/Novelty.astro'
     <h1 class='text-center font-bold text-3xl md:text-4xl'>Novedades</h1>
   </header>
   <main>
+    <Section class='pb-20' centerTitle={true} centerMdTitle={true}>
+      <Novelty />
+    </Section>
     <div class='pb-20'>
       <h2 class='text-3xl font-bold text-center mb-10'>Proyecto Revista</h2>
       <div class='custom-container grid gap-10 md:grid-cols-2 lg:grid-cols-3'>
@@ -42,13 +45,5 @@ import Novelty from '../components/News/Novelty.astro'
         />
       </div>
     </div>
-    <Section
-      title='Novedades'
-      class='pb-20'
-      centerTitle={true}
-      centerMdTitle={true}
-    >
-      <Novelty />
-    </Section>
   </main>
 </Layout>
