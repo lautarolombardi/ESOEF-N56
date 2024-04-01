@@ -12,7 +12,7 @@ const { name, description, img } = Astro.props
     src={img}
     alt={name}
     title={name}
-    class='h-[170px] w-[170px] mx-auto mb-3 border border-[var(--accent-color)]'
+    class='h-[170px] w-[170px] mx-auto mb-3 border border-[var(--accent-color)] object-cover object-top'
   />
   <h5 class='font-semibold'>{name}</h5>
   <p>{description}</p>

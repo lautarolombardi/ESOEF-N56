@@ -56,21 +56,17 @@ import Layout from '../layouts/Layout.astro'
       centerMdTitle
       class='pb-20'
     >
-      <img
-        src='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/img3.webp?alt=media&token=d96ff6a5-b460-4c23-9b43-8def3874f205'
-        alt='Equipo de conducción'
-        title='Equipo de conducción'
-        class='w-full max-w-[500px] mx-auto mb-10 border border-[var(--accent-color)]'
-      />
       <div class='flex gap-5 justify-evenly text-center'>
-        <div>
-          <h5 class='font-bold text-lg'>Andrea Campos</h5>
-          <p>Directora</p>
-        </div>
-        <div>
-          <h5 class='font-bold text-lg'>Ricardo Lombardi</h5>
-          <p>Vicedirector</p>
-        </div>
+        <TeachersPhoto
+          name='Andrea Campos'
+          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/andrea-campos.webp?alt=media&token=3760f49e-3950-4a05-ac6c-ac60a03266a7'
+          description='Directora'
+        />
+        <TeachersPhoto
+          name='Ricardo Lombardi'
+          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/ricardo-lombardi.webp?alt=media&token=f482c1d5-deef-4a0d-95bc-855f8c6a0108'
+          description='Vicedirector'
+        />
       </div>
     </Section>
     <Section title='Preceptores' centerTitle centerMdTitle class='pb-20'>
@@ -111,7 +107,7 @@ import Layout from '../layouts/Layout.astro'
         <TeachersPhoto
           name='Patricia Cosentino'
           description='Inglés'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/patricia-cosentino.webp?alt=media&token=12943fbf-0298-4ac8-bcb8-0ff62f26fa22'
+          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/patricia-cosentino.webp?alt=media&token=1e5c682f-8251-4c0f-999f-8f6f238168a6'
         />
         <TeachersPhoto
           name='Verónica Chasco'
@@ -318,6 +314,11 @@ import Layout from '../layouts/Layout.astro'
           name='Verónica Calderón'
           description='Equipo de orientación'
           img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/veronica-calderon.webp?alt=media&token=ea778fda-762e-4332-bb29-2cb1662b3288'
+        />
+        <TeachersPhoto
+          name='Eliana Guillen'
+          description='Equipo de orientación'
+          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/eliana-guillen.webp?alt=media&token=3ee104cc-6550-4fd2-b952-c20866658bd0'
         />
         <TeachersPhoto
           name='Vanesa Vélez'

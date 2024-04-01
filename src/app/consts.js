@@ -110,7 +110,7 @@ export const STUDY_MATERIAL = [
     title: 'Lecturas grabadas',
     description:
       'Explorá una selección de lecturas grabadas para mejorar tu experiencia de aprendizaje.',
-    link: 'https://www.educ.ar/recursos/123487/lecturas-grabadas',
+    link: 'https://docs.google.com/document/d/164j_q5GtApPy6spLqWbJxgqDit-FO30b/edit?usp=sharing&ouid=111141329733704389804&rtpof=true&sd=true',
   },
   {
     title: 'Biblioteca virtual',
