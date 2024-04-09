@@ -118,4 +118,24 @@ export const STUDY_MATERIAL = [
       'Explora nuestra biblioteca virtual con recursos educativos, libros digitales y material didáctico.',
     link: 'https://sites.google.com/view/biblioteca-digital-emilce/inicio?authuser=0',
   },
+  {
+    title: 'El fantasma de Canterville',
+    description: 'Accedé al archivo pdf del libro.',
+    link: 'https://drive.google.com/file/d/1BJtmNQkNpXcieC0-oNAf0Ey-zbRL_9_A/view?usp=sharing',
+  },
+  {
+    title: 'El fantasma de Canterville (en inglés)',
+    description: 'Accedé al archivo pdf del libro.',
+    link: 'https://drive.google.com/file/d/1v9H0QqfTmaQuka44LXhq3vbHxP2wVSUS/view?usp=sharing',
+  },
+  {
+    title: 'Martin Fierro',
+    description: 'Accedé al archivo pdf del libro.',
+    link: 'https://drive.google.com/file/d/1AD2jFHIq87AIgYpNdOphKJH_YxTl56Vk/view?usp=sharing',
+  },
+  {
+    title: 'El matadero',
+    description: 'Accedé al archivo pdf del libro.',
+    link: 'https://drive.google.com/file/d/1tC43vmsI6Sq-V6x3f_Qh-q2krPpWH5lO/view?usp=sharing',
+  },
 ]
