@@ -1,6 +1,17 @@
 {
   "lastNews": [
     {
+      "title": "El gato negro",
+      "id": 0,
+      "description": "La escuela va al teatro. Nos acercamos al relato de Edgar Allan Poe.",
+      "media": [
+        "https://www.youtube.com/embed/fQoDgJUQEe0?si=wU9KxAiw73tfhyCe"
+      ],
+      "mediaType": "video",
+      "date": "05-2024",
+      "link": "https://www.youtube.com/watch?v=fQoDgJUQEe0"
+    },
+    {
       "title": "Malvinas 2024. Miguel Moreno",
       "id": 1,
       "description": "La escuela tiene la enorme tarea de construir Patria transmitiendo la importancia de forjar día a día una nación democrática, inclusiva, justa y soberana. Para ello, resulta imprescindible la formación de ciudadanías que puedan recuperar nuestros legados, revitalizar la memoria colectiva, reflexionar sobre el presente y sus desafíos, y pensar juntas y juntos el porvenir de nuestra Argentina. Enseñar Malvinas en el cuadragésimo segundo aniversario del conflicto del Atlántico Sur, nos convoca a reafirmar el reconocimiento y el homenaje del pueblo argentino a los caídos, familiares, combatientes, veteranas y veteranos de Malvinas. También nos interpela, en tanto educadoras y educadores, a conocer y difundir la importancia de ejercer en todos los ámbitos nuestros derechos soberanos sobre las islas Malvinas, Georgias del Sur y Sandwich del Sur y los espacios marítimos correspondientes, derechos que fueron vulnerados a causa de la usurpación británica en 1833. Malvinas representa un reclamo justo por un territorio usurpado y la historia de una guerra librada en el contexto del terrorismo de Estado; es la memoria de los jóvenes soldados que murieron, de sus familias y de sus compañeras y compañeros. Nuestro vínculo y compromiso con Malvinas se renueva con cada nueva generación de argentinas y argentinos porque es un tema central para pensar y construir nuestra identidad nacional y reafirmar nuestra soberanía. Junto con nuestro querido Miguel Moreno, como cada año, conmemoramos un nuevo aniversario de la gesta de Malvinas.",
@@ -22,32 +33,20 @@
       ],
       "mediaType": "video",
       "date": "04-2024"
-    },
-    {
-      "title": "Producción 24 de Marzo",
-      "id": 2,
-      "description": "Video hecho por el equipo de medios y protagonizado por los alumnos de la escuela para el día 24 de Marzo: Día de la memoria por la verdad y la justicia",
-      "media": [
-        "https://www.youtube.com/embed/St38WE1U5jo?si=kmnzCaVlkzKTfjVo"
-      ],
-      "mediaType": "video",
-      "date": "03-2024"
-    },
-    {
-      "title": "Jornada 24 de Marzo",
-      "id": 3,
-      "description": "En la jornada 24 de Marzo de 2024, el equipo de medios, que ya ha estado en contacto con la comunidad educativa, se encargó de gestionar la producción de la jornada.",
-      "media": [
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/24-marzo-img1.webp?alt=media&token=9f83881b-0c0d-434c-b14b-7bc9e060516a",
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/24-marzo-img2.webp?alt=media&token=21138f92-c443-4948-b1de-8f4059a8816a",
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/24-marzo-img3.webp?alt=media&token=f352c1bd-e464-4c5f-b3b2-670a86801638"
-      ],
-      "mediaType": "image",
-      "date": "03-2024",
-      "link": "https://www.facebook.com/media/set/?vanity=secundarialvi.lanus.7&set=a.1056055375481528"
     }
   ],
   "news": [
+    {
+      "title": "El gato negro",
+      "id": 0,
+      "description": "La escuela va al teatro. Nos acercamos al relato de Edgar Allan Poe.",
+      "media": [
+        "https://www.youtube.com/embed/fQoDgJUQEe0?si=wU9KxAiw73tfhyCe"
+      ],
+      "mediaType": "video",
+      "date": "05-2024",
+      "link": "https://www.youtube.com/watch?v=fQoDgJUQEe0"
+    },
     {
       "title": "Malvinas 2024. Miguel Moreno",
       "id": 1,

@@ -87,6 +87,17 @@ export const SOCIAL_LINKS = [
 
 export const STUDY_MATERIAL = [
   {
+    title:
+      '"Crónica de una muerte anunciada" G. Márquez. - Profesor Fabian Gómez',
+    description: 'Carpeta de recursos',
+    link: 'https://drive.google.com/drive/folders/1Gt-9gfvcS2p7mz8xlgKXDEdVZv8arLhI?usp=drive_link',
+  },
+  {
+    title: 'El espejo africano',
+    description: 'Descargá el libro en pdf',
+    link: 'https://drive.google.com/file/d/1l8F3OqKMj_kRsbYzJ20w1NaG5HUq7VG0/view?usp=sharing',
+  },
+  {
     title: 'Manual de historia',
     description: 'Descargá el manual de historia de 4to año.',
     link: 'https://drive.google.com/file/d/1-7e3vbXSnUSlmxN1xLRPEdJD-tpIo5zB/view',
