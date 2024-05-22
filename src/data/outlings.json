@@ -1,6 +1,32 @@
 {
   "outlings": [
     {
+      "title": "Jornada 24 de Marzo",
+      "id": 0,
+      "description": "24 de marzo Día Nacional de la Memoria por la Verdad y la Justicia es el día en el que se conmemora en Argentina a las víctimas de la última dictadura militar, autodenominada «Proceso de Reorganización Nacional», que usurpó el gobierno del Estado nacional argentino entre el 24 de marzo de 1976 y el 10 de diciembre de 1983. El objetivo es construir colectivamente una jornada de reflexión y análisis crítico de la historia reciente. En las escuelas se propone como un día para que los niños y los jóvenes, junto con los directivos, docentes y todos los integrantes de la comunidad educativa y local comprendan los alcances de las graves consecuencias económicas, sociales y políticas de la última dictadura militar y se comprometan activamente en la defensa de la vigencia de los derechos y las garantías establecidos por la Constitución Nacional, y del régimen político democrático. Compartimos una linda Jornada, organizada por La Red de Villa Jardín en La Casa Nido. Gracias a los organizadores a los interlocutores y a La banda Municipal. Tomamos impulso e invitamos a toda la comunidad, a la próxima Jornada ambiental.",
+      "media": [
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/24-marzo-img1.webp?alt=media&token=9f83881b-0c0d-434c-b14b-7bc9e060516a",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/24-marzo-img2.webp?alt=media&token=21138f92-c443-4948-b1de-8f4059a8816a",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/24-marzo-img3.webp?alt=media&token=f352c1bd-e464-4c5f-b3b2-670a86801638"
+      ],
+      "mediaType": "image",
+      "date": "2024",
+      "link": "https://www.facebook.com/media/set/?vanity=secundarialvi.lanus.7&set=a.1056055375481528"
+    },
+    {
+      "id": 10,
+      "title": "La escuela va al teatro",
+      "description": "Salida al teatro relacionada con la obra El gato negro, de Edgar Allan Poe.",
+      "media": [
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fteatro1.webp?alt=media&token=73bf6d7c-7c42-48f3-8e06-7dd2017542ff",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fteatro2.webp?alt=media&token=7974ac37-b7ef-4fec-bf6d-779aafc937c1",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fteatro3.webp?alt=media&token=ee2acb7c-f555-43d0-85b2-d0e4a1c42d85"
+      ],
+      "mediaType": "image",
+      "date": "2024",
+      "link": "https://www.facebook.com/media/set/?set=a.1082109269542805&type=3"
+    },
+    {
       "id": 1,
       "title": "Festival de cortos La Claqueta",
       "description": "Nuestra salida a la Universidad Nacional de Lanús para la participación de los estudiantes en el festival de cortos La Claqueta",

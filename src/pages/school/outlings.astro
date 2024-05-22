@@ -6,10 +6,13 @@ import outlings from '../../data/outlings.json'
 ---
 
 <Layout title='Salidas' description='Salidas'>
+  <header class='custom-container pt-40 pb-20'>
+    <h1 class='text-center font-bold text-3xl md:text-4xl'>Salidas</h1>
+  </header>
   <main>
     <Section
-      title='Salidas'
-      class='pt-40 pb-20'
+      title='Salidas 2024'
+      class='pb-20'
       centerTitle={true}
       centerMdTitle={true}
     >
@@ -17,8 +20,9 @@ import outlings from '../../data/outlings.json'
         class='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center'
       >
         {
-          Array.from(outlings.outlings).map(
-            ({ title, description, media, mediaType, date, id }) => (
+          Array.from(outlings.outlings)
+            .filter(outling => outling.date === '2024')
+            .map(({ title, description, media, mediaType, date, id }) => (
               <ImageCard
                 cardType='outlings'
                 id={id}
@@ -29,8 +33,34 @@ import outlings from '../../data/outlings.json'
                 button='Leer más'
                 date={date}
               />
-            )
-          )
+            ))
+        }
+      </div>
+    </Section>
+    <Section
+      title='Salidas 2023'
+      class='pb-20'
+      centerTitle={true}
+      centerMdTitle={true}
+    >
+      <div
+        class='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center'
+      >
+        {
+          Array.from(outlings.outlings)
+            .filter(outling => outling.date === '2023')
+            .map(({ title, description, media, mediaType, date, id }) => (
+              <ImageCard
+                cardType='outlings'
+                id={id}
+                title={title}
+                description={description}
+                media={media[0]}
+                mediaType={mediaType}
+                button='Leer más'
+                date={date}
+              />
+            ))
         }
       </div>
     </Section>
