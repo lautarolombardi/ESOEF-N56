@@ -1,8 +1,19 @@
 {
   "lastNews": [
     {
-      "title": "El gato negro",
+      "title": "La habitación de Fernat",
       "id": 0,
+      "description": "Película española utilizada en las clases de Matemática",
+      "media": [
+        "https://www.youtube.com/embed/UvMZBTF3qt8?si=NZ_akMq6yAdFHFC8"
+      ],
+      "mediaType": "video",
+      "date": "05-2024",
+      "link": "https://www.youtube.com/watch?v=UvMZBTF3qt8"
+    },
+    {
+      "title": "El gato negro",
+      "id": 1,
       "description": "La escuela va al teatro. Nos acercamos al relato de Edgar Allan Poe.",
       "media": [
         "https://www.youtube.com/embed/fQoDgJUQEe0?si=wU9KxAiw73tfhyCe"
@@ -13,7 +24,7 @@
     },
     {
       "title": "Malvinas 2024. Miguel Moreno",
-      "id": 1,
+      "id": 2,
       "description": "La escuela tiene la enorme tarea de construir Patria transmitiendo la importancia de forjar día a día una nación democrática, inclusiva, justa y soberana. Para ello, resulta imprescindible la formación de ciudadanías que puedan recuperar nuestros legados, revitalizar la memoria colectiva, reflexionar sobre el presente y sus desafíos, y pensar juntas y juntos el porvenir de nuestra Argentina. Enseñar Malvinas en el cuadragésimo segundo aniversario del conflicto del Atlántico Sur, nos convoca a reafirmar el reconocimiento y el homenaje del pueblo argentino a los caídos, familiares, combatientes, veteranas y veteranos de Malvinas. También nos interpela, en tanto educadoras y educadores, a conocer y difundir la importancia de ejercer en todos los ámbitos nuestros derechos soberanos sobre las islas Malvinas, Georgias del Sur y Sandwich del Sur y los espacios marítimos correspondientes, derechos que fueron vulnerados a causa de la usurpación británica en 1833. Malvinas representa un reclamo justo por un territorio usurpado y la historia de una guerra librada en el contexto del terrorismo de Estado; es la memoria de los jóvenes soldados que murieron, de sus familias y de sus compañeras y compañeros. Nuestro vínculo y compromiso con Malvinas se renueva con cada nueva generación de argentinas y argentinos porque es un tema central para pensar y construir nuestra identidad nacional y reafirmar nuestra soberanía. Junto con nuestro querido Miguel Moreno, como cada año, conmemoramos un nuevo aniversario de la gesta de Malvinas.",
       "media": [
         "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/malvinas1.webp?alt=media&token=2ed58b02-043b-4810-83b9-f31784ed72f8",
@@ -23,22 +34,23 @@
       "mediaType": "image",
       "date": "04-2024",
       "link": "https://www.facebook.com/media/set/?vanity=secundarialvi.lanus.7&set=a.1061886348231764"
-    },
-    {
-      "title": "Video 2 de Abril",
-      "id": 1,
-      "description": "Video realizado por el equipo de medios de la escuela para el 2 de abril: Día del Veterano y de los Caídos en Malvinas",
-      "media": [
-        "https://www.youtube.com/embed/kbYerV9IN84?si=eEnXoMjT0FJJ98El"
-      ],
-      "mediaType": "video",
-      "date": "04-2024"
     }
   ],
   "news": [
     {
-      "title": "El gato negro",
+      "title": "La habitación de Fermat",
       "id": 0,
+      "description": "Película española utilizada en las clases de Matemática",
+      "media": [
+        "https://www.youtube.com/embed/UvMZBTF3qt8?si=NZ_akMq6yAdFHFC8"
+      ],
+      "mediaType": "video",
+      "date": "05-2024",
+      "link": "https://www.youtube.com/watch?v=UvMZBTF3qt8"
+    },
+    {
+      "title": "El gato negro",
+      "id": 1,
       "description": "La escuela va al teatro. Nos acercamos al relato de Edgar Allan Poe.",
       "media": [
         "https://www.youtube.com/embed/fQoDgJUQEe0?si=wU9KxAiw73tfhyCe"
@@ -49,7 +61,7 @@
     },
     {
       "title": "Malvinas 2024. Miguel Moreno",
-      "id": 1,
+      "id": 2,
       "description": "La escuela tiene la enorme tarea de construir Patria transmitiendo la importancia de forjar día a día una nación democrática, inclusiva, justa y soberana. Para ello, resulta imprescindible la formación de ciudadanías que puedan recuperar nuestros legados, revitalizar la memoria colectiva, reflexionar sobre el presente y sus desafíos, y pensar juntas y juntos el porvenir de nuestra Argentina. Enseñar Malvinas en el cuadragésimo segundo aniversario del conflicto del Atlántico Sur, nos convoca a reafirmar el reconocimiento y el homenaje del pueblo argentino a los caídos, familiares, combatientes, veteranas y veteranos de Malvinas. También nos interpela, en tanto educadoras y educadores, a conocer y difundir la importancia de ejercer en todos los ámbitos nuestros derechos soberanos sobre las islas Malvinas, Georgias del Sur y Sandwich del Sur y los espacios marítimos correspondientes, derechos que fueron vulnerados a causa de la usurpación británica en 1833. Malvinas representa un reclamo justo por un territorio usurpado y la historia de una guerra librada en el contexto del terrorismo de Estado; es la memoria de los jóvenes soldados que murieron, de sus familias y de sus compañeras y compañeros. Nuestro vínculo y compromiso con Malvinas se renueva con cada nueva generación de argentinas y argentinos porque es un tema central para pensar y construir nuestra identidad nacional y reafirmar nuestra soberanía. Junto con nuestro querido Miguel Moreno, como cada año, conmemoramos un nuevo aniversario de la gesta de Malvinas.",
       "media": [
         "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/malvinas1.webp?alt=media&token=2ed58b02-043b-4810-83b9-f31784ed72f8",
@@ -62,7 +74,7 @@
     },
     {
       "title": "2 de Abril",
-      "id": 2,
+      "id": 3,
       "description": "Video realizado por el equipo de medios de la escuela para el 2 de abril: Día del Veterano y de los Caídos en Malvinas",
       "media": [
         "https://www.youtube.com/embed/kbYerV9IN84?si=eEnXoMjT0FJJ98El"
@@ -72,7 +84,7 @@
     },
     {
       "title": "Producción 24 de Marzo",
-      "id": 3,
+      "id": 4,
       "description": "Video hecho por el equipo de medios y protagonizado por los alumnos de la escuela para el día 24 de Marzo: Día de la memoria por la verdad y la justicia",
       "media": [
         "https://www.youtube.com/embed/St38WE1U5jo?si=kmnzCaVlkzKTfjVo"
@@ -82,7 +94,7 @@
     },
     {
       "title": "Jornada 24 de Marzo",
-      "id": 4,
+      "id": 5,
       "description": "24 de marzo Día Nacional de la Memoria por la Verdad y la Justicia es el día en el que se conmemora en Argentina a las víctimas de la última dictadura militar, autodenominada «Proceso de Reorganización Nacional», que usurpó el gobierno del Estado nacional argentino entre el 24 de marzo de 1976 y el 10 de diciembre de 1983. El objetivo es construir colectivamente una jornada de reflexión y análisis crítico de la historia reciente. En las escuelas se propone como un día para que los niños y los jóvenes, junto con los directivos, docentes y todos los integrantes de la comunidad educativa y local comprendan los alcances de las graves consecuencias económicas, sociales y políticas de la última dictadura militar y se comprometan activamente en la defensa de la vigencia de los derechos y las garantías establecidos por la Constitución Nacional, y del régimen político democrático. Compartimos una linda Jornada, organizada por La Red de Villa Jardín en La Casa Nido. Gracias a los organizadores a los interlocutores y a La banda Municipal. Tomamos impulso e invitamos a toda la comunidad, a la próxima Jornada ambiental.",
       "media": [
         "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/24-marzo-img1.webp?alt=media&token=9f83881b-0c0d-434c-b14b-7bc9e060516a",
@@ -95,26 +107,13 @@
     },
     {
       "title": "3er año del equipo de medios",
-      "id": 5,
+      "id": 6,
       "description": "Video para celebrar el 3er año del equipo de medios, protagonizado por los alumnos de la escuela.",
       "media": [
         "https://www.youtube.com/embed/78rmL_udN-Y?si=vhMB84V8BXTBmG3o"
       ],
       "mediaType": "video",
       "date": "03-2024"
-    },
-    {
-      "title": "Egresados 2023",
-      "id": 6,
-      "description": "Fue un largo y arduo trayecto de 12 años desde la primaria hasta hoy. A pesar de las dificultades, llegaron hasta aquí. Ante nuevos desafíos, miren su pasado, vean lo que lograron. Que esto sea el impulso para seguir con más fuerza.",
-      "media": [
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/graduates2023%2Fimg1.webp?alt=media&token=49bbf43d-9116-49c3-9afe-115940b7cc2c",
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/graduates2023%2Fimg2.webp?alt=media&token=1af1713c-8456-46c7-8d5f-67105e776ca3",
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/graduates2023%2Fimg3.webp?alt=media&token=ba0bae0c-0991-43b0-94af-a8eca24192ed"
-      ],
-      "mediaType": "image",
-      "date": "11-2023",
-      "link": "https://www.facebook.com/media/set/?vanity=secundarialvi.lanus.7&set=a.1008764756877257"
     }
   ]
 }
