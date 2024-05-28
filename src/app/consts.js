@@ -87,6 +87,11 @@ export const SOCIAL_LINKS = [
 
 export const STUDY_MATERIAL = [
   {
+    title: '25 de mayo en audio',
+    description: 'Carpeta de audios',
+    link: 'https://drive.google.com/drive/folders/1PzG8r7AxttIP9S2xfnZ8og-V_1-p9jSM?usp=sharing',
+  },
+  {
     title:
       '"Crónica de una muerte anunciada" G. Márquez. - Profesor Fabian Gómez',
     description: 'Carpeta de recursos',
