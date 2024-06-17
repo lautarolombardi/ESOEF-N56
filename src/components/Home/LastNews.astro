@@ -9,8 +9,9 @@ import Angle from '../../icons/Angle.astro'
   class='mb-12 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center'
 >
   {
-    Array.from(news.lastNews).map(
-      ({ title, description, media, mediaType, date, id }) => (
+    Array.from(news.news)
+      .slice(0, 3)
+      .map(({ title, description, media, mediaType, date, id }) => (
         <ImageCard
           cardType='news'
           id={id}
@@ -21,8 +22,7 @@ import Angle from '../../icons/Angle.astro'
           button='Leer más'
           date={date}
         />
-      )
-    )
+      ))
   }
 </div>
 <a href='/news'
