@@ -1,6 +1,31 @@
 {
   "news": [
     {
+      "id": 12,
+      "title": "20 de junio: Día de la bandera",
+      "description": "Álbum de fotos del acto por el día de la bandera llevado a cabo en la escuela.",
+      "media": [
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/Acto%2020%20de%20junio%202024%2FActo%2020%20de%20junio%202024%20(1).webp?alt=media&token=d88b6114-694d-4896-a51a-a8d7963b073e",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/Acto%2020%20de%20junio%202024%2FActo%2020%20de%20junio%202024%20(2).webp?alt=media&token=78066eb1-a6cc-4a4f-9fa8-b9400c13ea2d",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/Acto%2020%20de%20junio%202024%2FActo%2020%20de%20junio%202024%20(3).webp?alt=media&token=3e908c69-1285-4acf-a3e5-15eef9f53b56"
+      ],
+      "mediaType": "image",
+      "date": "Junio 2024",
+      "link": "https://www.facebook.com/media/set/?set=a.1108331316920600&type=3"
+    },
+    {
+      "id": 11,
+      "title": "Competencia La cuenca en colores de ACUMAR",
+      "description": "El tema del concurso es “Cuenca en Colores” donde los participantes expresarán su visión sobre la Cuenca Matanza Riachuelo. La pauta para el desarrollo de las obras será: ¿Qué deseamos para nuestra Cuenca?, para que expresen las vivencias o miradas que tienen sobre la misma, haciendo referencia al cuidado del ambiente y los deseos por una Cuenca más sustentable y saludable.",
+      "media": [
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/Competencia%20ACUMAR%20%22La%20cuenca%20en%20colores%22%2FLa%20cuenca%20en%20colores%20(1).webp?alt=media&token=966705c7-bc5c-4d6d-af19-319748075991",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/Competencia%20ACUMAR%20%22La%20cuenca%20en%20colores%22%2FLa%20cuenca%20en%20colores%20(2).webp?alt=media&token=cf902049-a120-4550-8398-585c2de3d711"
+      ],
+      "mediaType": "image",
+      "date": "Junio 2024",
+      "link": "https://www.facebook.com/media/set/?set=a.1108331316920600&type=3"
+    },
+    {
       "id": 0,
       "title": "Jornada ambiental 2024",
       "description": "Video sobre la Jornada de Defensa del Medio Ambiente en la secundaria 56",

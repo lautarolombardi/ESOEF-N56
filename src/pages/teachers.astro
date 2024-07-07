@@ -20,7 +20,27 @@ import Layout from '../layouts/Layout.astro'
       />
     </div>
     <Section title='Normativa docente' centerTitle centerMdTitle class='pb-20'>
-      <div class='flex flex-col gap-5 md:flex-row'>
+      <div
+        class='grid gap-5 grid-cols-[repeat(auto-fit,minmax(250px,1fr))] place-content-center'
+      >
+        <Card
+          title='Resolución 1650-24'
+          description='Presioná el boton para entrar a la presentación de power point'
+          link='https://drive.google.com/file/d/1NzaJ3Icg1-Ex65lW47ucBYX5OUb_4NAr/view?usp=sharing'
+        >
+          <Button class='h-max flex items-center gap-3'>
+            Abrir <LinkIcon class='w-5' />
+          </Button>
+        </Card>
+        <Card
+          title='Actualización del régimen académico'
+          description='Presioná el botón para entrar al archivo pdf'
+          link='https://drive.google.com/file/d/1NzaJ3Icg1-Ex65lW47ucBYX5OUb_4NAr/view?usp=sharing'
+        >
+          <Button class='h-max flex items-center gap-3'>
+            Abrir <LinkIcon class='w-5' />
+          </Button>
+        </Card>
         <Card
           title='Normativa docente'
           description='Presioná el boton para ver la normativa docente completa'
