@@ -1,10 +1,13 @@
 ---
-import Section from '../components/Section.astro'
-import StudyMaterial from '../components/Students/StudyMaterial.astro'
-import Future from '../components/Students/Future.astro'
-import Layout from '../layouts/Layout.astro'
-import ImportantFiles from '../components/Students/ImportantFiles.astro'
 import Card from '../components/Card.astro'
+import Section from '../components/Section.astro'
+import Future from '../components/Students/Future.astro'
+import ImportantFiles from '../components/Students/ImportantFiles.astro'
+import LearningGames from '../components/Students/LearningGames.astro'
+import StudyMaterial from '../components/Students/StudyMaterial.astro'
+import Layout from '../layouts/Layout.astro'
+import Layout from '../layouts/Layout.astro'
+
 ---
 
 <Layout title='ESOEF N56 - Estudiantes' description='ESOEF N56 - Estudiantes'>
@@ -27,6 +30,14 @@ import Card from '../components/Card.astro'
       centerMdTitle
     >
       <StudyMaterial />
+    </Section>
+    <Section
+      class='pb-20'
+      title='Aprendé jugando'
+      centerTitle
+      centerMdTitle
+    >
+      <LearningGames />
     </Section>
     <Section class='pb-20' title='Videoteca' centerTitle centerMdTitle>
       <div class='flex flex-col items-center gap-5 lg:flex-row'>

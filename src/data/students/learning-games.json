@@ -1,0 +1,24 @@
+{
+  "games": [
+    {
+      "title": "Album de personajes de la historia del siglo XX",
+      "link": "https://lombardi-actividadesdehistoria.on.drv.tw/html/Album_Historia/Album_Historia.htm"
+    },
+    {
+      "title": "Rompecabezas mapa planisferio",
+      "link": "https://lombardi-actividadesdehistoria.on.drv.tw/html/Planisferio/Planisferio.htm"
+    },
+    {
+      "title": "Guerra fría",
+      "link": "https://lombardi-actividadesdehistoria.on.drv.tw/html/Guerra_Fria/Guerra_Fria.htm"
+    },
+    {
+      "title": "Revolución Neolítica",
+      "link": "https://lombardi-actividadesdehistoria.on.drv.tw/html/RevolucionNeolitica/RevolucionNeolitica.htm"
+    },
+    {
+      "title": "Álbum Egipto",
+      "link": "https://lombardi-actividadesdehistoria.on.drv.tw/html/Egipto/Egipto.htm"
+    }
+  ]
+}

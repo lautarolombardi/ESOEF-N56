@@ -1,5 +1,25 @@
 {
-  "news": [
+  "GAMES": [
+    {
+      "id": 13,
+      "title": "9 de julio en la secundaria 56",
+      "description": "Acto por el día de la independencia. Gracias a todos los que participaron y colaboraron. Gracias al profesor Beica por la producción y edición de los videos.",
+      "media": [
+        "https://www.youtube.com/embed/mWvzylFM3Ls?si=7o2IY99cv7HYVPAB"
+      ],
+      "mediaType": "video",
+      "date": "Julio 2024"
+    },
+    {
+      "id": 14,
+      "title": "9 de julio: Día de la independencia",
+      "description": "Un día alguien en Tucumán abrió las puertas y el corazón, para que una casa acunara nuestra historia como país. A esta casa no la tenemos que mirar más, como a una figurita, esto será posible si podemos impregnar nuestros recuerdos con sensaciones y olores y rememorar aquel glorioso día en el que una casa, muy parecida a otras, pasó a la historia nada más y nada menos que por ser allí donde se declaró nuestra independencia. El 9 de julio de 1816 imprimió una huella en el corazón de todos los argentinos, marcó el inicio de un camino que hoy estamos transitando.",
+      "media": [
+        "https://www.youtube.com/embed/BZohpAPwzTI?si=_IF8DA5RSRvlWyG9"
+      ],
+      "mediaType": "video",
+      "date": "Julio 2024"
+    },
     {
       "id": 12,
       "title": "20 de junio: Día de la bandera",
