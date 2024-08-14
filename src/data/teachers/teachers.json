@@ -1,0 +1,274 @@
+{
+  "teachers": [
+    {
+      "name": "Gabriela Capurro",
+      "subject": "Historia",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fgabriela-capurro.webp?alt=media&token=d8de71ff-3a3e-47df-b973-73501ee78fd6"
+    },
+    {
+      "name": "Ezequiel Vidal",
+      "subject": "Int. a la química",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fezequiel-vidal.webp?alt=media&token=b1821089-9e90-48d0-be68-ebc3c7790190"
+    },
+    {
+      "name": "Patricia Cosentino",
+      "subject": "Inglés",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fpatricia-cosentino.webp?alt=media&token=33b7fdc2-f8fc-4a9f-a840-52205c8ef4fe"
+    },
+    {
+      "name": "Verónica Chasco",
+      "subject": "Inglés",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fveronica-chasco.webp?alt=media&token=6dae86fb-e0d7-4190-b60b-f2978c432a0e"
+    },
+    {
+      "name": "Gastón Roccasalvo",
+      "subject": "Artes plásticas",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fgaston-rocasalvo.webp?alt=media&token=4be02cb6-f10d-473b-9d57-a1d1f31944dd"
+    },
+    {
+      "name": "Myriam Reinoso",
+      "subject": "Educación física",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fmyriam-reinoso.webp?alt=media&token=3cd41b21-8b0b-40f5-b115-7c8afa59246c"
+    },
+    {
+      "name": "Fátima Arias",
+      "subject": "Prácticas del lenguaje",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Ffatima-arias.webp?alt=media&token=68bb3c3b-05d1-4720-ba73-7aacd0ca1c97"
+    },
+    {
+      "name": "Natalia Palacio",
+      "subject": "Biología",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fnatalia-palacio.webp?alt=media&token=6f057b85-5827-49e6-bdea-d7e7768f2893"
+    },
+    {
+      "name": "Gabriela Arias",
+      "subject": "Construcción de la ciudadanía",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fgabriela-arias.webp?alt=media&token=36665086-3019-48d8-b9e1-0c29bb32acff"
+    },
+    {
+      "name": "Juan Beica",
+      "subject": "Producción de video",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fjuan-beica.webp?alt=media&token=0e4a5150-8162-43e8-9b19-f854cde1e2ba"
+    },
+    {
+      "name": "Alexis Lettieri",
+      "subject": "Educación artística",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Falexis-lettieri.webp?alt=media&token=000f83e1-c8d2-4430-8859-700484d510cd"
+    },
+    {
+      "name": "Jorge El Fasah",
+      "subject": "Educación física",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fjorge-elfasah.webp?alt=media&token=87b12cc6-27d9-45cb-a0f5-739f8b2b7241"
+    },
+    {
+      "name": "Adriana Murúa",
+      "subject": "Matemática",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fadriana-murua.webp?alt=media&token=474e4737-7c3c-4c2e-bb37-142692f03777"
+    },
+    {
+      "name": "Walter Sassi",
+      "subject": "Educación física",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fwalter-sassi.webp?alt=media&token=9cb30ce0-568b-4fb3-a319-01acc8ab4c2f"
+    },
+    {
+      "name": "Sergio Albarracín",
+      "subject": "Matemática",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fsergio-albarracin.webp?alt=media&token=e993bbae-f101-4479-8c7b-c4724e32c63a"
+    },
+    {
+      "name": "Sergio Ibarra",
+      "subject": "Geografía",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fsergio-ibarra.webp?alt=media&token=c0e0521a-58dc-4dbd-8714-d51d190a4d9c"
+    },
+    {
+      "name": "Zulema Gil",
+      "subject": "Ciencias naturales",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fzulema-gil.webp?alt=media&token=b1e8ff69-e035-46d0-b392-cbfaa7700225"
+    },
+    {
+      "name": "Pedro Rodríguez",
+      "subject": "Salud y adolescencia",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fpedro-rodriguez.webp?alt=media&token=5f91a1da-a34e-4dcf-a708-73cf00aed273"
+    },
+    {
+      "name": "Palleres",
+      "subject": "Sociología",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fpalleres.webp?alt=media&token=4498bfbf-8579-4160-a4a9-c8c3c487430c"
+    },
+    {
+      "name": "Gustavo Canales",
+      "subject": "NTIC. Encargado de medios",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fgustavo-canales.webp?alt=media&token=c1d1d5df-00a0-4ccf-9854-e1aa70759d61"
+    },
+    {
+      "name": "Angel Flores",
+      "subject": "Filosofía",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fangel-flores.webp?alt=media&token=6783d849-20ed-4f15-9f2b-a1067e3bb389"
+    },
+    {
+      "name": "Di María",
+      "subject": "Int. a la química",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fdimaria.webp?alt=media&token=eff2ac2e-fb67-4394-abfd-4836b042a696"
+    },
+    {
+      "name": "Ezquivel",
+      "subject": "Matemática",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fezquivel.webp?alt=media&token=9ad08aa9-8def-47d1-9248-6218e1aa1013"
+    },
+    {
+      "name": "Jorge Benítez",
+      "subject": "Biología",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fbenitez.webp?alt=media&token=6cf162e7-bba2-49f4-a315-69222c2e621e"
+    },
+    {
+      "name": "Mauro de Brum",
+      "subject": "Literatura",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fmauro-debrum.webp?alt=media&token=530d7ae7-196f-4d85-bef6-cb4799262a2e"
+    },
+    {
+      "name": "Marisa Messaros",
+      "subject": "Diseño y desarrollo de proyectos",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fmarisa-messaros.webp?alt=media&token=bdda8074-a666-4a62-99a0-9f453ef0da2d"
+    },
+    {
+      "name": "Yesica Felhein",
+      "subject": "Diseño y desarrollo de proyectos",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fyesica-felhein.webp?alt=media&token=6468d509-b13a-489d-af74-17c23dc76586"
+    },
+    {
+      "name": "María Luz Verrastro",
+      "subject": "Construcción de la ciudadanía",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fmarialuz-verrastro.webp?alt=media&token=1b9e8be6-cfc4-4a90-af65-cf2858609b32"
+    },
+    {
+      "name": "Fabián Aguirre",
+      "subject": "Literatura",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Ffabian-aguirre.webp?alt=media&token=21bd1ece-85a8-4c0d-96a5-8696943ba66f"
+    },
+    {
+      "name": "Anabel Ferreyra",
+      "subject": "Construcción de la ciudadanía",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fanabel-ferreyra.webp?alt=media&token=489e0f1d-76b4-479d-9a75-a082f0a82111"
+    },
+    {
+      "name": "Mayra Bogado",
+      "subject": "Matemática",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fmayra-bogado.webp?alt=media&token=80b20815-0b69-48c4-a124-4798f0268162"
+    },
+    {
+      "name": "Rocío Farías",
+      "subject": "Matemática",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Frocio-farias.webp?alt=media&token=673fd94b-a05f-4a0b-bdca-66194592dd5a"
+    },
+    {
+      "name": "Silvia Rodríguez",
+      "subject": "Historia",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fsilvia-rodriguez.webp?alt=media&token=6e8f25c5-76dc-4bca-bb0f-220b23f6940f"
+    },
+    {
+      "name": "López",
+      "subject": "Historia",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Flopez.webp?alt=media&token=0741ef93-a93a-443f-b657-c994103f0fab"
+    },
+    {
+      "name": "Alicia Álvarez",
+      "subject": "Historia",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Falicia-alvarez.webp?alt=media&token=f4e2a641-851e-4e7b-82b3-0ba3f4a7fb63"
+    },
+    {
+      "name": "Melina Córdoba",
+      "subject": "Literatura",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fmelina-cordoba.webp?alt=media&token=baa4939e-ff47-4483-a8f7-e13736036eca"
+    },
+    {
+      "name": "Fernando Guagnini",
+      "subject": "Filosofía",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Ffernando-guagnini.webp?alt=media&token=43cc1e7f-1e23-4fca-a75d-7e6fa96d48e3"
+    },
+    {
+      "name": "Rodríguez",
+      "subject": "Prácticas del lenguaje",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Frodriguez.webp?alt=media&token=1a62bfc6-978b-4614-8391-6c4d215c423d"
+    },
+    {
+      "name": "Gerardo Gioia",
+      "subject": "Educación física",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fgerardo-gioia.webp?alt=media&token=3c7463b0-537b-427b-b0f8-b98f3b39aaf4"
+    },
+    {
+      "name": "Betiana Pilegis",
+      "subject": "Artes plásticas",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fbetiana-pilegis.webp?alt=media&token=40a47b0b-1ea9-4f4b-b44f-245b75be0b7a"
+    },
+    {
+      "name": "Carlos Correa",
+      "subject": "Química",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fcarlos-correa.webp?alt=media&token=fe13ebc0-b12c-4c58-adbb-d2493d86ebdd"
+    },
+    {
+      "name": "Silvana Santos",
+      "subject": "Diseño y desarrollo de proyecto",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fsilvana-santos.webp?alt=media&token=f8cb6315-2874-453a-8f1b-ca5f6cfc9e14"
+    },
+    {
+      "name": "Verónica Calderón",
+      "subject": "Equipo de orientación",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fveronica-calderon.webp?alt=media&token=04684922-fb42-4f6e-86b0-da8c4a0e4d69"
+    },
+    {
+      "name": "Eliana Guillén",
+      "subject": "Equipo de orientación",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Feliana-guillen.webp?alt=media&token=cc2601ff-15ba-43f8-9d97-5cb9c9a19855"
+    },
+    {
+      "name": "Vanesa Vélez",
+      "subject": "Educación física y cultura",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fvanesa-velez.webp?alt=media&token=d2c8d818-82c8-4dc5-8b18-bac11ad4d285"
+    },
+    {
+      "name": "Walter Ciliberto",
+      "subject": "NTIC",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fwalter-ciliberto.webp?alt=media&token=5b4d8f16-1639-4fec-ae76-8af809aac2fe"
+    },
+    {
+      "name": "Fernan Navarro",
+      "subject": "Int. a la física",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Ffernan-navarro.webp?alt=media&token=4e321bcc-3ca9-46cc-a65b-eca83d829543"
+    },
+    {
+      "name": "Marisa Lema",
+      "subject": "Biología",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fmarisa-lema.webp?alt=media&token=851fe3a6-eb49-4d9f-b78c-9bd2c725df30"
+    },
+    {
+      "name": "Gladys Gómez",
+      "subject": "Prácticas del lenguaje",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fgladys-gomez.webp?alt=media&token=fd8e1e71-c2b8-45db-866b-8a1ca30aaeab"
+    },
+    {
+      "name": "María Marta Rivera",
+      "subject": "Educación física",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fmaria-marta-rivera.webp?alt=media&token=7c2d5eec-058c-4466-a89b-d0c4d500b9ee"
+    },
+    {
+      "name": "Rita Chamorro",
+      "subject": "Construcción de la ciudadanía",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Frita-chamorro.webp?alt=media&token=1c4f3b8f-2141-4ee9-be71-19f41bcbd362"
+    },
+    {
+      "name": "Romano",
+      "subject": "Geografía",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fromano.webp?alt=media&token=6b92be8c-eedf-49e8-8f06-a6a0f5e5bebe"
+    },
+    {
+      "name": "Uñates",
+      "subject": "Matemática",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fu%C3%B1ates.webp?alt=media&token=deee8f0f-619e-4146-9290-c42fb33478d1"
+    },
+    {
+      "name": "Gabriela Durán",
+      "subject": "Educación física",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fgabriela-duran.webp?alt=media&token=c6b3d518-0ccc-4215-b3ae-2b1bb94022cf"
+    }
+  ]
+}

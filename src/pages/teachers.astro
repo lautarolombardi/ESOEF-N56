@@ -1,431 +1,166 @@
 ---
-import Button from '../components/Button.astro'
-import Card from '../components/Card.astro'
-import LinkIcon from '../icons/Link.astro'
-import Section from '../components/Section.astro'
-import TeachersPhoto from '../components/Teachers/TeachersPhoto.astro'
-import Layout from '../layouts/Layout.astro'
+import Button from "../components/Button.astro";
+import Card from "../components/Card.astro";
+import LinkIcon from "../icons/Link.astro";
+import Section from "../components/Section.astro";
+import TeachersPhoto from "../components/Teachers/TeachersPhoto.astro";
+import Layout from "../layouts/Layout.astro";
+
+import teachers from "../data/teachers/teachers.json";
 ---
 
-<Layout title='Docentes' description='Docentes'>
-  <header class='custom-container pt-40 pb-20'>
-    <h1 class='text-center font-bold text-3xl md:text-4xl'>Docentes</h1>
+<Layout title="Docentes" description="Docentes">
+  <header class="custom-container pt-40 pb-20">
+    <h1 class="text-center font-bold text-3xl md:text-4xl">Docentes</h1>
   </header>
   <main>
-    <div class='pb-20 custom-container'>
+    <div class="pb-20 custom-container">
       <img
-        src='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/mural.webp?alt=media&token=aba4aa4b-2a19-4292-8f4d-27e5a6e5f407'
-        class='w-full max-w-[800px] mx-auto mb-10 border border-[var(--accent-color)]'
-        alt='Mural'
+        src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/mural.webp?alt=media&token=aba4aa4b-2a19-4292-8f4d-27e5a6e5f407"
+        class="w-full max-w-[800px] mx-auto mb-10 border border-[var(--accent-color)]"
+        alt="Mural"
       />
     </div>
-    <Section title='Normativa docente' centerTitle centerMdTitle class='pb-20'>
+    <Section title="Normativa docente" centerTitle centerMdTitle class="pb-20">
       <div
-        class='grid gap-5 grid-cols-[repeat(auto-fit,minmax(250px,1fr))] place-content-center'
+        class="grid gap-5 grid-cols-[repeat(auto-fit,minmax(250px,1fr))] place-content-center"
       >
         <Card
-          title='Resolución 1650-24'
-          description='Presioná el boton para entrar a la presentación de power point'
-          link='https://drive.google.com/file/d/1NzaJ3Icg1-Ex65lW47ucBYX5OUb_4NAr/view?usp=sharing'
+          title="Resolución 1650-24"
+          description="Presioná el boton para entrar a la presentación de power point"
+          link="https://drive.google.com/file/d/1NzaJ3Icg1-Ex65lW47ucBYX5OUb_4NAr/view?usp=sharing"
         >
-          <Button class='h-max flex items-center gap-3'>
-            Abrir <LinkIcon class='w-5' />
+          <Button class="h-max flex items-center gap-3">
+            Abrir <LinkIcon class="w-5" />
           </Button>
         </Card>
         <Card
-          title='Actualización del régimen académico'
-          description='Presioná el botón para entrar al archivo pdf'
-          link='https://drive.google.com/file/d/1NzaJ3Icg1-Ex65lW47ucBYX5OUb_4NAr/view?usp=sharing'
+          title="Actualización del régimen académico"
+          description="Presioná el botón para entrar al archivo pdf"
+          link="https://drive.google.com/file/d/1NzaJ3Icg1-Ex65lW47ucBYX5OUb_4NAr/view?usp=sharing"
         >
-          <Button class='h-max flex items-center gap-3'>
-            Abrir <LinkIcon class='w-5' />
+          <Button class="h-max flex items-center gap-3">
+            Abrir <LinkIcon class="w-5" />
           </Button>
         </Card>
         <Card
-          title='Normativa docente'
-          description='Presioná el boton para ver la normativa docente completa'
-          link='https://normas.gba.gob.ar/documentos/BodONdhz.html'
+          title="Normativa docente"
+          description="Presioná el boton para ver la normativa docente completa"
+          link="https://normas.gba.gob.ar/documentos/BodONdhz.html"
         >
-          <Button class='h-max flex items-center gap-3'>
-            Abrir <LinkIcon class='w-5' />
+          <Button class="h-max flex items-center gap-3">
+            Abrir <LinkIcon class="w-5" />
           </Button>
         </Card>
         <Card
-          title='Estatuto Docente'
-          description='Ley 10579 disponible haciendo click en el boton de abajo'
-          link='https://drive.google.com/file/d/1D-1Vc0jecqnkNEXXcUIU2oT0ZnxI_ncK/view?usp=sharing'
+          title="Estatuto Docente"
+          description="Ley 10579 disponible haciendo click en el boton de abajo"
+          link="https://drive.google.com/file/d/1D-1Vc0jecqnkNEXXcUIU2oT0ZnxI_ncK/view?usp=sharing"
         >
-          <Button class='h-max flex items-center gap-3'>
-            Abrir <LinkIcon class='w-5' />
+          <Button class="h-max flex items-center gap-3">
+            Abrir <LinkIcon class="w-5" />
           </Button>
         </Card>
         <Card
-          title='Ley de Educación Nacional'
-          description='Ley 26206 disponible haciendo click en el boton de abajo'
-          link='https://drive.google.com/file/d/1p6zZytrrWJv5DnGqA386YSc_thNPNMZb/view?usp=sharing'
+          title="Ley de Educación Nacional"
+          description="Ley 26206 disponible haciendo click en el boton de abajo"
+          link="https://drive.google.com/file/d/1p6zZytrrWJv5DnGqA386YSc_thNPNMZb/view?usp=sharing"
         >
-          <Button class='h-max flex items-center gap-3'>
-            Abrir <LinkIcon class='w-5' />
+          <Button class="h-max flex items-center gap-3">
+            Abrir <LinkIcon class="w-5" />
           </Button>
         </Card>
       </div>
     </Section>
     <Section
-      title='Equipo de conducción'
+      title="Equipo de conducción"
       centerTitle
       centerMdTitle
-      class='pb-20'
+      class="pb-20"
     >
-      <div class='flex gap-5 justify-evenly text-center'>
+      <div class="flex gap-5 justify-evenly text-center">
         <TeachersPhoto
-          name='Andrea Campos'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/andrea-campos.webp?alt=media&token=3760f49e-3950-4a05-ac6c-ac60a03266a7'
-          description='Directora'
+          name="Andrea Campos"
+          img="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fandrea-campos.webp?alt=media&token=7d97abc7-1ce1-4605-8700-f47953d4be7d"
+          description="Directora"
         />
         <TeachersPhoto
-          name='Ricardo Lombardi'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/ricardo-lombardi.webp?alt=media&token=f482c1d5-deef-4a0d-95bc-855f8c6a0108'
-          description='Vicedirector'
-        />
-      </div>
-    </Section>
-    <Section title='Preceptores' centerTitle centerMdTitle class='pb-20'>
-      <div
-        class='grid gap-5 grid-cols-[repeat(auto-fit,minmax(170px,1fr))] place-content-center'
-      >
-        <TeachersPhoto
-          name='Néstor Villalba'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/nestor-villalba.webp?alt=media&token=0315cd48-4080-444c-a08e-dbfd83c11f1c'
-          description='Turno tarde'
-        />
-        <TeachersPhoto
-          name='Eduardo Recalde'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/eduardo-recalde.webp?alt=media&token=48e00676-955a-4e12-8ebd-6713c45c05a4'
-          description='Turno tarde'
-        />
-        <TeachersPhoto
-          name='Cecilia Lazarte'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/cecilia-lazarte.webp?alt=media&token=4f96c06d-e29b-4159-8f28-9cb8960559fe'
-          description='Turno tarde'
-        />
-        <TeachersPhoto
-          name='Yanina Lodoli - Fabiana Maiorano'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/yanina-fabiana.webp?alt=media&token=e51ebbf0-284f-4fef-b5ee-845b2f9a9b86'
-          description='Turno mañana'
+          name="Ricardo Lombardi"
+          img="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fricardo-lombardi.webp?alt=media&token=8dd24005-cbf4-4894-9e9b-e092c3282bf3"
+          description="Vicedirector"
         />
       </div>
     </Section>
-    <Section title='Docentes' centerTitle centerMdTitle class='pb-20'>
+    <Section title="Preceptores" centerTitle centerMdTitle class="pb-20">
       <div
-        class='grid gap-5 grid-cols-[repeat(auto-fill,170px)] place-content-center'
+        class="grid gap-5 grid-cols-[repeat(auto-fit,minmax(170px,1fr))] place-content-center"
       >
         <TeachersPhoto
-          name='Gabriela Capurro'
-          description='Historia'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/gabriela-capurro.webp?alt=media&token=7498f77a-a396-48e4-a780-1d88ac5a54f5'
+          name="Néstor Villalba"
+          img="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fnestor-villalba.webp?alt=media&token=805492bb-5a84-481d-ba0e-231253710780"
+          description="Turno tarde"
         />
         <TeachersPhoto
-          name='Ezequiel Vidal'
-          description='Int. a la química'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/ezequiel-vidal.webp?alt=media&token=c42a2eb5-9fa3-47b2-8cb9-0d4d4cdfba3a'
+          name="Eduardo Recalde"
+          img="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Feduardo-recalde.webp?alt=media&token=eb430b44-7336-4e8e-a153-c3e4ae3dfffb"
+          description="Turno tarde"
         />
         <TeachersPhoto
-          name='Patricia Cosentino'
-          description='Inglés'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/patricia-cosentino.webp?alt=media&token=1e5c682f-8251-4c0f-999f-8f6f238168a6'
+          name="Cecilia Lazarte"
+          img="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fcecilia-lazarte.webp?alt=media&token=2363719b-8873-4982-a6e2-b9d88368c714"
+          description="Turno tarde"
         />
         <TeachersPhoto
-          name='Verónica Chasco'
-          description='Inglés'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/veronica-chasco.webp?alt=media&token=bfbb0426-224c-415c-8145-8c3ec7a70e68'
+          name="Yanina Lodoli - Fabiana Maiorano"
+          img="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fyanina-fabiana.webp?alt=media&token=3b854ac5-22ef-48b2-bda3-bf8c99f279ca"
+          description="Turno mañana"
         />
-        <TeachersPhoto
-          name='Gastón Rocasalvo'
-          description='Artes plásticas'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/gaston-rocasalvo.webp?alt=media&token=d4e2f9a4-d5fd-41a6-85bb-0c5210dde4aa'
-        />
-        <TeachersPhoto
-          name='Myriam Reinoso'
-          description='Educación física'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/myriam-reinoso.webp?alt=media&token=eb07e40f-1935-4239-88ca-b72040039261'
-        />
-        <TeachersPhoto
-          name='Fátima Arias'
-          description='Prácticas del lenguaje'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/fatima-arias.webp?alt=media&token=547e6dbf-abb9-427e-b55d-10426faf267d'
-        />
-        <TeachersPhoto
-          name='Natalia Palacios'
-          description='Biología'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/natalia-palacio.webp?alt=media&token=dc23b501-91d3-43b6-88c1-5642de87d4e2'
-        />
-        <TeachersPhoto
-          name='Gabriela Arias'
-          description='Construcción de la ciudadanía'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/gabriela-arias.webp?alt=media&token=cfdde053-9a6d-42a8-90da-37a838a835ce'
-        />
-        <TeachersPhoto
-          name='Juan Beica'
-          description='Producción de video'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/juan-beica.webp?alt=media&token=ad1df49e-135b-42ff-b7a5-8c8c6aa6ac74'
-        />
-        <TeachersPhoto
-          name='Alexis Lettieri'
-          description='Educación artística'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/alexis-lettieri.webp?alt=media&token=9e2d67ee-2b6f-4a24-a662-d6ef84e74abf'
-        />
-        <TeachersPhoto
-          name='Jorge El Fasah'
-          description='Educación física'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/jorge-elfasah.webp?alt=media&token=d3cc9d66-2169-4a88-9af6-c7b13c8ecd28'
-        />
-        <TeachersPhoto
-          name='Adriana Murúa'
-          description='Matemáticas'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/adriana-murua.webp?alt=media&token=51324c5e-c2a2-448a-8359-8c5951df0d1d'
-        />
-        <TeachersPhoto
-          name='Walter Sassi'
-          description='Educación física'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/walter-sassi.webp?alt=media&token=c2078d52-45d2-41b3-a10c-df89d1f231e2'
-        />
-        <TeachersPhoto
-          name='Sergio Albarracín'
-          description='Matemáticas'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/sergio-albarracin.webp?alt=media&token=b506c399-4967-453f-91f5-b2114c031cae'
-        />
-        <TeachersPhoto
-          name='Sergio Ibarra'
-          description='Geografía'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/sergio-ibarra.webp?alt=media&token=6c1d539c-758b-49d3-840e-91769a44b61e'
-        />
-        <TeachersPhoto
-          name='Zulema Gil'
-          description='Ciencias naturales'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/zulema-gil.webp?alt=media&token=de584f22-d09c-4e68-9988-aba49a16672c'
-        />
-        <TeachersPhoto
-          name='Pedro Rodriguez'
-          description='Salud y adolescencia'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/pedro-rodriguez.webp?alt=media&token=5365ab94-1b16-40fb-b261-28971ab22ad4'
-        />
-        <TeachersPhoto
-          name='Palleres'
-          description='Sociología'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/palleres.webp?alt=media&token=b44223eb-afb1-42ce-8f3e-3ad47d06128d'
-        />
-        <TeachersPhoto
-          name='Gustavo Canales'
-          description='NTIC. Encargado de medios'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/gustavo-canales.webp?alt=media&token=101ef964-ca77-48ca-8c0e-3a26da202f45'
-        />
-        <TeachersPhoto
-          name='Angel Flores'
-          description='Filosofía'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/angel-flores.webp?alt=media&token=c3fc96c4-e716-4e83-b764-e1b69fb3f791'
-        />
-        <TeachersPhoto
-          name='Di María'
-          description='Int. a la química'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/dimaria.webp?alt=media&token=d255bb27-078f-4003-b05d-319445c1ba04'
-        />
-        <TeachersPhoto
-          name='Ezquivel'
-          description='Matemáticas'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/ezquivel.webp?alt=media&token=0e207435-36db-4503-8ff6-80398f20756e'
-        />
-        <TeachersPhoto
-          name='Jorge Benítez'
-          description='Biología'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/benitez.webp?alt=media&token=5f30799e-daab-404a-9bcb-bd48aa08a0d6'
-        />
-        <TeachersPhoto
-          name='Mauro de Brum'
-          description='Literatura'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/mauro-debrum.webp?alt=media&token=12596423-0f0d-43a1-815a-ba7ad66feb82'
-        />
-        <TeachersPhoto
-          name='Marisa Messaros'
-          description='Diseño y desarrollo de proyectos'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/marisa-messaros.webp?alt=media&token=d36fb73c-1b1e-4a33-a9f7-cccac222f2df'
-        />
-        <TeachersPhoto
-          name='Yesica Felhein'
-          description='Diseño y desarrollo de proyectos'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/yesica-felhein.webp?alt=media&token=d5d03033-bc58-4a69-8ed8-59020b8c89e2'
-        />
-        <TeachersPhoto
-          name='María Luz Verrastro'
-          description='Construcción de la ciudadanía'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/marialuz-verrastro.webp?alt=media&token=99713db3-7a4f-443c-98fa-9d45ee93e904'
-        />
-        <TeachersPhoto
-          name='Fabián Aguirre'
-          description='Literatura'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/fabian-aguirre.webp?alt=media&token=c8ff0518-8183-4226-ac9c-1790de305cc8'
-        />
-        <TeachersPhoto
-          name='Anabel Ferreyra'
-          description='Construcción de la ciudadanía'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/anabel-ferreyra.webp?alt=media&token=31454322-0209-4cb6-bd67-a9ae5dcc57bd'
-        />
-        <TeachersPhoto
-          name='Mayra Bogado'
-          description='Matemáticas'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/mayra-bogado.webp?alt=media&token=bd260773-457f-401c-a96c-1ebd6b74dac6'
-        />
-        <TeachersPhoto
-          name='Rocío Farías'
-          description='Matemáticas'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/rocio-farias.webp?alt=media&token=3c9736cb-5f2e-4a0f-a1fe-a728c2588aef'
-        />
-        <TeachersPhoto
-          name='Silvia Rodríguez'
-          description='HIstoria'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/silvia-rodriguez.webp?alt=media&token=c4a73a38-97f0-48db-920e-9d760be02c9b'
-        />
-
-        <TeachersPhoto
-          name='López'
-          description='Historia'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/lopez.webp?alt=media&token=faaea6e9-de1c-4dd9-9238-002590d98af5'
-        />
-        <TeachersPhoto
-          name='Alicia Álvarez'
-          description='Historia'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/alicia-alvarez.webp?alt=media&token=ceb7b071-4e45-4ae0-b644-b17cc51bb2fc'
-        />
-        <TeachersPhoto
-          name='Melina Córdoba'
-          description='Literatura'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/melina-cordoba.webp?alt=media&token=84e8ad76-7963-4810-9efc-858554384ddf'
-        />
-        <TeachersPhoto
-          name='Fernando Guagnini'
-          description='Filosofía'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/fernando-guagnini.webp?alt=media&token=e05e068c-7cf8-46f0-aab8-ec220f80ed53'
-        />
-        <TeachersPhoto
-          name='Rodríguez'
-          description='Prácticas del lenguaje'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/rodriguez.webp?alt=media&token=3387030d-db25-4ff1-a538-c7e92dc4a091'
-        />
-        <TeachersPhoto
-          name='Gerardo Gioia'
-          description='Educación física'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/gerardo-gioia.webp?alt=media&token=b666aa4d-b1f3-42fe-a506-f20c4c34c0dd'
-        />
-        <TeachersPhoto
-          name='Rodríguez'
-          description='Prácticas del lenguaje'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/rodriguez.webp?alt=media&token=3387030d-db25-4ff1-a538-c7e92dc4a091'
-        />
-        <TeachersPhoto
-          name='Betiana Pilegis'
-          description='Artes plásticas'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/betiana-pilegis.webp?alt=media&token=9e7341ee-b7c2-441e-9fb3-1b1a337833f2'
-        />
-        <TeachersPhoto
-          name='Carlos Correa'
-          description='Química'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/carlos-correa.webp?alt=media&token=ef147891-0c61-4aa8-afe8-526b5d22107c'
-        />
-        <TeachersPhoto
-          name='Silvana Santos'
-          description='Diseño y desarrollo de proyecto'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/silvana-santos.webp?alt=media&token=b6609c5f-daff-42f9-9f2c-50cdef9dc904'
-        />
-        <TeachersPhoto
-          name='Verónica Calderón'
-          description='Equipo de orientación'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/veronica-calderon.webp?alt=media&token=ea778fda-762e-4332-bb29-2cb1662b3288'
-        />
-        <TeachersPhoto
-          name='Eliana Guillen'
-          description='Equipo de orientación'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/eliana-guillen.webp?alt=media&token=3ee104cc-6550-4fd2-b952-c20866658bd0'
-        />
-        <TeachersPhoto
-          name='Vanesa Vélez'
-          description='Educación física y cultura'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/vanesa-velez.webp?alt=media&token=e1b530fb-ecc9-4127-ab46-6ce40bdb1d53'
-        />
-        <TeachersPhoto
-          name='Walter Ciliberto'
-          description='NTIC'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/walter-ciliberto.webp?alt=media&token=6e05c163-e7f7-4961-ad39-973e3e1e0128'
-        />
-        <TeachersPhoto
-          name='Fernan Navarro'
-          description='Int. a la física'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/fernan-navarro.webp?alt=media&token=971a7f96-77c4-4aee-9389-691a7cb6e1b0'
-        />
-        <TeachersPhoto
-          name='Marisa Lema'
-          description='Biología'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/lemos.webp?alt=media&token=d5789ae9-2db6-453d-9f44-a6756a4666ae'
-        />
-        <TeachersPhoto
-          name='Gladys Gómez'
-          description='Prácticas del lenguaje'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/gladys-gomez.webp?alt=media&token=5b9233c3-0817-439e-b010-314ccf505c79'
-        />
-        <TeachersPhoto
-          name='María Marta Rivera'
-          description='Educación física'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/marta-riveros.webp?alt=media&token=4b5086b6-8cda-4386-bc57-389a4513e071'
-        />
-        <TeachersPhoto
-          name='Rita Chamorro'
-          description='Construcción de la ciudadanía'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/rita-chamorro.webp?alt=media&token=1b8eb701-b67f-42b0-8640-ffc9f76a6449'
-        />
-        <TeachersPhoto
-          name='Romano'
-          description='Geografía'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/romano.webp?alt=media&token=fcd6cbec-9d12-4eeb-9179-915f1362c2bf'
-        />
-        <TeachersPhoto
-          name='Uñates'
-          description='Matemáticas'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/u%C3%B1ates.webp?alt=media&token=8053a579-3040-4b19-8c7e-87eea21b81fb'
-        />
-        <TeachersPhoto
-          name='Gabriela Durán'
-          description='Educación física'
-          img='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/gabriela-duran.webp?alt=media&token=8889c783-9257-4357-90e7-3baf133d33a1'
-        />
+      </div>
+    </Section>
+    <Section title="Docentes" centerTitle centerMdTitle class="pb-20">
+      <div
+        class="grid gap-5 grid-cols-[repeat(auto-fill,170px)] place-content-center"
+      >
+        {
+          teachers.teachers.map((teacher) => (
+            <TeachersPhoto
+              name={teacher.name}
+              description={teacher.subject}
+              img={teacher.img}
+            />
+          ))
+        }
       </div>
     </Section>
     <Section
-      title='Documentos de utilidad'
+      title="Documentos de utilidad"
       centerTitle
       centerMdTitle
-      class='pb-20'
+      class="pb-20"
     >
-      <p class='font-bold text-center text-pretty mb-10'>
+      <p class="font-bold text-center text-pretty mb-10">
         Para usar estos documentos debe descargar una copia de los mismos
       </p>
-      <div class='grid gap-5 grid-cols-[repeat(auto-fit,minmax(270px,1fr))]'>
+      <div class="grid gap-5 grid-cols-[repeat(auto-fit,minmax(270px,1fr))]">
         <Card
-          title='Declaración jurada 2024'
-          description='Documento que contiene una plantilla de declaración jurada.'
-          link='https://docs.google.com/spreadsheets/d/1dISYm4qzu-M1Vwx4vcnQrRL2PZVvFwrt/edit#gid=1818121767'
+          title="Declaración jurada 2024"
+          description="Documento que contiene una plantilla de declaración jurada."
+          link="https://docs.google.com/spreadsheets/d/1dISYm4qzu-M1Vwx4vcnQrRL2PZVvFwrt/edit#gid=1818121767"
         />
         <Card
-          title='Planilla SET 4'
-          description='Modelo de planilla SET 4 para completar.'
-          link='https://drive.google.com/uc?id=1YmBPN2x6Gryws3XCSnr7J3wBLMq91k0a&export=download'
+          title="Planilla SET 4"
+          description="Modelo de planilla SET 4 para completar."
+          link="https://drive.google.com/uc?id=1YmBPN2x6Gryws3XCSnr7J3wBLMq91k0a&export=download"
         />
         <Card
-          title='Formulario 354'
-          description='Documento que contiene una plantilla formulario 354'
-          link='https://drive.google.com/uc?id=1X2_0YG6zFF5y2xrmR0wIYEctVd_sfEpm&export=download'
+          title="Formulario 354"
+          description="Documento que contiene una plantilla formulario 354"
+          link="https://drive.google.com/uc?id=1X2_0YG6zFF5y2xrmR0wIYEctVd_sfEpm&export=download"
         />
         <Card
-          title='Modelo de planificación'
-          description='Modelo de planificación para completar.'
-          link='https://docs.google.com/document/d/10gK74ATs8MULoBctjKGEY23K05wnvCMv/edit?usp=drive_link&ouid=111141329733704389804&rtpof=true&sd=true'
+          title="Modelo de planificación"
+          description="Modelo de planificación para completar."
+          link="https://docs.google.com/document/d/10gK74ATs8MULoBctjKGEY23K05wnvCMv/edit?usp=drive_link&ouid=111141329733704389804&rtpof=true&sd=true"
         />
       </div>
     </Section>
