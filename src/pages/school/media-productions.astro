@@ -1,11 +1,11 @@
 ---
-import ImageCard from "../../components/ImageCard.astro";
-import Card from "../../components/Card.astro";
 import Button from "../../components/Button.astro";
-import LinkIcon from "../../icons/Link.astro";
+import Card from "../../components/Card.astro";
+import ImageCard from "../../components/ImageCard.astro";
 import Section from "../../components/Section.astro";
-import Layout from "../../layouts/Layout.astro";
 import mediaProductions from "../../data/media-productions.json";
+import LinkIcon from "../../icons/Link.astro";
+import Layout from "../../layouts/Layout.astro";
 ---
 
 <Layout title="Producción" description="Producción">
@@ -22,6 +22,13 @@ import mediaProductions from "../../data/media-productions.json";
       <div
         class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center"
       >
+        <iframe
+          class="h-[300px] w-full"
+          src="https://www.youtube.com/embed/WLhNkdy111c?si=l7HQxjn3MHC02bkM"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
         <iframe
           class="h-[300px] w-full"
           src="https://www.youtube.com/embed/69pdyGd8tfA?si=3FaxVheGRfg8-UYu"

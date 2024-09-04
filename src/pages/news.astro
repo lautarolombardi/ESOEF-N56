@@ -1,15 +1,15 @@
 ---
-import Section from '../components/Section.astro'
-import Layout from '../layouts/Layout.astro'
-import Novelty from '../components/News/Novelty.astro'
+import Novelty from "../components/news/Novelty.astro";
+import Section from "../components/Section.astro";
+import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title='Novedades' description='Novedades'>
-  <header class='custom-container pt-40 pb-20'>
-    <h1 class='text-center font-bold text-3xl md:text-4xl'>Novedades</h1>
+<Layout title="Novedades" description="Novedades">
+  <header class="custom-container pt-40 pb-20">
+    <h1 class="text-center font-bold text-3xl md:text-4xl">Novedades</h1>
   </header>
   <main>
-    <Section class='pb-20' centerTitle={true} centerMdTitle={true}>
+    <Section class="pb-20" centerTitle={true} centerMdTitle={true}>
       <Novelty />
     </Section>
   </main>
