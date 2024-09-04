@@ -1,7 +1,6 @@
 {
   "games": [
     {
-<<<<<<< HEAD
       "title": "Sopa de letras Grecia",
       "link": "https://lombardi-actividadesdehistoria.on.drv.tw/html/Grecia_Sopa_de_Letras/Grecia_Sopa_de_Letras.htm"
     },
@@ -30,8 +29,6 @@
       "link": "https://lombardi-actividadesdehistoria.on.drv.tw/html/Sopa%20de%20Letras/Sopa_de_letras.htm"
     },
     {
-=======
->>>>>>> parent of 91a125c (feat: new games)
       "title": "Album de personajes de la historia del siglo XX",
       "link": "https://lombardi-actividadesdehistoria.on.drv.tw/html/Album_Historia/Album_Historia.htm"
     },
