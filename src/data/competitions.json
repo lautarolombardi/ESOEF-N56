@@ -1,6 +1,19 @@
 {
   "competitions": [
     {
+      "id": 6,
+      "title": "Torneo de Ajedréz",
+      "description": "Agradecemos a los organizadores del Torneo por la paciencia, el compromiso y la calidez con la que fuimos recibidos. En este momento, los estudiantes de EES 56 que participaron, no dejan de transmitir sus vivencias y sensaciones. Volvieron muy contentos. Agradezco a Roxana por la visita guiada al observatorio. Todos los aportes fueron muy positivos, para los chicos y para los grandes también. Felicitaciones y gracias.",
+      "media": [
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/competitions%2Ftorneo-ajedrez%2FTorneo%20Ajedr%C3%A9z%201.webp?alt=media&token=82e3dd0d-48c2-477c-8538-0b795e2eba45",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/competitions%2Ftorneo-ajedrez%2FTorneo%20Ajedr%C3%A9z%202.webp?alt=media&token=6b4ccea6-46bb-4024-bfb4-51dc1581732b",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/competitions%2Ftorneo-ajedrez%2FTorneo%20Ajedr%C3%A9z%203.webp?alt=media&token=900cac0e-04f5-46e6-b114-d87bee29946c"
+      ],
+      "mediaType": "image",
+      "date": "2024",
+      "link": "https://www.facebook.com/share/p/WpMnptVwuXisRkWb/?mibextid=oFDknk"
+    },
+    {
       "id": 0,
       "title": "Juegos bonaerenses - Futsal sub18",
       "description": "Volvieron las competencias. Bonaerenses Futsal sub 18. Y voley vs. Sagrado Corazon. Gracias a los profes que acompañaron.",

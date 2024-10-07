@@ -1,6 +1,42 @@
 {
   "news": [
     {
+      "id": 20,
+      "title": "Universo Lanús",
+      "description": "Los alumnos de la escuela participaron del evento Universo Lanús",
+      "media": [
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Funiverso-lanus%2FUniverso%20Lan%C3%BAs%201.webp?alt=media&token=3b340649-565c-4ee5-bfc8-a8ca2003f16f",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Funiverso-lanus%2FUniverso%20Lan%C3%BAs%202.webp?alt=media&token=aff23ef6-b280-4069-a496-1bb9c067a9fa",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Funiverso-lanus%2FUniverso%20Lan%C3%BAs%203.webp?alt=media&token=dbbde155-350e-493d-b4b7-df461f80fc89"
+      ],
+      "mediaType": "image",
+      "link": "https://www.facebook.com/share/p/sDrHiVpTbuonKgQY/",
+      "date": "Octubre 2024"
+    },
+    {
+      "id": 19,
+      "title": "80 Aniversario de Lanús",
+      "description": "Video de Primero Primera de la 56 en actividad por el 80 aniversario de Lanús",
+      "media": [
+        "https://www.youtube.com/embed/wZrDUCMFeoA?si=o77gGdSogPyU_UuC"
+      ],
+      "mediaType": "video",
+      "date": "Septiembre 2024"
+    },
+    {
+      "id": 18,
+      "title": "Jubileo de la Profe Fátima",
+      "description": "Muy feliz jubileo Fati! Se te quiere mucho. Gracias por tanto compañerismo y compromiso todos estos años. Abrazo grande",
+      "media": [
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fjubileo-de-la-profe-fatima%2FJubileo%201.webp?alt=media&token=0fb89a01-d56a-4656-95aa-bc4106ea4e37",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fjubileo-de-la-profe-fatima%2FJubileo%202.webp?alt=media&token=d730bf02-3fb6-4f53-bc35-e081ecfc9ef5",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fjubileo-de-la-profe-fatima%2FJubileo%203.webp?alt=media&token=b7b5b72e-83c5-4aa2-9d3d-80d5af58507d"
+      ],
+      "mediaType": "image",
+      "link": "https://www.facebook.com/share/p/oVpXEBWdKB6ixqju/?mibextid=oFDknk",
+      "date": "Septiembre 2024"
+    },
+    {
       "id": 17,
       "title": "2do torneo de Ajedrez intercolegial",
       "description": "Participación de nuestros alumnos en el 2do torneo de ajedrez intercolegial en la biblioteca Sarmiento",
@@ -10,178 +46,6 @@
       ],
       "mediaType": "image",
       "date": "Septiembre 2024"
-    },
-    {
-      "id": 15,
-      "title": "ESI 2024",
-      "description": "En las instituciones educativas de nivel secundario, la ESI debe constituir un espacio sistemático de enseñanza y aprendizaje que articule contenidos de diversas áreas curriculares con los Lineamientos de la ESI, adecuados a las edades de adolescentes y jóvenes, abordados de manera transversal y en espacios específicos. Incluye el desarrollo de saberes y habilidades para el conocimiento y cuidado del propio cuerpo; la valoración de las emociones y de los sentimientos en las relaciones interpersonales; el fomento de valores y actitudes relacionados con el amor, la solidaridad, el respeto por la vida, la integridad y las diferencias entre las personas; y el ejercicio de los derechos relacionados con la sexualidad.",
-      "media": [
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fesi-2024%2Fesi-2024-img-1.webp?alt=media&token=f2cb1182-cd87-497f-a8ab-25389b3b10c1",
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fesi-2024%2Fesi-2024-img-2.webp?alt=media&token=d15f95e8-5579-4e43-a35b-1a54531ad43a",
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fesi-2024%2Fesi-2024-img-3.webp?alt=media&token=c7ad5ef2-2204-4d37-93ed-36a5d656dbd6"
-      ],
-      "mediaType": "image",
-      "date": "Agosto 2024",
-      "link": "https://www.facebook.com/media/set/?vanity=secundarialvi.lanus.7&set=a.1147878859632512"
-    },
-    {
-      "id": 13,
-      "title": "9 de julio en la secundaria 56",
-      "description": "Acto por el día de la independencia. Gracias a todos los que participaron y colaboraron. Gracias al profesor Beica por la producción y edición de los videos.",
-      "media": [
-        "https://www.youtube.com/embed/mWvzylFM3Ls?si=7o2IY99cv7HYVPAB"
-      ],
-      "mediaType": "video",
-      "date": "Julio 2024"
-    },
-    {
-      "id": 14,
-      "title": "9 de julio: Día de la independencia",
-      "description": "Un día alguien en Tucumán abrió las puertas y el corazón, para que una casa acunara nuestra historia como país. A esta casa no la tenemos que mirar más, como a una figurita, esto será posible si podemos impregnar nuestros recuerdos con sensaciones y olores y rememorar aquel glorioso día en el que una casa, muy parecida a otras, pasó a la historia nada más y nada menos que por ser allí donde se declaró nuestra independencia. El 9 de julio de 1816 imprimió una huella en el corazón de todos los argentinos, marcó el inicio de un camino que hoy estamos transitando.",
-      "media": [
-        "https://www.youtube.com/embed/BZohpAPwzTI?si=_IF8DA5RSRvlWyG9"
-      ],
-      "mediaType": "video",
-      "date": "Julio 2024"
-    },
-    {
-      "id": 12,
-      "title": "20 de junio: Día de la bandera",
-      "description": "Álbum de fotos del acto por el día de la bandera llevado a cabo en la escuela.",
-      "media": [
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/Acto%2020%20de%20junio%202024%2FActo%2020%20de%20junio%202024%20(1).webp?alt=media&token=d88b6114-694d-4896-a51a-a8d7963b073e",
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/Acto%2020%20de%20junio%202024%2FActo%2020%20de%20junio%202024%20(2).webp?alt=media&token=78066eb1-a6cc-4a4f-9fa8-b9400c13ea2d",
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/Acto%2020%20de%20junio%202024%2FActo%2020%20de%20junio%202024%20(3).webp?alt=media&token=3e908c69-1285-4acf-a3e5-15eef9f53b56"
-      ],
-      "mediaType": "image",
-      "date": "Junio 2024",
-      "link": "https://www.facebook.com/media/set/?set=a.1108331316920600&type=3"
-    },
-    {
-      "id": 11,
-      "title": "Competencia La cuenca en colores de ACUMAR",
-      "description": "El tema del concurso es “Cuenca en Colores” donde los participantes expresarán su visión sobre la Cuenca Matanza Riachuelo. La pauta para el desarrollo de las obras será: ¿Qué deseamos para nuestra Cuenca?, para que expresen las vivencias o miradas que tienen sobre la misma, haciendo referencia al cuidado del ambiente y los deseos por una Cuenca más sustentable y saludable.",
-      "media": [
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/Competencia%20ACUMAR%20%22La%20cuenca%20en%20colores%22%2FLa%20cuenca%20en%20colores%20(1).webp?alt=media&token=966705c7-bc5c-4d6d-af19-319748075991",
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/Competencia%20ACUMAR%20%22La%20cuenca%20en%20colores%22%2FLa%20cuenca%20en%20colores%20(2).webp?alt=media&token=cf902049-a120-4550-8398-585c2de3d711"
-      ],
-      "mediaType": "image",
-      "date": "Junio 2024",
-      "link": "https://www.facebook.com/media/set/?set=a.1108331316920600&type=3"
-    },
-    {
-      "id": 0,
-      "title": "Jornada ambiental 2024",
-      "description": "Video sobre la Jornada de Defensa del Medio Ambiente en la secundaria 56",
-      "media": [
-        "https://www.youtube.com/embed/21F40mrWugU?si=V0uHMfkgEb1XS7ny"
-      ],
-      "mediaType": "video",
-      "date": "Junio 2024",
-      "link": "https://www.youtube.com/watch?v=21F40mrWugU&t=1s"
-    },
-    {
-      "id": 1,
-      "title": "Jornada ambiental 2024",
-      "description": "Participación de nuestra escuela en la Jornada de Defensa del Medio Ambiente N°14",
-      "media": [
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/Jornada%20ambiental%20(1).webp?alt=media&token=3144fe53-4c9d-44f0-8ff7-0b146a55c790",
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/Jornada%20ambiental%20(2).webp?alt=media&token=11a5675d-f236-4665-b7b1-a80ef0128546",
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/Jornada%20ambiental%20(3).webp?alt=media&token=858aec9f-5da1-471a-a0bc-d2e5bb9ed4b6"
-      ],
-      "mediaType": "image",
-      "date": "Junio 2024",
-      "link": "https://www.facebook.com/media/set?vanity=secundarialvi.lanus.7&set=a.1102554577498274"
-    },
-    {
-      "id": 2,
-      "title": "Black Cat de Edgar Allan Poe",
-      "description": "Un trabajo del equipo de medios con la profe Patricia Cosentino y quinto primera.",
-      "media": [
-        "https://www.youtube.com/embed/TMR_H1B7L38?si=Zhb2D55b6s3PYa9o"
-      ],
-      "mediaType": "video",
-      "date": "Junio 2024",
-      "link": "https://www.youtube.com/watch?v=TMR_H1B7L38"
-    },
-    {
-      "id": 3,
-      "title": "25 de mayo en secundarias de Lanús",
-      "description": "Trabajo conjunto, entre pibes y pibas de las secundarias 56 y 1 de Lanús",
-      "media": [
-        "https://www.youtube.com/embed/HwoPGH6toNo?si=lIupCDwxIjxqlj-G"
-      ],
-      "mediaType": "video",
-      "date": "Mayo 2024",
-      "link": "https://www.youtube.com/watch?v=HwoPGH6toNo"
-    },
-    {
-      "title": "La habitación de Fermat",
-      "id": 4,
-      "description": "Película española utilizada en las clases de Matemática",
-      "media": [
-        "https://www.youtube.com/embed/UvMZBTF3qt8?si=NZ_akMq6yAdFHFC8"
-      ],
-      "mediaType": "video",
-      "date": "Mayo 2024",
-      "link": "https://www.youtube.com/watch?v=UvMZBTF3qt8"
-    },
-    {
-      "title": "El gato negro",
-      "id": 5,
-      "description": "La escuela va al teatro. Nos acercamos al relato de Edgar Allan Poe.",
-      "media": [
-        "https://www.youtube.com/embed/fQoDgJUQEe0?si=wU9KxAiw73tfhyCe"
-      ],
-      "mediaType": "video",
-      "date": "Mayo 2024",
-      "link": "https://www.youtube.com/watch?v=fQoDgJUQEe0"
-    },
-    {
-      "title": "Malvinas 2024. Miguel Moreno",
-      "id": 6,
-      "description": "La escuela tiene la enorme tarea de construir Patria transmitiendo la importancia de forjar día a día una nación democrática, inclusiva, justa y soberana. Para ello, resulta imprescindible la formación de ciudadanías que puedan recuperar nuestros legados, revitalizar la memoria colectiva, reflexionar sobre el presente y sus desafíos, y pensar juntas y juntos el porvenir de nuestra Argentina. Enseñar Malvinas en el cuadragésimo segundo aniversario del conflicto del Atlántico Sur, nos convoca a reafirmar el reconocimiento y el homenaje del pueblo argentino a los caídos, familiares, combatientes, veteranas y veteranos de Malvinas. También nos interpela, en tanto educadoras y educadores, a conocer y difundir la importancia de ejercer en todos los ámbitos nuestros derechos soberanos sobre las islas Malvinas, Georgias del Sur y Sandwich del Sur y los espacios marítimos correspondientes, derechos que fueron vulnerados a causa de la usurpación británica en 1833. Malvinas representa un reclamo justo por un territorio usurpado y la historia de una guerra librada en el contexto del terrorismo de Estado; es la memoria de los jóvenes soldados que murieron, de sus familias y de sus compañeras y compañeros. Nuestro vínculo y compromiso con Malvinas se renueva con cada nueva generación de argentinas y argentinos porque es un tema central para pensar y construir nuestra identidad nacional y reafirmar nuestra soberanía. Junto con nuestro querido Miguel Moreno, como cada año, conmemoramos un nuevo aniversario de la gesta de Malvinas.",
-      "media": [
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/malvinas1.webp?alt=media&token=2ed58b02-043b-4810-83b9-f31784ed72f8",
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/malvinas2.webp?alt=media&token=5214dc73-d215-4c17-8fff-5d73a865eb55",
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/malvinas3.webp?alt=media&token=4dcb5130-750e-425c-abdb-b477f91785b5"
-      ],
-      "mediaType": "image",
-      "date": "Abril 2024",
-      "link": "https://www.facebook.com/media/set/?vanity=secundarialvi.lanus.7&set=a.1061886348231764"
-    },
-    {
-      "title": "2 de Abril",
-      "id": 7,
-      "description": "Video realizado por el equipo de medios de la escuela para el 2 de abril: Día del Veterano y de los Caídos en Malvinas",
-      "media": [
-        "https://www.youtube.com/embed/kbYerV9IN84?si=eEnXoMjT0FJJ98El"
-      ],
-      "mediaType": "video",
-      "date": "Abril 2024"
-    },
-    {
-      "title": "Producción 24 de Marzo",
-      "id": 8,
-      "description": "Video hecho por el equipo de medios y protagonizado por los alumnos de la escuela para el día 24 de Marzo: Día de la memoria por la verdad y la justicia",
-      "media": [
-        "https://www.youtube.com/embed/St38WE1U5jo?si=kmnzCaVlkzKTfjVo"
-      ],
-      "mediaType": "video",
-      "date": "Marzo 2024"
-    },
-    {
-      "title": "Jornada 24 de Marzo",
-      "id": 9,
-      "description": "24 de marzo Día Nacional de la Memoria por la Verdad y la Justicia es el día en el que se conmemora en Argentina a las víctimas de la última dictadura militar, autodenominada «Proceso de Reorganización Nacional», que usurpó el gobierno del Estado nacional argentino entre el 24 de marzo de 1976 y el 10 de diciembre de 1983. El objetivo es construir colectivamente una jornada de reflexión y análisis crítico de la historia reciente. En las escuelas se propone como un día para que los niños y los jóvenes, junto con los directivos, docentes y todos los integrantes de la comunidad educativa y local comprendan los alcances de las graves consecuencias económicas, sociales y políticas de la última dictadura militar y se comprometan activamente en la defensa de la vigencia de los derechos y las garantías establecidos por la Constitución Nacional, y del régimen político democrático. Compartimos una linda Jornada, organizada por La Red de Villa Jardín en La Casa Nido. Gracias a los organizadores a los interlocutores y a La banda Municipal. Tomamos impulso e invitamos a toda la comunidad, a la próxima Jornada ambiental.",
-      "media": [
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/24-marzo-img1.webp?alt=media&token=9f83881b-0c0d-434c-b14b-7bc9e060516a",
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/24-marzo-img2.webp?alt=media&token=21138f92-c443-4948-b1de-8f4059a8816a",
-        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/24-marzo-img3.webp?alt=media&token=f352c1bd-e464-4c5f-b3b2-670a86801638"
-      ],
-      "mediaType": "image",
-      "date": "Marzo 2024",
-      "link": "https://www.facebook.com/media/set/?vanity=secundarialvi.lanus.7&set=a.1056055375481528"
     }
   ]
 }
