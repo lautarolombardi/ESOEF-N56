@@ -1,6 +1,31 @@
 {
   "news": [
     {
+      "id": 22,
+      "title": "Torneo de Fútbol Interno",
+      "description": "Primer fecha del torneo de fútbol interno organizado por chicas y chicos de sexto año.",
+      "media": [
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Ftorneo-de-futbol-interno%2FTorneo%20futbol%201.webp?alt=media&token=2858fc94-9be5-4960-b5f4-0e8fe79b4d0d",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Ftorneo-de-futbol-interno%2FTorneo%20futbol%202.webp?alt=media&token=306df3f6-8b6a-4c00-8495-8224425c9bf2",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Ftorneo-de-futbol-interno%2FTorneo%20futbol%203.webp?alt=media&token=b9401b29-6d16-405a-9f5c-5406cafee9d1"
+      ],
+      "mediaType": "image",
+      "link": "https://www.facebook.com/share/p/3mRkmFUfDMyJnxRU/",
+      "date": "Octubre 2024"
+    },
+    {
+      "id": 21,
+      "title": "Concurso Literario Acumar",
+      "description": "Con mucho orgullo anunciamos que varios de nuestros alumnos participaron en los concursos de ACUMAR. Concurso de Dibujo y concurso literario, donde, el cuento, de nuestro estudiante de 3ro 1ra, Luciano Samaniego accedió al podio. ¡Felicitaciones!  Dicho cuento, será publicado en un libro para el ciclo lectivo 2025",
+      "media": [
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fconcurso-literario-acumar%2FAcumar%201.webp?alt=media&token=32c473b6-5d87-4a72-a13b-b3d0954c9f9e",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fconcurso-literario-acumar%2FAcumar%202.webp?alt=media&token=efc09392-f7f9-4a81-aa0d-c2215dd38c80"
+      ],
+      "mediaType": "image",
+      "link": "https://www.facebook.com/share/p/xG4FgixVkcMqpHrM/?mibextid=oFDknk",
+      "date": "Octubre 2024"
+    },
+    {
       "id": 20,
       "title": "Universo Lanús",
       "description": "Los alumnos de la escuela participaron del evento Universo Lanús",
