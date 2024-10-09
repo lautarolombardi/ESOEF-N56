@@ -1,6 +1,19 @@
 {
   "outlings": [
     {
+      "title": "ABREMATE 2024",
+      "id": 12,
+      "description": "Visita al Centro Interactivo de Ciencias y Tecnología ABREMATE.",
+      "media": [
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fabremate-2024%2FAbremate%201.webp?alt=media&token=c7955b19-0212-4803-a555-1734ffacf4de",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fabremate-2024%2FAbremate%202.webp?alt=media&token=80497416-8d3f-46a4-aa82-61d238af81c4",
+        "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/outlings%2Fabremate-2024%2FAbremate%203.webp?alt=media&token=64a5d392-80ef-47ea-ab80-acee25f729bb"
+      ],
+      "mediaType": "image",
+      "date": "Octubre 2024",
+      "link": "https://www.facebook.com/share/p/th8Ezf3yVU3Gsw4h/?mibextid=oFDknk"
+    },
+    {
       "title": "Conociendo la Universidad de Lanús",
       "id": 11,
       "description": "Los alumnos de la escuela visitaron la Universidad de Lanús",
