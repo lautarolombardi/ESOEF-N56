@@ -1,15 +1,15 @@
 ---
-import Layout from '../../../../layouts/Layout.astro'
-import projects from '../../../../data/projects.json'
-import DetailPage from '../../../../components/DetailPage.astro'
-const { id } = Astro.params
-const project = projects.projects.find(p => p.id === Number(id))
-const { title, description, media, mediaType, date, link } = project
+import DetailPage from "@/components/common/DetailPage.astro";
+import projects from "@/data/projects.json";
+import Layout from "@/layouts/Layout.astro";
+const { id } = Astro.params;
+const project = projects.projects.find((p) => p.id === Number(id));
+const { title, description, media, mediaType, date, link } = project;
 ---
 
-<Layout title='Proyectos' description='Proyectos'>
+<Layout title="Proyectos" description="Proyectos">
   <DetailPage
-    cardType='projects'
+    cardType="projects"
     title={title}
     description={description}
     media={media}
