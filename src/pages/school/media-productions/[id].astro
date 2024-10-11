@@ -1,17 +1,17 @@
 ---
-import Layout from '../../../layouts/Layout.astro'
-import mediaProductions from '../../../data/media-productions.json'
-import DetailPage from '../../../components/DetailPage.astro'
-const { id } = Astro.params
+import DetailPage from "@/components/common/DetailPage.astro";
+import mediaProductions from "@/data/media-productions.json";
+import Layout from "@/layouts/Layout.astro";
+const { id } = Astro.params;
 const mediaProduction = mediaProductions.mediaProductions.find(
-  k => k.id === Number(id)
-)
-const { title, description, media, mediaType, date, link } = mediaProduction
+  (k) => k.id === Number(id)
+);
+const { title, description, media, mediaType, date, link } = mediaProduction;
 ---
 
-<Layout title='Producción' description='Producción'>
+<Layout title="Producción" description="Producción">
   <DetailPage
-    cardType='media-productions'
+    cardType="media-productions"
     title={title}
     description={description}
     media={media}

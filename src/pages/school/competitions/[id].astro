@@ -1,15 +1,15 @@
 ---
-import Layout from '../../../layouts/Layout.astro'
-import competitions from '../../../data/competitions.json'
-import DetailPage from '../../../components/DetailPage.astro'
-const { id } = Astro.params
-const competition = competitions.competitions.find(o => o.id === Number(id))
-const { title, description, media, mediaType, date, link } = competition
+import DetailPage from "@/components/common/DetailPage.astro";
+import competitions from "@/data/competitions.json";
+import Layout from "@/layouts/Layout.astro";
+const { id } = Astro.params;
+const competition = competitions.competitions.find((o) => o.id === Number(id));
+const { title, description, media, mediaType, date, link } = competition;
 ---
 
-<Layout title='Salidas' description='Salidas'>
+<Layout title="Salidas" description="Salidas">
   <DetailPage
-    cardType='competitions'
+    cardType="competitions"
     title={title}
     description={description}
     media={media}

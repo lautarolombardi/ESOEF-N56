@@ -1,17 +1,17 @@
 ---
-import Angle from '../../icons/Angle.astro'
+import Angle from "@/icons/Angle.astro";
 ---
 
-<div class='bg-[var(--primary-color)] border border-[var(--accent-color)]'>
+<div class="bg-[var(--primary-color)] border border-[var(--accent-color)]">
   <div>
     <button
-      class='w-full p-4 button h-max flex items-center justify-between gap-4'
+      class="w-full p-4 button h-max flex items-center justify-between gap-4"
     >
       <h4>¿Cómo se desarrolla la preinscripción a la escuela?</h4>
-      <Angle class='w-full max-w-4 transition-all duration-300 angle' />
+      <Angle class="w-full max-w-4 transition-all duration-300 angle" />
     </button>
-    <div class='max-h-0 overflow-hidden transition-all duration-300 content'>
-      <div class='p-4 leading-8'>
+    <div class="max-h-0 overflow-hidden transition-all duration-300 content">
+      <div class="p-4 leading-8">
         <p>
           Se acercan a la escuela, esperan su turno según orden de llegada y los
           atiende personal del equipo directivo. Se toman los datos completando
@@ -28,12 +28,12 @@ import Angle from '../../icons/Angle.astro'
   </div>
   <div>
     <button
-      class='w-full p-4 button h-max flex items-center justify-between gap-4'
+      class="w-full p-4 button h-max flex items-center justify-between gap-4"
       ><h4>¿Quiénes se inscriben?</h4>
-      <Angle class='w-full max-w-4 transition-all duration-300 angle' />
+      <Angle class="w-full max-w-4 transition-all duration-300 angle" />
     </button>
-    <div class='max-h-0 overflow-hidden transition-all duration-300 content'>
-      <div class='p-4 leading-8'>
+    <div class="max-h-0 overflow-hidden transition-all duration-300 content">
+      <div class="p-4 leading-8">
         <p>
           Estudiantes de otras instituciones que hayan concluido el nivel
           primario o lo hagan durante el año actual y estudiantes de la
@@ -45,12 +45,12 @@ import Angle from '../../icons/Angle.astro'
   </div>
   <div>
     <button
-      class='w-full p-4 button h-max flex items-center justify-between gap-4'
+      class="w-full p-4 button h-max flex items-center justify-between gap-4"
       ><h4>¿Qué documentación es necesario llevar?</h4>
-      <Angle class='w-full max-w-4 transition-all duration-300 angle' /></button
+      <Angle class="w-full max-w-4 transition-all duration-300 angle" /></button
     >
-    <div class='max-h-0 overflow-hidden transition-all duration-300 content'>
-      <div class='p-4 leading-8'>
+    <div class="max-h-0 overflow-hidden transition-all duration-300 content">
+      <div class="p-4 leading-8">
         <p>
           Fotocopia del DNI del estudiante e informar datos como: apellido y
           nombre del familiar, parentesco y tel. de contacto
@@ -60,13 +60,13 @@ import Angle from '../../icons/Angle.astro'
   </div>
   <div>
     <button
-      class='w-full p-4 button h-max flex items-center justify-between gap-4'
+      class="w-full p-4 button h-max flex items-center justify-between gap-4"
       ><h4>¿En la preinscripción me aseguro la vacante?</h4><Angle
-        class='w-full max-w-4 transition-all duration-300 angle'
+        class="w-full max-w-4 transition-all duration-300 angle"
       />
     </button>
-    <div class='max-h-0 overflow-hidden transition-all duration-300 content'>
-      <div class='p-4 leading-8'>
+    <div class="max-h-0 overflow-hidden transition-all duration-300 content">
+      <div class="p-4 leading-8">
         <p>
           No. La vacante se obtiene en la inscripción. Los estudiantes de EP59 y
           EP72, junto con familiares de los estudiantes ya matriculados en años
@@ -77,12 +77,12 @@ import Angle from '../../icons/Angle.astro'
   </div>
   <div>
     <button
-      class='w-full p-4 button h-max flex items-center justify-between gap-4'
+      class="w-full p-4 button h-max flex items-center justify-between gap-4"
       ><h4>¿Qué materias tengo que rendir como equivalencias?</h4>
-      <Angle class='w-full max-w-4 transition-all duration-300 angle' /></button
+      <Angle class="w-full max-w-4 transition-all duration-300 angle" /></button
     >
-    <div class='max-h-0 overflow-hidden transition-all duration-300 content'>
-      <div class='p-4 leading-8'>
+    <div class="max-h-0 overflow-hidden transition-all duration-300 content">
+      <div class="p-4 leading-8">
         <ul>
           <li>Ed. Física y Corporeidad (4to Año).</li>
           <li>Prácticas Deportivas y Atléticas (4to Año).</li>
@@ -104,19 +104,19 @@ import Angle from '../../icons/Angle.astro'
 </div>
 
 <script>
-  const buttons = document.querySelectorAll('.button')
-  const contents = document.querySelectorAll('.content')
-  const angles = document.querySelectorAll('.angle')
+  const buttons = document.querySelectorAll(".button");
+  const contents = document.querySelectorAll(".content");
+  const angles = document.querySelectorAll(".angle");
 
-  const toggleContent = index => {
-    contents[index].classList.toggle('max-h-0')
-    contents[index].classList.toggle('max-h-screen')
-    angles[index].classList.toggle('rotate-180')
-  }
+  const toggleContent = (index) => {
+    contents[index].classList.toggle("max-h-0");
+    contents[index].classList.toggle("max-h-screen");
+    angles[index].classList.toggle("rotate-180");
+  };
 
   buttons.forEach((button, index) => {
-    button.addEventListener('click', () => {
-      toggleContent(index)
-    })
-  })
+    button.addEventListener("click", () => {
+      toggleContent(index);
+    });
+  });
 </script>

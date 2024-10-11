@@ -1,28 +1,27 @@
 ---
-import Footer from '../components/Footer.astro'
-import Navbar from '../components/Navbar.astro'
-import SidebarNav from '../components/SidebarNav.astro'
-
+import Footer from "@/components/common/Footer.astro";
+import Navbar from "@/components/common/Navbar.astro";
+import SidebarNav from "@/components/common/SidebarNav.astro";
 
 interface Props {
-  title: string
-  description: string
+  title: string;
+  description: string;
 }
 
-const { title, description } = Astro.props
+const { title, description } = Astro.props;
 ---
 
 <!doctype html>
-<html lang='es'>
+<html lang="es">
   <head>
-    <meta charset='UTF-8' />
-    <meta name='description' content={description} />
-    <meta name='viewport' content='width=device-width' />
-    <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
-    <meta name='generator' content={Astro.generator} />
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body class='min-h-screen grid grid-rows-[1fr,auto]'>
+  <body class="min-h-screen grid grid-rows-[1fr,auto]">
     <Navbar />
     <SidebarNav />
     <slot />
@@ -30,7 +29,7 @@ const { title, description } = Astro.props
   </body>
 </html>
 <style is:global>
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 
   :root {
     --primary-color: #aae8ff;
@@ -41,7 +40,7 @@ const { title, description } = Astro.props
   }
 
   html {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     background-color: var(--white);
     color: var(--black);
   }
