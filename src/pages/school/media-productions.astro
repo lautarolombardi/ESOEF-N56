@@ -9,7 +9,7 @@ import Layout from "@/layouts/Layout.astro";
 ---
 
 <Layout title="Producción" description="Producción">
-  <header class="custom-container pt-40 pb-20 text-secondary">
+  <header class="container pt-40 pb-20 text-secondary">
     <h1 class="text-center font-bold text-3xl md:text-4xl">Producción</h1>
   </header>
   <main>
@@ -189,9 +189,7 @@ import Layout from "@/layouts/Layout.astro";
       </div>
     </Section>
     <Section centerMdTitle centerTitle title="Otras producciones" class="pb-20">
-      <div
-        class="custom-container pb-20 flex flex-col items-center gap-5 lg:flex-row"
-      >
+      <div class="container pb-20 flex flex-col items-center gap-5 lg:flex-row">
         {
           Array.from(mediaProductions.mediaProductions).map(
             ({ title, description, media, mediaType, date, id }) => (
