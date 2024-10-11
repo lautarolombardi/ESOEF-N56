@@ -1,13 +1,13 @@
 ---
-import Layout from '../../layouts/Layout.astro'
-import news from '../../data/news.json'
-import DetailPage from '../../components/DetailPage.astro'
-const { id } = Astro.params
-const novelty = news.news.find(novelty => novelty.id === Number(id))
-const { title, description, media, mediaType, date, link } = novelty
+import DetailPage from "@/components/common/DetailPage.astro";
+import news from "@/data/news.json";
+import Layout from "@/layouts/Layout.astro";
+const { id } = Astro.params;
+const novelty = news.news.find((novelty) => novelty.id === Number(id));
+const { title, description, media, mediaType, date, link } = novelty;
 ---
 
-<Layout title='Novedades' description='Novedades'>
+<Layout title="Novedades" description="Novedades">
   <DetailPage
     title={title}
     description={description}
@@ -15,6 +15,6 @@ const { title, description, media, mediaType, date, link } = novelty
     date={date}
     mediaType={mediaType}
     link={link}
-    cardType='news'
+    cardType="news"
   />
 </Layout>

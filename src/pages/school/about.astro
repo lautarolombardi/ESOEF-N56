@@ -1,31 +1,31 @@
 ---
-import Card from '../../components/Card.astro'
-import Section from '../../components/Section.astro'
-import Button from '../../components/Button.astro'
-import projects from '../../data/projects.json'
-import Layout from '../../layouts/Layout.astro'
-import ImageCard from '../../components/ImageCard.astro'
+import Button from "@/components/common/Button.astro";
+import Card from "@/components/common/Card.astro";
+import ImageCard from "@/components/common/ImageCard.astro";
+import Section from "@/components/common/Section.astro";
+import projects from "@/data/projects.json";
+import Layout from "@/layouts/Layout.astro";
 ---
 
-<Layout title='Institucional' description='Institucional'>
-  <header class='custom-container pt-40 pb-20'>
-    <h1 class='text-center font-bold text-3xl md:text-4xl'>Sobre nosotros</h1>
+<Layout title="Institucional" description="Institucional">
+  <header class="custom-container pt-40 pb-20">
+    <h1 class="text-center font-bold text-3xl md:text-4xl">Sobre nosotros</h1>
   </header>
   <main>
-    <Section title='Historia' centerTitle centerMdTitle class='pb-20'>
+    <Section title="Historia" centerTitle centerMdTitle class="pb-20">
       <div
-        class='flex flex-col items-center gap-5 xl:flex-row xl:justify-center'
+        class="flex flex-col items-center gap-5 xl:flex-row xl:justify-center"
       >
         <img
-          src='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/school-front.webp?alt=media&token=37e2279a-582c-492b-95ff-94292f5ac965'
-          alt='Frente de la escuela'
-          title='Frente de la escuela'
-          class='w-full max-w-[600px] border border-[var(--accent-color)]'
+          src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/school-front.webp?alt=media&token=37e2279a-582c-492b-95ff-94292f5ac965"
+          alt="Frente de la escuela"
+          title="Frente de la escuela"
+          class="w-full max-w-[600px] border border-[var(--accent-color)]"
         />
         <div
-          class='bg-[var(--primary-color)] p-5 border border-[var(--accent-color)] w-full max-w-[600px] text-pretty xl:relative xl:right-20'
+          class="bg-[var(--primary-color)] p-5 border border-[var(--accent-color)] w-full max-w-[600px] text-pretty xl:relative xl:right-20"
         >
-          <p class='mb-5 leading-9'>
+          <p class="mb-5 leading-9">
             La Escuela de Educación Secundaria número 56 “Polo educativo” es una
             institución que lleva cuatro años desde su conformación y que, con
             matrícula creciente, es la única que sostiene jornada extendida en
@@ -36,60 +36,60 @@ import ImageCard from '../../components/ImageCard.astro'
             colectivas que puedan transformar la realidad barrial y distrital.
           </p>
           <a
-            href='https://docs.google.com/document/d/1prjOSFVwWUC2HHSXC7cmki3tTPfCnzMc/edit'
+            href="https://docs.google.com/document/d/1prjOSFVwWUC2HHSXC7cmki3tTPfCnzMc/edit"
           >
             <Button>Conocer más</Button>
           </a>
         </div>
       </div>
       <img
-        src='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/school.webp?alt=media&token=4cf8ef8b-f822-47aa-8c46-65f6d37f2730'
-        alt='Frente de la escuela'
-        title='Frente de la escuela'
-        class='mt-20 w-full max-w-[900px] mx-auto border border-[var(--accent-color)]'
+        src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/school.webp?alt=media&token=4cf8ef8b-f822-47aa-8c46-65f6d37f2730"
+        alt="Frente de la escuela"
+        title="Frente de la escuela"
+        class="mt-20 w-full max-w-[900px] mx-auto border border-[var(--accent-color)]"
       />
       <iframe
-        class='pt-20 h-[800px] w-full mx-auto'
-        src='https://www.youtube.com/embed/ARe-awpyTLs?si=sYoR7H7_kYzP9jYf'
-        title='YouTube video player'
-        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+        class="pt-20 h-[800px] w-full mx-auto"
+        src="https://www.youtube.com/embed/ARe-awpyTLs?si=sYoR7H7_kYzP9jYf"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
     </Section>
     <Section
-      title='Proyecto institucional'
+      title="Proyecto institucional"
       centerTitle
       centerMdTitle
-      class='pb-20'
+      class="pb-20"
     >
-      <div class='flex flex-col gap-5 items-center lg:flex-row'>
+      <div class="flex flex-col gap-5 items-center lg:flex-row">
         <img
-          src='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/school-project.webp?alt=media&token=ee4cfced-79c2-4cb1-ba00-c8888646eb3d'
-          alt='Proyecto institucional'
-          title='Proyecto institucional'
-          class='w-full max-w-[700px] mx-auto'
+          src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/school-project.webp?alt=media&token=ee4cfced-79c2-4cb1-ba00-c8888646eb3d"
+          alt="Proyecto institucional"
+          title="Proyecto institucional"
+          class="w-full max-w-[700px] mx-auto"
         />
         <Card
-          title='Proyecto institucional'
-          description='Presione sobre el siguiente botón para conocer más acerca del proyecto'
-          link='https://docs.google.com/document/d/12qgqx4EMZy6xitV6n7vrGcko1165hVZZ/edit?usp=sharing&ouid=111141329733704389804&rtpof=true&sd=true'
+          title="Proyecto institucional"
+          description="Presione sobre el siguiente botón para conocer más acerca del proyecto"
+          link="https://docs.google.com/document/d/12qgqx4EMZy6xitV6n7vrGcko1165hVZZ/edit?usp=sharing&ouid=111141329733704389804&rtpof=true&sd=true"
         />
       </div>
     </Section>
-    <Section title='Proyectos' centerTitle centerMdTitle class='pb-20'>
+    <Section title="Proyectos" centerTitle centerMdTitle class="pb-20">
       <div
-        class='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center'
+        class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center"
       >
         {
           Array.from(projects.projects).map(
             ({ title, description, media, mediaType, date, id }) => (
               <ImageCard
-                cardType='projects'
+                cardType="projects"
                 id={id}
                 title={title}
                 description={description}
                 media={media[0]}
                 mediaType={mediaType}
-                button='Leer más'
+                button="Leer más"
                 date={date}
               />
             )
@@ -97,85 +97,85 @@ import ImageCard from '../../components/ImageCard.astro'
         }
       </div>
     </Section>
-    <div class='pb-20'>
-      <h2 class='text-3xl font-bold text-center mb-10'>Proyecto Revista</h2>
-      <div class='custom-container grid gap-10 md:grid-cols-2 lg:grid-cols-3'>
+    <div class="pb-20">
+      <h2 class="text-3xl font-bold text-center mb-10">Proyecto Revista</h2>
+      <div class="custom-container grid gap-10 md:grid-cols-2 lg:grid-cols-3">
         <img
-          src='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista1.webp?alt=media&token=33e0abaa-99d6-44f2-ad53-296fb0a54ce5'
-          alt='Revista 1'
+          src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista1.webp?alt=media&token=33e0abaa-99d6-44f2-ad53-296fb0a54ce5"
+          alt="Revista 1"
         />
         <img
-          src='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista2.webp?alt=media&token=47af6c17-cd73-4cf8-bc6f-9222586bfd4a'
-          alt='Revista 2'
+          src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista2.webp?alt=media&token=47af6c17-cd73-4cf8-bc6f-9222586bfd4a"
+          alt="Revista 2"
         />
         <img
-          src='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista3.webp?alt=media&token=9a410dfa-4158-4da7-9ed8-fb5629277cdc'
-          alt='Revista 3'
+          src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista3.webp?alt=media&token=9a410dfa-4158-4da7-9ed8-fb5629277cdc"
+          alt="Revista 3"
         />
         <img
-          src='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista4.webp?alt=media&token=2174e95f-ade7-453a-adc1-814651e028ea'
-          alt='Revista 4'
+          src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista4.webp?alt=media&token=2174e95f-ade7-453a-adc1-814651e028ea"
+          alt="Revista 4"
         />
         <img
-          src='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista5.webp?alt=media&token=8fdececc-aeb3-4741-802b-cb40659703bf'
-          alt='Revista 5'
+          src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista5.webp?alt=media&token=8fdececc-aeb3-4741-802b-cb40659703bf"
+          alt="Revista 5"
         />
         <img
-          src='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista6.webp?alt=media&token=f91d52dd-5f90-408c-a0cd-39b5358316cc'
-          alt='Revista 6'
+          src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista6.webp?alt=media&token=f91d52dd-5f90-408c-a0cd-39b5358316cc"
+          alt="Revista 6"
         />
         <img
-          src='https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista7.webp?alt=media&token=a8e48537-897c-4e81-9741-f8ea65cd73a8'
-          alt='Revista 7'
+          src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista7.webp?alt=media&token=a8e48537-897c-4e81-9741-f8ea65cd73a8"
+          alt="Revista 7"
         />
       </div>
     </div>
-    <Section title='Otros proyectos' centerTitle centerMdTitle class='pb-20'>
-      <div class='grid gap-5 grid-cols-[repeat(auto-fit,minmax(270px,1fr))]'>
+    <Section title="Otros proyectos" centerTitle centerMdTitle class="pb-20">
+      <div class="grid gap-5 grid-cols-[repeat(auto-fit,minmax(270px,1fr))]">
         <Card
-          title='Proyectos biblioteca'
-          description='Documento que contiene el detalle del proyecto de biblioteca de nuestra escuela.'
-          link='https://docs.google.com/document/d/1E87Bb25rk4qqEHxB6uAR51Yv_P9ZAqLv/edit?usp=sharing&ouid=111141329733704389804&rtpof=true&sd=true'
+          title="Proyectos biblioteca"
+          description="Documento que contiene el detalle del proyecto de biblioteca de nuestra escuela."
+          link="https://docs.google.com/document/d/1E87Bb25rk4qqEHxB6uAR51Yv_P9ZAqLv/edit?usp=sharing&ouid=111141329733704389804&rtpof=true&sd=true"
         />
         <Card
-          title='Proyectos musicales'
-          description='Documento que contiene el detalle de los proyectos musicales de nuestra escuela.'
-          link='https://drive.google.com/file/d/1K9iaFyGeUNg-pz1jHLdmbUXTvIfY3ATB/view'
+          title="Proyectos musicales"
+          description="Documento que contiene el detalle de los proyectos musicales de nuestra escuela."
+          link="https://drive.google.com/file/d/1K9iaFyGeUNg-pz1jHLdmbUXTvIfY3ATB/view"
         />
         <Card
-          title='Cuadrangular atletismo'
-          description='Documento que contiene el detalle del proyecto de atletismo.'
-          link='https://drive.google.com/file/d/1cPM6bX4v5T2sTOH8kETofQpGqE0qMu0b/view'
+          title="Cuadrangular atletismo"
+          description="Documento que contiene el detalle del proyecto de atletismo."
+          link="https://drive.google.com/file/d/1cPM6bX4v5T2sTOH8kETofQpGqE0qMu0b/view"
         />
         <Card
-          title='Proyecto ajedrez'
-          description='Documento que contiene el detalle del proyecto ajedrez.'
-          link='https://docs.google.com/document/d/1rsbs35Mix-6wXdV1lDdh5T80rAFtlNFw/edit'
+          title="Proyecto ajedrez"
+          description="Documento que contiene el detalle del proyecto ajedrez."
+          link="https://docs.google.com/document/d/1rsbs35Mix-6wXdV1lDdh5T80rAFtlNFw/edit"
         />
         <Card
-          title='Intervención del espacio'
-          description='Documento que contiene el detalle del proyecto Intervención del Espacio.'
-          link='https://drive.google.com/file/d/10gucyQw9gGfA0SWKkiYFicMlDcdAzWIq/view'
+          title="Intervención del espacio"
+          description="Documento que contiene el detalle del proyecto Intervención del Espacio."
+          link="https://drive.google.com/file/d/10gucyQw9gGfA0SWKkiYFicMlDcdAzWIq/view"
         />
         <Card
-          title='Proyecto Revista'
-          description='Los estudiantes de 6to año crearán y compartirán una revista como parte de su desarrollo ciudadano y proyectos educativos.'
+          title="Proyecto Revista"
+          description="Los estudiantes de 6to año crearán y compartirán una revista como parte de su desarrollo ciudadano y proyectos educativos."
         />
         <Card
-          title='Caja de sugerencias'
-          description='Se instalará una caja para recibir sugerencias, ideas y críticas constructivas, tanto individuales como grupales, como parte de un proceso participativo.'
+          title="Caja de sugerencias"
+          description="Se instalará una caja para recibir sugerencias, ideas y críticas constructivas, tanto individuales como grupales, como parte de un proceso participativo."
         />
         <Card
-          title='Proyecto identidad'
-          description='Es necesario ponerle un nombre a nuestra Escuela Secundaria 56. También queremos ponerle un nombre a la Biblioteca y a nuestro campo de deportes. Participemos juntos de la elección del nombre.'
+          title="Proyecto identidad"
+          description="Es necesario ponerle un nombre a nuestra Escuela Secundaria 56. También queremos ponerle un nombre a la Biblioteca y a nuestro campo de deportes. Participemos juntos de la elección del nombre."
         />
         <Card
-          title='Proyecto cine-debate'
-          description='Se utilizará la videoteca escolar para seleccionar y mejorar material curricular, optimizando sonido y subtítulos. Se fomentará el debate sobre la historia y geografía mediante el cine para construir conocimiento.'
+          title="Proyecto cine-debate"
+          description="Se utilizará la videoteca escolar para seleccionar y mejorar material curricular, optimizando sonido y subtítulos. Se fomentará el debate sobre la historia y geografía mediante el cine para construir conocimiento."
         />
         <Card
-          title='Proyecto club de lectores'
-          description='Proyecto Club de Lectores, intentaremos desde la biblioteca promover y accionarla lectura comprensiva.'
+          title="Proyecto club de lectores"
+          description="Proyecto Club de Lectores, intentaremos desde la biblioteca promover y accionarla lectura comprensiva."
         />
       </div>
     </Section>
