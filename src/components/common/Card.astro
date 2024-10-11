@@ -9,9 +9,7 @@ interface Props {
 const { title, description, link } = Astro.props;
 ---
 
-<div
-  class="h-full w-full max-w-[600px] bg-[var(--primary-color)] p-5 shadow shadow-[var(--black)]"
->
+<div class="h-full w-full max-w-[600px] bg-primary p-5 shadow shadow-secondary">
   <h5 class="mb-2 text-xl font-bold tracking-tight">{title}</h5>
   <p class="mb-5 leading-8 text-pretty">
     {description}
