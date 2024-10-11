@@ -1,0 +1,216 @@
+<div class='mb-5 flex flex-col gap-3 md:flex-row md:items-center md:gap-8'>
+  <div>
+    <label for='cycle'>Ciclo:</label>
+    <select class='p-1 cursor-pointer' name='cycle' id='cycle'>
+      <option value='Básico' class='cursor-pointer'>Básico</option>
+      <option value='Superior' class='cursor-pointer'>Superior</option>
+    </select>
+  </div>
+  <div class='flex h-max items-center gap-3'>
+    <div class='w-4 h-4 bg-[var(--accent-color)]'></div>
+    <span>Materias especializadas</span>
+  </div>
+</div>
+<div class='overflow-x-auto'>
+  <table
+    class='w-full text-pretty bg-[var(--primary-color)] text-[var(--black)]'
+    cellpadding='10'
+    cellspacing='10'
+    id='basicCycle'
+  >
+    <thead>
+      <tr>
+        <th class='border border-[var(--accent-color)] text-start'>1er año</th>
+        <th class='border border-[var(--accent-color)] text-start'>2do año</th>
+        <th class='border border-[var(--accent-color)] text-start'>3er año</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class='border border-[var(--accent-color)]'>Matemática</td>
+        <td class='border border-[var(--accent-color)]'>Matemática</td>
+        <td class='border border-[var(--accent-color)]'>Matemática</td>
+      </tr>
+      <tr>
+        <td class='border border-[var(--accent-color)]'
+          >Prácticas del lenguaje</td
+        >
+        <td class='border border-[var(--accent-color)]'
+          >Prácticas del lenguaje</td
+        >
+        <td class='border border-[var(--accent-color)]'
+          >Prácticas del lenguaje</td
+        >
+      </tr>
+      <tr>
+        <td class='border border-[var(--accent-color)]'
+          >Construcción de la ciudadanía</td
+        >
+        <td class='border border-[var(--accent-color)]'
+          >Construcción de la ciudadanía</td
+        >
+        <td class='border border-[var(--accent-color)]'
+          >Construcción de la ciudadanía</td
+        >
+      </tr>
+      <tr>
+        <td class='border border-[var(--accent-color)]'>Ciencias naturales</td>
+        <td class='border border-[var(--accent-color)]'>Biología</td>
+        <td class='border border-[var(--accent-color)]'>Biología</td>
+      </tr>
+      <tr>
+        <td class='border border-[var(--accent-color)]'>Ciencias sociales</td>
+        <td class='border border-[var(--accent-color)]'>Físico-química</td>
+        <td class='border border-[var(--accent-color)]'>Físico-química</td>
+      </tr>
+      <tr>
+        <td class='border border-[var(--accent-color)]'>Educación física</td>
+        <td class='border border-[var(--accent-color)]'>Geografía</td>
+        <td class='border border-[var(--accent-color)]'>Geografía</td>
+      </tr>
+      <tr>
+        <td class='border border-[var(--accent-color)]'>Educación artística</td>
+        <td class='border border-[var(--accent-color)]'>Historia</td>
+        <td class='border border-[var(--accent-color)]'>Historia</td>
+      </tr>
+      <tr>
+        <td class='border border-[var(--accent-color)]'>Inglés</td>
+        <td class='border border-[var(--accent-color)]'>Educación física</td>
+        <td class='border border-[var(--accent-color)]'>Educación física</td>
+      </tr>
+      <tr>
+        <td class='border border-[var(--accent-color)]'>Inglés</td>
+        <td class='border border-[var(--accent-color)]'>Educación física</td>
+        <td class='border border-[var(--accent-color)]'>Educación física</td>
+      </tr>
+      <tr>
+        <td class='border border-[var(--accent-color)]'>Informática</td>
+        <td class='border border-[var(--accent-color)]'>Educación artística</td>
+        <td class='border border-[var(--accent-color)]'>Educación artística</td>
+      </tr>
+    </tbody>
+  </table>
+  <table
+    class='w-full text-pretty bg-[var(--primary-color)] text-[var(--black)] hidden'
+    cellpadding='10'
+    cellspacing='10'
+    id='highSchool'
+  >
+    <thead>
+      <tr>
+        <th class='text-start border border-[var(--accent-color)]'>4to año</th>
+        <th class='text-start border border-[var(--accent-color)]'>5to año</th>
+        <th class='text-start border border-[var(--accent-color)]'>6to año</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class='border border-[var(--accent-color)]'>Matemática</td>
+        <td class='border border-[var(--accent-color)]'>Matemática</td>
+        <td class='border border-[var(--accent-color)]'>Matemática</td>
+      </tr>
+      <tr>
+        <td class='border border-[var(--accent-color)]'>Literatura</td>
+        <td class='border border-[var(--accent-color)]'>Literatura</td>
+        <td class='border border-[var(--accent-color)]'>Literatura</td>
+      </tr>
+      <tr>
+        <td class='border border-[var(--accent-color)]'>Inglés</td>
+        <td class='border border-[var(--accent-color)]'>Inglés</td>
+        <td class='border border-[var(--accent-color)]'>Inglés</td>
+      </tr>
+      <tr>
+        <td class='border border-[var(--accent-color)]'>Historia</td>
+        <td class='border border-[var(--accent-color)]'>Historia</td>
+        <td class='border border-[var(--accent-color)]'>Filosofía</td>
+      </tr>
+      <tr>
+        <td class='border border-[var(--accent-color)]'>Geografía</td>
+        <td class='border border-[var(--accent-color)]'>Geografía</td>
+        <td class='border border-[var(--accent-color)]'>Arte</td>
+      </tr>
+      <tr>
+        <td class='border border-[var(--accent-color)]'>Salud y adolescencia</td
+        >
+        <td class='border border-[var(--accent-color)]'
+          >Política y ciudadanía</td
+        >
+        <td class='border border-[var(--accent-color)]'>Trabajo y ciudadanía</td
+        >
+      </tr>
+      <tr>
+        <td class='border border-[var(--accent-color)]'>Biología</td>
+        <td class='border border-[var(--accent-color)]'>Int. a la química</td>
+        <td class='border border-[var(--accent-color)]'
+          >Educación física y com.</td
+        >
+      </tr>
+      <tr>
+        <td class='border border-[var(--accent-color)]'>NTICX</td>
+        <td class='border border-[var(--accent-color)]'
+          >Educación física y cult.</td
+        >
+        <td
+          class='border border-[var(--accent-color)] bg-[var(--accent-color)] text-[var(--white)]'
+          >Pr. dep. y juegos</td
+        >
+      </tr>
+      <tr>
+        <td class='border border-[var(--accent-color)]'>Int. a la fís.</td>
+        <td
+          class='border border-[var(--accent-color)] bg-[var(--accent-color)] text-[var(--white)]'
+          >Pr. dep. y acu.</td
+        >
+        <td
+          class='border border-[var(--accent-color)] bg-[var(--accent-color)] text-[var(--white)]'
+          >Diseño y gestión de proyectos</td
+        >
+      </tr>
+      <tr>
+        <td class='border border-[var(--accent-color)]'>Ed. fís. y corp.</td>
+        <td
+          class='border border-[var(--accent-color)] bg-[var(--accent-color)] text-[var(--white)]'
+          >Pract. corporales y deporte en el ambiente natural</td
+        >
+        <td
+          class='border border-[var(--accent-color)] bg-[var(--accent-color)] text-[var(--white)]'
+          >Pr. gimn. y exp. II</td
+        >
+      </tr>
+      <tr>
+        <td
+          class='border border-[var(--accent-color)] bg-[var(--accent-color)] text-[var(--white)]'
+          >Psicología</td
+        >
+        <td
+          class='border border-[var(--accent-color)] bg-[var(--accent-color)] text-[var(--white)]'
+          >Sociología</td
+        >
+        <td class='border border-[var(--accent-color)]'></td>
+      </tr>
+      <tr>
+        <td
+          class='border border-[var(--accent-color)] bg-[var(--accent-color)] text-[var(--white)]'
+          >Pr. dep. y atl.</td
+        >
+        <td
+          class='border border-[var(--accent-color)] bg-[var(--accent-color)] text-[var(--white)]'
+          >Pr. gimn. y exp I</td
+        >
+        <td class='border border-[var(--accent-color)]'></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<script>
+  const cycle = document.querySelector('#cycle')
+  const basicCycle = document.querySelector('#basicCycle')
+  const highSchool = document.querySelector('#highSchool')
+
+  const handleChangeCycle = () => {
+    basicCycle.classList.toggle('hidden')
+    highSchool.classList.toggle('hidden')
+  }
+
+  cycle.addEventListener('change', handleChangeCycle)
+</script>

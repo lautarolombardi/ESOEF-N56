@@ -1,0 +1,64 @@
+---
+import Button from "@/components/common/Button.astro";
+import LinkIcon from "@/icons/Link.astro";
+
+interface Props {
+  id: number;
+  title: string;
+  cardType: string;
+  description: string;
+  media: string;
+  mediaType: string;
+  button: string;
+  date: string;
+}
+
+const { title, description, media, mediaType, button, cardType, date, id } =
+  Astro.props;
+const path =
+  (cardType === "news" && `/${cardType}/${id}`) ||
+  (cardType === "projects" && `about/${cardType}/${id}`) ||
+  `/school/${cardType}/${id}`;
+cardType;
+---
+
+<article
+  class="max-w-sm bg-[var(--primary-color)] shadow border border-[var(--accent-color)]"
+>
+  <div class="w-full h-[300px]">
+    {
+      mediaType === "image" ? (
+        <img class="w-full h-full object-cover object-center" src={media} />
+      ) : (
+        <iframe
+          src={media}
+          class="h-full w-full"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        />
+      )
+    }
+  </div>
+  <div class="p-5 flex flex-col gap-4 justify-center">
+    <h5 class="text-2xl font-bold tracking-tight">
+      {title}
+    </h5>
+    <p class="leading-7 line-clamp-2">
+      {description}
+    </p>
+    <a href={path}>
+      <Button class="flex h-max items-center gap-2">
+        {button}
+        <LinkIcon class="w-5" />
+      </Button>
+    </a>
+    {
+      cardType === "news" && (
+        <span class="inline-block ml-auto py-1 px-2 text-sm text-right bg-[var(--accent-color)] text-[var(--white)]">
+          {date}
+        </span>
+      )
+    }
+  </div>
+</article>

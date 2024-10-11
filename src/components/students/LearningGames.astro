@@ -1,0 +1,18 @@
+---
+import Card from "@/components/common/Card.astro";
+import games from "@/data/students/learning-games.json";
+---
+
+<div
+  class="grid grid-cols-1 place-items-center gap-5 md:grid-cols-[repeat(auto-fill,minmax(300px,1fr))]"
+>
+  {
+    Array.from(games.games).map(({ title, link }) => (
+      <Card
+        title={title}
+        description={"Para jugar hace click en el siguiente enlace"}
+        link={link}
+      />
+    ))
+  }
+</div>
