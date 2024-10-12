@@ -21,7 +21,7 @@ import Layout from "@/layouts/Layout.astro";
       >
         {
           Array.from(outlings.outlings)
-            .filter((outling) => outling.date === "2024")
+            .filter((outling) => outling.date.includes("2024"))
             .map(({ title, description, media, mediaType, date, id }) => (
               <ImageCard
                 cardType="outlings"
