@@ -7,7 +7,7 @@ export const news: Project[] = [
     description:
       "Fechas importantes para agendar y terminar bien las cursadas.",
     media: [
-      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Frecta-final%2FCalendario%201.webp?alt=media&token=e343ea33-a973-4c5c-96c8-8170fcb96f4d",
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Frecta-final%2FCalendario%201.webp?alt=media&token=d74e631c-a45e-4f10-b8c7-b0ab5643da65",
       "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Frecta-final%2FCalendario%202.webp?alt=media&token=812f258a-4690-489e-9c25-387b9e5e3b28",
       "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Frecta-final%2FCalendario%203.webp?alt=media&token=dceeaa90-4c7e-4440-9b83-cb7c0437cc18",
     ],
