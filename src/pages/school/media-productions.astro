@@ -1,11 +1,10 @@
 ---
 import Button from "@/components/common/Button.astro";
-import Card from "@/components/common/Card.astro";
-import ImageCard from "@/components/common/ImageCard.astro";
 import Section from "@/components/common/Section.astro";
-import mediaProductions from "@/data/media-productions.json";
 import LinkIcon from "@/icons/Link.astro";
 import Layout from "@/layouts/Layout.astro";
+import Card from "../../components/common/Card.astro";
+import { mediaProductions } from "../../data/media-productions";
 ---
 
 <Layout title="Producción" description="Producción">
@@ -160,6 +159,7 @@ import Layout from "@/layouts/Layout.astro";
         class="grid gap-5 grid-cols-[repeat(auto-fit,minmax(250px,1fr))] place-content-center"
       >
         <Card
+          id="Estoy mintiéndome"
           title="Estoy mintiéndome"
           description="Presioná el boton para entrar al archivo pdf"
           link="https://drive.google.com/file/d/1FR6R-hKKSXmiyY3iTpgc7Jrs_56oj30v/view?usp=drive_link"
@@ -169,6 +169,7 @@ import Layout from "@/layouts/Layout.astro";
           </Button>
         </Card>
         <Card
+          id="La luz del riachuelo"
           title="La luz del riachuelo"
           description="La luz del riachuelo"
           link="https://drive.google.com/file/d/15Dphsxrl54dtvVOhElADNciJNsrTDy6c/view?usp=sharing"
@@ -178,6 +179,7 @@ import Layout from "@/layouts/Layout.astro";
           </Button>
         </Card>
         <Card
+          id="El tesoro"
           title="El tesoro del diablo"
           description="El tesoro del diablo"
           link="https://drive.google.com/file/d/1KIw3MYPgtYv0lAtQx5DTuO71Ms0N4X9a/view?usp=sharing"
@@ -191,16 +193,15 @@ import Layout from "@/layouts/Layout.astro";
     <Section centerMdTitle centerTitle title="Otras producciones" class="pb-20">
       <div class="container pb-20 flex flex-col items-center gap-5 lg:flex-row">
         {
-          Array.from(mediaProductions.mediaProductions).map(
-            ({ title, description, media, mediaType, date, id }) => (
-              <ImageCard
-                cardType="media-productions"
+          mediaProductions.map(
+            ({ title, description, media, mediaType, date, id, link }) => (
+              <Card
                 id={id}
                 title={title}
                 description={description}
                 media={media[0]}
                 mediaType={mediaType}
-                button="Leer más"
+                link={link}
                 date={date}
               />
             )

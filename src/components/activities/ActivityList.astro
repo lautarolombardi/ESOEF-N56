@@ -1,6 +1,6 @@
 ---
+import Card from "@/components/common/Card.astro";
 import { Activity } from "@/services/activities.service";
-import Card from "../common/Card.astro";
 
 const activity = new Activity();
 const activities = await activity.getAll();
@@ -15,7 +15,7 @@ const activities = await activity.getAll();
         id={id}
         title={title}
         description={description}
-        media={Array.isArray(media) ? media[0] : media}
+        media={media[0]}
         mediaType={media_type}
         date={date}
         link={`/activities/${id}`}

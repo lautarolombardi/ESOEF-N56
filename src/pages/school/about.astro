@@ -1,10 +1,9 @@
 ---
 import Button from "@/components/common/Button.astro";
 import Card from "@/components/common/Card.astro";
-import ImageCard from "@/components/common/ImageCard.astro";
 import Section from "@/components/common/Section.astro";
-import projects from "@/data/projects.json";
 import Layout from "@/layouts/Layout.astro";
+import { projects } from "../../data/projects";
 ---
 
 <Layout title="Institucional" description="Institucional">
@@ -69,6 +68,7 @@ import Layout from "@/layouts/Layout.astro";
           class="w-full max-w-[700px] mx-auto"
         />
         <Card
+          id="proyectoIns"
           title="Proyecto institucional"
           description="Presione sobre el siguiente botón para conocer más acerca del proyecto"
           link="https://docs.google.com/document/d/12qgqx4EMZy6xitV6n7vrGcko1165hVZZ/edit?usp=sharing&ouid=111141329733704389804&rtpof=true&sd=true"
@@ -80,17 +80,16 @@ import Layout from "@/layouts/Layout.astro";
         class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center"
       >
         {
-          Array.from(projects.projects).map(
-            ({ title, description, media, mediaType, date, id }) => (
-              <ImageCard
-                cardType="projects"
+          projects.map(
+            ({ title, description, media, mediaType, date, id, link }) => (
+              <Card
                 id={id}
                 title={title}
                 description={description}
                 media={media[0]}
                 mediaType={mediaType}
-                button="Leer más"
                 date={date}
+                link={link}
               />
             )
           )
@@ -133,49 +132,64 @@ import Layout from "@/layouts/Layout.astro";
     <Section title="Otros proyectos" centerTitle centerMdTitle class="pb-20">
       <div class="grid gap-5 grid-cols-[repeat(auto-fit,minmax(270px,1fr))]">
         <Card
+          id="proyecto1"
           title="Proyectos biblioteca"
           description="Documento que contiene el detalle del proyecto de biblioteca de nuestra escuela."
           link="https://docs.google.com/document/d/1E87Bb25rk4qqEHxB6uAR51Yv_P9ZAqLv/edit?usp=sharing&ouid=111141329733704389804&rtpof=true&sd=true"
         />
         <Card
+          id="proyecto2"
           title="Proyectos musicales"
           description="Documento que contiene el detalle de los proyectos musicales de nuestra escuela."
           link="https://drive.google.com/file/d/1K9iaFyGeUNg-pz1jHLdmbUXTvIfY3ATB/view"
         />
         <Card
+          id="proyecto3"
           title="Cuadrangular atletismo"
           description="Documento que contiene el detalle del proyecto de atletismo."
           link="https://drive.google.com/file/d/1cPM6bX4v5T2sTOH8kETofQpGqE0qMu0b/view"
         />
         <Card
+          id="proyecto4"
           title="Proyecto ajedrez"
           description="Documento que contiene el detalle del proyecto ajedrez."
           link="https://docs.google.com/document/d/1rsbs35Mix-6wXdV1lDdh5T80rAFtlNFw/edit"
         />
         <Card
+          id="proyecto5"
           title="Intervención del espacio"
           description="Documento que contiene el detalle del proyecto Intervención del Espacio."
           link="https://drive.google.com/file/d/10gucyQw9gGfA0SWKkiYFicMlDcdAzWIq/view"
         />
         <Card
+          id="proyecto6"
           title="Proyecto Revista"
           description="Los estudiantes de 6to año crearán y compartirán una revista como parte de su desarrollo ciudadano y proyectos educativos."
+          link=""
         />
         <Card
+          id="proyecto7"
           title="Caja de sugerencias"
           description="Se instalará una caja para recibir sugerencias, ideas y críticas constructivas, tanto individuales como grupales, como parte de un proceso participativo."
+          link="#"
         />
         <Card
+          id="proyecto8"
           title="Proyecto identidad"
           description="Es necesario ponerle un nombre a nuestra Escuela Secundaria 56. También queremos ponerle un nombre a la Biblioteca y a nuestro campo de deportes. Participemos juntos de la elección del nombre."
+          link="#"
         />
         <Card
+          id="proyecto9"
           title="Proyecto cine-debate"
           description="Se utilizará la videoteca escolar para seleccionar y mejorar material curricular, optimizando sonido y subtítulos. Se fomentará el debate sobre la historia y geografía mediante el cine para construir conocimiento."
+          link="#"
         />
         <Card
+          id="proyecto10"
           title="Proyecto club de lectores"
           description="Proyecto Club de Lectores, intentaremos desde la biblioteca promover y accionarla lectura comprensiva."
+          link="#"
         />
       </div>
     </Section>

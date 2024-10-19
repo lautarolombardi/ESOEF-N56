@@ -1,12 +1,12 @@
 ---
 import Button from "@/components/common/Button.astro";
-import Card from "@/components/common/Card.astro";
 import Section from "@/components/common/Section.astro";
 import TeachersPhoto from "@/components/teachers/TeachersPhoto.astro";
 import LinkIcon from "@/icons/Link.astro";
 import Layout from "@/layouts/Layout.astro";
 
 import teachers from "@/data/teachers/teachers.json";
+import Card from "../components/common/Card.astro";
 ---
 
 <Layout title="Docentes" description="Docentes">
@@ -26,6 +26,7 @@ import teachers from "@/data/teachers/teachers.json";
         class="grid gap-5 grid-cols-[repeat(auto-fit,minmax(250px,1fr))] place-content-center"
       >
         <Card
+          id="Resolucion 1650-24"
           title="Resolución 1650-24"
           description="Presioná el boton para entrar a la presentación de power point"
           link="https://drive.google.com/file/d/1NzaJ3Icg1-Ex65lW47ucBYX5OUb_4NAr/view?usp=sharing"
@@ -35,6 +36,7 @@ import teachers from "@/data/teachers/teachers.json";
           </Button>
         </Card>
         <Card
+          id="Actualización del reglamento académico"
           title="Actualización del régimen académico"
           description="Presioná el botón para entrar al archivo pdf"
           link="https://drive.google.com/file/d/1NzaJ3Icg1-Ex65lW47ucBYX5OUb_4NAr/view?usp=sharing"
@@ -44,6 +46,7 @@ import teachers from "@/data/teachers/teachers.json";
           </Button>
         </Card>
         <Card
+          id="Normativa docente"
           title="Normativa docente"
           description="Presioná el boton para ver la normativa docente completa"
           link="https://normas.gba.gob.ar/documentos/BodONdhz.html"
@@ -53,6 +56,7 @@ import teachers from "@/data/teachers/teachers.json";
           </Button>
         </Card>
         <Card
+          id="Estatuto Docente"
           title="Estatuto Docente"
           description="Ley 10579 disponible haciendo click en el boton de abajo"
           link="https://drive.google.com/file/d/1D-1Vc0jecqnkNEXXcUIU2oT0ZnxI_ncK/view?usp=sharing"
@@ -62,6 +66,7 @@ import teachers from "@/data/teachers/teachers.json";
           </Button>
         </Card>
         <Card
+          id="Ley de Educación Nacional"
           title="Ley de Educación Nacional"
           description="Ley 26206 disponible haciendo click en el boton de abajo"
           link="https://drive.google.com/file/d/1p6zZytrrWJv5DnGqA386YSc_thNPNMZb/view?usp=sharing"
@@ -143,21 +148,25 @@ import teachers from "@/data/teachers/teachers.json";
       </p>
       <div class="grid gap-5 grid-cols-[repeat(auto-fit,minmax(270px,1fr))]">
         <Card
+          id="doc-1"
           title="Declaración jurada 2024"
           description="Documento que contiene una plantilla de declaración jurada."
           link="https://docs.google.com/spreadsheets/d/1dISYm4qzu-M1Vwx4vcnQrRL2PZVvFwrt/edit#gid=1818121767"
         />
         <Card
+          id="doc-2"
           title="Planilla SET 4"
           description="Modelo de planilla SET 4 para completar."
           link="https://drive.google.com/uc?id=1YmBPN2x6Gryws3XCSnr7J3wBLMq91k0a&export=download"
         />
         <Card
+          id="doc-3"
           title="Formulario 354"
           description="Documento que contiene una plantilla formulario 354"
           link="https://drive.google.com/uc?id=1X2_0YG6zFF5y2xrmR0wIYEctVd_sfEpm&export=download"
         />
         <Card
+          id="doc-4"
           title="Modelo de planificación"
           description="Modelo de planificación para completar."
           link="https://docs.google.com/document/d/10gK74ATs8MULoBctjKGEY23K05wnvCMv/edit?usp=drive_link&ouid=111141329733704389804&rtpof=true&sd=true"

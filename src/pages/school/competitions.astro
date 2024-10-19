@@ -1,8 +1,8 @@
 ---
-import ImageCard from "@/components/common/ImageCard.astro";
 import Section from "@/components/common/Section.astro";
-import competitions from "@/data/competitions.json";
 import Layout from "@/layouts/Layout.astro";
+import Card from "../../components/common/Card.astro";
+import { competitions } from "../../data/competitions";
 ---
 
 <Layout title="Competencias" description="Competencias">
@@ -12,17 +12,16 @@ import Layout from "@/layouts/Layout.astro";
         class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center"
       >
         {
-          Array.from(competitions.competitions).map(
-            ({ title, description, media, mediaType, date, id }) => (
-              <ImageCard
-                cardType="competitions"
+          competitions.map(
+            ({ title, description, media, mediaType, date, id, link }) => (
+              <Card
                 id={id}
                 title={title}
                 description={description}
                 media={media[0]}
                 mediaType={mediaType}
-                button="Leer más"
                 date={date}
+                link={link}
               />
             )
           )

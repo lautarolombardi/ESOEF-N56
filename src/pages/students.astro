@@ -1,11 +1,11 @@
 ---
-import Card from "@/components/common/Card.astro";
 import Section from "@/components/common/Section.astro";
 import Future from "@/components/students/Future.astro";
 import ImportantFiles from "@/components/students/ImportantFiles.astro";
 import LearningGames from "@/components/students/LearningGames.astro";
 import StudyMaterial from "@/components/students/StudyMaterial.astro";
 import Layout from "@/layouts/Layout.astro";
+import Card from "../components/common/Card.astro";
 ---
 
 <Layout title="ESOEF N°56 | Estudiantes" description="ESOEF N°56 | Estudiantes">
@@ -40,6 +40,7 @@ import Layout from "@/layouts/Layout.astro";
           class="w-full max-w-[600px]"
         />
         <Card
+          id="videoteca"
           title="Videoteca"
           description="Estamos armando una videoteca práctica con material chequeado y en español. El control y el pendrive están en Dirección. (Se aceptan aportes y sugerencias)"
           link="https://drive.google.com/uc?id=1M85JGz0vs1H0FnxkmOL4JHzdgh6F1Rqy&export=download"
