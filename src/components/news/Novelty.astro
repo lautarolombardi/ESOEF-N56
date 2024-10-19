@@ -1,24 +1,21 @@
 ---
-import { Activity } from "@/services/activities.service";
-import Card from "../common/Card.astro";
-
-const activity = new Activity();
-const activities = await activity.getAll();
+import Card from "@/components/common/Card.astro";
+import { news } from "@/data/news";
 ---
 
 <div
   class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center"
 >
   {
-    activities.map(({ title, description, media, media_type, date, id }) => (
+    news.map(({ title, description, media, mediaType, date, id }) => (
       <Card
         id={id}
         title={title}
         description={description}
-        media={Array.isArray(media) ? media[0] : media}
-        mediaType={media_type}
+        media={media[0]}
+        mediaType={mediaType}
         date={date}
-        link={`/activities/${id}`}
+        link={`/news/${id}`}
       />
     ))
   }
