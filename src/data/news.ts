@@ -2,6 +2,26 @@ import type { Project } from "../types/projects";
 
 export const news: Project[] = [
   {
+    id: "30",
+    title: "Entrevistas a Sexto Primera",
+    description:
+      "Video sobre Entrevistas a Sexto Primera y al Equipo de Orientación Escolar de la 56.",
+    media: ["https://www.youtube.com/embed/XYAjAmnHF-0?si=FoeNn1vNgJ1d9Z4E"],
+    mediaType: "video",
+    date: "Octubre 2024",
+    link: "https://www.youtube.com/watch?v=XYAjAmnHF-0",
+  },
+  {
+    id: "29",
+    title: "Preparando Halloween",
+    description:
+      "Video sobre Sexto Primera practicando la coreografía de Thriller.",
+    media: ["https://www.youtube.com/embed/dWqjP_xTctE?si=m_C9tbVqiOa-r9kv"],
+    mediaType: "video",
+    date: "Octubre 2024",
+    link: "https://www.youtube.com/watch?v=dWqjP_xTctE",
+  },
+  {
     id: "28",
     title: "Sobre la Recta Final",
     description:
