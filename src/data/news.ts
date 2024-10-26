@@ -1,13 +1,21 @@
-import type { Project } from "../types/projects";
+type news = {
+  id: string;
+  title: string;
+  description: string;
+  media: string[];
+  media_type: "image" | "video";
+  date: string;
+  link: string;
+};
 
-export const news: Project[] = [
+export const news: news[] = [
   {
     id: "30",
     title: "Entrevistas a Sexto Primera",
     description:
       "Video sobre Entrevistas a Sexto Primera y al Equipo de Orientación Escolar de la 56.",
     media: ["https://www.youtube.com/embed/XYAjAmnHF-0?si=FoeNn1vNgJ1d9Z4E"],
-    mediaType: "video",
+    media_type: "video",
     date: "Octubre 2024",
     link: "https://www.youtube.com/watch?v=XYAjAmnHF-0",
   },
@@ -17,7 +25,7 @@ export const news: Project[] = [
     description:
       "Video sobre Sexto Primera practicando la coreografía de Thriller.",
     media: ["https://www.youtube.com/embed/dWqjP_xTctE?si=m_C9tbVqiOa-r9kv"],
-    mediaType: "video",
+    media_type: "video",
     date: "Octubre 2024",
     link: "https://www.youtube.com/watch?v=dWqjP_xTctE",
   },
@@ -31,7 +39,7 @@ export const news: Project[] = [
       "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Frecta-final%2FCalendario%202.webp?alt=media&token=812f258a-4690-489e-9c25-387b9e5e3b28",
       "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Frecta-final%2FCalendario%203.webp?alt=media&token=dceeaa90-4c7e-4440-9b83-cb7c0437cc18",
     ],
-    mediaType: "image",
+    media_type: "image",
     link: "https://www.facebook.com/share/p/q8NjtjgSiWK4aAPN/",
     date: "Octubre 2024",
   },
@@ -41,7 +49,7 @@ export const news: Project[] = [
     description:
       "Video sobre Cuarto Primera trabajando en clase de historia: La Guerra Fría.",
     media: ["https://www.youtube.com/embed/YOMvqAod8mg?si=Zy5VeUW0RhpoHEJg"],
-    mediaType: "video",
+    media_type: "video",
     date: "Octubre 2024",
     link: "https://youtu.be/YOMvqAod8mg?si=VibSpZGytNE0EQMM",
   },
@@ -51,7 +59,7 @@ export const news: Project[] = [
     description:
       "Video sobre Tercero Primera trabajando la ESI y la Diversidad en el Polo Educativo.",
     media: ["https://www.youtube.com/embed/XNmDEDB05rE?si=LFC73yg5boRGoqoP"],
-    mediaType: "video",
+    media_type: "video",
     date: "Octubre 2024",
     link: "https://youtu.be/9q_wq395Qso?si=zcwXx82S0ThL5EHD",
   },
@@ -61,7 +69,7 @@ export const news: Project[] = [
     description:
       "Video entrevistando a Sexto Primera sobre su experiencia en el Taller de Orientación Vocacional.",
     media: ["https://www.youtube.com/embed/9q_wq395Qso?si=FrZn_OZng9N7LjTy"],
-    mediaType: "video",
+    media_type: "video",
     date: "Octubre 2024",
     link: "https://youtu.be/9q_wq395Qso?si=zcwXx82S0ThL5EHD",
   },
@@ -75,7 +83,7 @@ export const news: Project[] = [
       "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Ftorneo-final%2FTorneo%20Final%20Futbol%202.webp?alt=media&token=0c5feea7-d115-4e48-aa62-c5c5e32e0f93",
       "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Ftorneo-final%2FTorneo%20Final%20Futbol%203.webp?alt=media&token=22b5aed3-a80c-4264-976f-30fe07acf126",
     ],
-    mediaType: "image",
+    media_type: "image",
     link: "https://www.facebook.com/share/p/1Zk4BPnFPxhdHB2f/",
     date: "Octubre 2024",
   },
@@ -89,7 +97,7 @@ export const news: Project[] = [
       "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Frespeto-a-la-diversidad%2FRespeto%20a%20la%20Diversidad%202.webp?alt=media&token=1780fc20-f9e3-4180-93c7-813169227322",
       "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Frespeto-a-la-diversidad%2FRespeto%20a%20la%20Diversidad%203.webp?alt=media&token=a679d5f9-efc3-403e-bb06-30f5f8dfadba",
     ],
-    mediaType: "image",
+    media_type: "image",
     link: "https://www.facebook.com/share/p/g3N21jppeoZjXpMk/",
     date: "Octubre 2024",
   },
@@ -103,7 +111,7 @@ export const news: Project[] = [
       "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Ftorneo-de-futbol-interno%2FTorneo%20futbol%202.webp?alt=media&token=306df3f6-8b6a-4c00-8495-8224425c9bf2",
       "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Ftorneo-de-futbol-interno%2FTorneo%20futbol%203.webp?alt=media&token=b9401b29-6d16-405a-9f5c-5406cafee9d1",
     ],
-    mediaType: "image",
+    media_type: "image",
     link: "https://www.facebook.com/share/p/3mRkmFUfDMyJnxRU/",
     date: "Octubre 2024",
   },
@@ -116,7 +124,7 @@ export const news: Project[] = [
       "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fconcurso-literario-acumar%2FAcumar%201.webp?alt=media&token=32c473b6-5d87-4a72-a13b-b3d0954c9f9e",
       "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fconcurso-literario-acumar%2FAcumar%202.webp?alt=media&token=efc09392-f7f9-4a81-aa0d-c2215dd38c80",
     ],
-    mediaType: "image",
+    media_type: "image",
     link: "https://www.facebook.com/share/p/xG4FgixVkcMqpHrM/?mibextid=oFDknk",
     date: "Octubre 2024",
   },
@@ -130,7 +138,7 @@ export const news: Project[] = [
       "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Funiverso-lanus%2FUniverso%20Lan%C3%BAs%202.webp?alt=media&token=aff23ef6-b280-4069-a496-1bb9c067a9fa",
       "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Funiverso-lanus%2FUniverso%20Lan%C3%BAs%203.webp?alt=media&token=dbbde155-350e-493d-b4b7-df461f80fc89",
     ],
-    mediaType: "image",
+    media_type: "image",
     link: "https://www.facebook.com/share/p/sDrHiVpTbuonKgQY/",
     date: "Octubre 2024",
   },
@@ -140,7 +148,7 @@ export const news: Project[] = [
     description:
       "Video de Primero Primera de la 56 en actividad por el 80 aniversario de Lanús",
     media: ["https://www.youtube.com/embed/wZrDUCMFeoA?si=o77gGdSogPyU_UuC"],
-    mediaType: "video",
+    media_type: "video",
     date: "Septiembre 2024",
     link: "https://www.youtube.com/embed/wZrDUCMFeoA?si=o77gGdSogPyU_UuC",
   },
@@ -154,7 +162,7 @@ export const news: Project[] = [
       "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fjubileo-de-la-profe-fatima%2FJubileo%202.webp?alt=media&token=d730bf02-3fb6-4f53-bc35-e081ecfc9ef5",
       "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fjubileo-de-la-profe-fatima%2FJubileo%203.webp?alt=media&token=b7b5b72e-83c5-4aa2-9d3d-80d5af58507d",
     ],
-    mediaType: "image",
+    media_type: "image",
     link: "https://www.facebook.com/share/p/oVpXEBWdKB6ixqju/?mibextid=oFDknk",
     date: "Septiembre 2024",
   },
@@ -167,7 +175,7 @@ export const news: Project[] = [
       "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fajedrez%2Fajedrez-1.webp?alt=media&token=d4d63299-62f3-4b03-b5c9-c406ffd20b2a",
       "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fajedrez%2Fajedrez-2.webp?alt=media&token=881cc8b9-ded0-4d39-8fa9-0ff84608587a",
     ],
-    mediaType: "image",
+    media_type: "image",
     link: "https://www.facebook.com/share/p/RYb5EkeNMvtTFrPC/",
     date: "Septiembre 2024",
   },
