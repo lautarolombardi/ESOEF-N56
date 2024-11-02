@@ -2,6 +2,19 @@ import type { Competition } from "../types/competitions";
 
 export const competitions: Competition[] = [
   {
+    id: "7",
+    title: "2do torneo de Ajedrez intercolegial",
+    description:
+      "Participación de nuestros alumnos en el 2do torneo de ajedrez intercolegial en la biblioteca Sarmiento",
+    media: [
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fajedrez%2Fajedrez-1.webp?alt=media&token=d4d63299-62f3-4b03-b5c9-c406ffd20b2a",
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fajedrez%2Fajedrez-2.webp?alt=media&token=881cc8b9-ded0-4d39-8fa9-0ff84608587a",
+    ],
+    mediaType: "image",
+    link: "https://www.facebook.com/share/p/RYb5EkeNMvtTFrPC/",
+    date: "Septiembre 2024",
+  },
+  {
     id: "6",
     title: "Torneo de Ajedréz",
     description:
