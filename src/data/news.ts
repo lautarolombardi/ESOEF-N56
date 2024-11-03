@@ -10,6 +10,44 @@ type news = {
 
 export const news: news[] = [
   {
+    id: "33",
+    title: "Muestra de Inglés",
+    description:
+      "Muestra de Inglés. Halloween 🎃🎃🎃.",
+    media: [
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fhalloween%2FHalloween.webp?alt=media&token=012b7200-22a6-4984-a24b-7e74fb754726",
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fhalloween%2FHalloween%202.webp?alt=media&token=0c28b940-5b40-47b0-bf96-48cd483f2d01",
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fhalloween%2FHalloween%203.webp?alt=media&token=5fa038b6-e636-437b-8606-1e9a22b354d2",
+    ],
+    media_type: "image",
+    link: "https://www.facebook.com/share/p/ZV3tDLLDamhQZY3h/",
+    date: "Octubre 2024",
+  },
+  {
+    id: "32",
+    title: "Construcción de nuestra Historia (Ciudadanía)",
+    description:
+      "Secundaria 56, y algo sobre su historia y la historia de nuestro barrio, Villa Jardín (Con Lelé, de Tercero Primera, y Sergio, profe de Construcción de la Ciudadanía).",
+    media: ["https://www.youtube.com/embed/mFL-zRjrElk?si=eTJHb-6eLq_rr1RE"],
+    media_type: "video",
+    date: "Octubre 2024",
+    link: "https://www.youtube.com/watch?v=mFL-zRjrElk",
+  },
+  {
+    id: "31",
+    title: "Atletismo y Convivencia",
+    description:
+      "Atletismo y Convivencia (28/11/24).",
+    media: [
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fatletismo-y-convivencia%2FAtletismo%201.webp?alt=media&token=dd7fc1c8-cb7a-494d-ae3b-d7a5d398b922",
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fatletismo-y-convivencia%2FAtletismo%202.webp?alt=media&token=87230aea-0b27-4be2-9bfa-a248c7776db7",
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fatletismo-y-convivencia%2FAtletismo%203.webp?alt=media&token=95d2c99e-64ee-4632-b3cc-60141cb8bbad",
+    ],
+    media_type: "image",
+    link: "https://www.facebook.com/share/p/jyNFp1fAWghKVtin/",
+    date: "Octubre 2024",
+  },
+  {
     id: "30",
     title: "Entrevistas a Sexto Primera",
     description:
