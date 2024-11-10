@@ -10,6 +10,71 @@ type news = {
 
 export const news: news[] = [
   {
+    id: "38",
+    title: "Muestra de Matemática. Ciclo superior.",
+    description: "Muestra de Matemática: Ciclo superior. Figuras geométricas, fracciones, cálculos a resolver, en forma dinámica y divertida.",
+    media: [
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fmuestra-matematica%2FMuestra%20Matem%C3%A1tica%201.webp?alt=media&token=9dbc16d1-b784-4fb1-a73d-7c6016ce1649",
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fmuestra-matematica%2FMuestra%20Matem%C3%A1tica%202.webp?alt=media&token=48f6bce5-92fa-4db2-bd88-c40fe2550280",
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fmuestra-matematica%2FMuestra%20Matem%C3%A1tica%203.webp?alt=media&token=5f40a049-0d4f-4b06-9a0b-474a10eeef19",
+    ],
+    mediaType: "image",
+    link: "https://www.facebook.com/share/p/15FcsHaPc4/",
+    date: "Noviembre 2024",
+  },
+  {
+    id: "37",
+    title: "Circuitos eléctricos. Físico química 3°2°",
+    description: "Físico Química. 3°2°. Circuitos eléctricos. (Muestra).",
+    media: [
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fcircuitos-electricos%2FCircuitos%20El%C3%A9ctricos%201.webp?alt=media&token=f1d92d87-293b-4fd7-a1f7-f1c039396ad3",
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fcircuitos-electricos%2FCircuitos%20El%C3%A9ctricos%202.webp?alt=media&token=05e5455f-5647-4838-9df5-0e92dab5ef7a",
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fcircuitos-electricos%2FCircuitos%20El%C3%A9ctricos%203.webp?alt=media&token=93305d5c-d08b-4789-b619-65e7ae0e41e4",
+    ],
+    mediaType: "image",
+    link: "https://www.facebook.com/share/p/1AoJNkNFVX/",
+    date: "Noviembre 2024",
+  },
+  {
+    id: "36",
+    title: "Trastornos de Conductas Alimentarias. Introducción a la Química.",
+    description: "Trastornos de conductas alimentarias. 5°1°. Introducción a la Química. (Muestra).",
+    media: [
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Ftrastornos-alimenticios%2FConductas%20Alimentarias%201.webp?alt=media&token=1f21e0c8-5a0a-405a-8b15-cc453f71fa31",
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Ftrastornos-alimenticios%2FConductas%20Alimentarias%202.webp?alt=media&token=d04b8c47-efd8-4d47-a2e4-a438c6d81e2b",
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Ftrastornos-alimenticios%2FConductas%20Alimentarias%203.webp?alt=media&token=5a85d451-6482-47be-8090-959fbc1c1f85",
+    ],
+    mediaType: "image",
+    link: "https://www.facebook.com/share/p/1DZj3vTQm1/",
+    date: "Noviembre 2024",
+  },
+  {
+    id: "35",
+    title: "Muestra de Inglés: Temática Stranger Things",
+    description: "Muestra de Inglés con la profe Cosentino. Competencias, Disfraces y Juegos Divertidos.",
+    media: [
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fstranger-things%2FStranger%20Things%201.webp?alt=media&token=bc7cdd7a-fb89-4b96-9e92-6676b81755c1",
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fstranger-things%2FStranger%20Things%202.webp?alt=media&token=720e29ed-526d-4b72-99e6-577d51be42ff",
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fstranger-things%2FStranger%20Things%203.webp?alt=media&token=4264c6ae-530b-4e0d-b6e2-b2d9c29d9df9",
+    ],
+    mediaType: "image",
+    link: "https://www.facebook.com/share/p/1DXvF1iUFc/",
+    date: "Noviembre 2024",
+  },
+  {
+    id: "34",
+    title: "Muestra de Arte 6to. Año",
+    description: "Muestras de Artística música y Arte tt. La profe explicó la música según regiones geográficas. ¡Muy Buena Clase!",
+    media: [
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fmuestra-musica%2FMuestra%20Musica%201.webp?alt=media&token=3f7b1a5b-9a38-4d24-a707-72e81d384e30",
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fmuestra-musica%2FMuestra%20Musica%202.webp?alt=media&token=a7dccebe-76fa-470e-95c9-9d782f40fd33",
+      "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fmuestra-musica%2FMuestra%20Musica%203.webp?alt=media&token=9b62623b-75a0-4cab-b375-f31ff7d0914e",
+    ],
+    mediaType: "image",
+    link: "https://www.facebook.com/share/p/VfBXjmjM75Uy2uyV/",
+    date: "Noviembre 2024",
+  },
+  {
     id: "33",
     title: "Muestra de Inglés",
     description: "Muestra de Inglés. Halloween 🎃🎃🎃.",
@@ -35,7 +100,7 @@ export const news: news[] = [
   {
     id: "31",
     title: "Atletismo y Convivencia",
-    description: "Atletismo y Convivencia (28/11/24).",
+    description: "Atletismo y Convivencia (28/10/24).",
     media: [
       "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fatletismo-y-convivencia%2FAtletismo%201.webp?alt=media&token=dd7fc1c8-cb7a-494d-ae3b-d7a5d398b922",
       "https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/news%2Fatletismo-y-convivencia%2FAtletismo%202.webp?alt=media&token=87230aea-0b27-4be2-9bfa-a248c7776db7",
