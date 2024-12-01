@@ -12,13 +12,13 @@ import { news } from "@/data/news";
   {
     news
       .slice(0, 3)
-      .map(({ title, description, media, media_type, date, id }) => (
+      .map(({ title, description, media, mediaType, date, id }) => (
         <Card
           id={id}
           title={title}
           description={description}
           media={media[0]}
-          mediaType={media_type}
+          mediaType={mediaType}
           date={date}
           link={`/activities/${id}`}
         />
