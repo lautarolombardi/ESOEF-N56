@@ -1,0 +1,122 @@
+---
+import Angle from "@/icons/Angle.astro";
+---
+
+<div class="bg-primary border border-tertiary">
+  <div>
+    <button
+      class="w-full p-4 button h-max flex items-center justify-between gap-4"
+    >
+      <h4>¿Cómo se desarrolla la preinscripción a la escuela?</h4>
+      <Angle class="w-full max-w-4 transition-all duration-300 angle" />
+    </button>
+    <div class="max-h-0 overflow-hidden transition-all duration-300 content">
+      <div class="p-4 leading-8">
+        <p>
+          Se acercan a la escuela, esperan su turno según orden de llegada y los
+          atiende personal del equipo directivo. Se toman los datos completando
+          una planilla, reciben una reseña de la institución y son invitados a
+          regresar en diciembre.
+        </p>
+        <p>
+          Tener en cuenta que ESTA NO ES LA INSCRIPCIÓN y hay vacantes
+          limitadas, por lo tanto, se realiza una lista con familias interesadas
+          en obtener información sobre la misma
+        </p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <button
+      class="w-full p-4 button h-max flex items-center justify-between gap-4"
+      ><h4>¿Quiénes se inscriben?</h4>
+      <Angle class="w-full max-w-4 transition-all duration-300 angle" />
+    </button>
+    <div class="max-h-0 overflow-hidden transition-all duration-300 content">
+      <div class="p-4 leading-8">
+        <p>
+          Estudiantes de otras instituciones que hayan concluido el nivel
+          primario o lo hagan durante el año actual y estudiantes de la
+          institución que quieran cambio de turno durante el siguiente ciclo
+          lectivo
+        </p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <button
+      class="w-full p-4 button h-max flex items-center justify-between gap-4"
+      ><h4>¿Qué documentación es necesario llevar?</h4>
+      <Angle class="w-full max-w-4 transition-all duration-300 angle" /></button
+    >
+    <div class="max-h-0 overflow-hidden transition-all duration-300 content">
+      <div class="p-4 leading-8">
+        <p>
+          Fotocopia del DNI del estudiante e informar datos como: apellido y
+          nombre del familiar, parentesco y tel. de contacto
+        </p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <button
+      class="w-full p-4 button h-max flex items-center justify-between gap-4"
+      ><h4>¿En la preinscripción me aseguro la vacante?</h4><Angle
+        class="w-full max-w-4 transition-all duration-300 angle"
+      />
+    </button>
+    <div class="max-h-0 overflow-hidden transition-all duration-300 content">
+      <div class="p-4 leading-8">
+        <p>
+          No. La vacante se obtiene en la inscripción. Los estudiantes de EP59 y
+          EP72, junto con familiares de los estudiantes ya matriculados en años
+          anteriores tienen prioridad
+        </p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <button
+      class="w-full p-4 button h-max flex items-center justify-between gap-4"
+      ><h4>¿Qué materias tengo que rendir como equivalencias?</h4>
+      <Angle class="w-full max-w-4 transition-all duration-300 angle" /></button
+    >
+    <div class="max-h-0 overflow-hidden transition-all duration-300 content">
+      <div class="p-4 leading-8">
+        <ul>
+          <li>Ed. Física y Corporeidad (4to Año).</li>
+          <li>Prácticas Deportivas y Atléticas (4to Año).</li>
+          <li>Ed. Física y Cultura (5to Año).</li>
+          <li>Prácticas Gimnásticas y Expresivas (5to Año).</li>
+          <li>
+            Prácticas Corporales y Deportivas en el Ambiente Natural (5to Año).
+          </li>
+          <li>Prácticas Deportivas y Acuáticas (5to Año).</li><li>
+            Diseño y Gestión de Proyectos (6to Año).
+          </li>
+          <li>Ed. Física y Comunidad (6to Año).</li>
+          <li>Prácticas Deportivas y Juegos(6to Año).</li>
+          <li>Psicología</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const buttons = document.querySelectorAll(".button");
+  const contents = document.querySelectorAll(".content");
+  const angles = document.querySelectorAll(".angle");
+
+  const toggleContent = (index) => {
+    contents[index].classList.toggle("max-h-0");
+    contents[index].classList.toggle("max-h-screen");
+    angles[index].classList.toggle("rotate-180");
+  };
+
+  buttons.forEach((button, index) => {
+    button.addEventListener("click", () => {
+      toggleContent(index);
+    });
+  });
+</script>

@@ -1,0 +1,197 @@
+---
+import Button from "@/components/common/Button.astro";
+import Card from "@/components/common/Card.astro";
+import Section from "@/components/common/Section.astro";
+import Layout from "@/layouts/Layout.astro";
+import { projects } from "../../data/projects";
+---
+
+<Layout title="Institucional" description="Institucional">
+  <header class="container pt-40 pb-20 text-secondary">
+    <h1 class="text-center font-bold text-3xl md:text-4xl">Sobre nosotros</h1>
+  </header>
+  <main>
+    <Section title="Historia" centerTitle centerMdTitle class="pb-20">
+      <div
+        class="flex flex-col items-center gap-5 xl:flex-row xl:justify-center"
+      >
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/school-front.webp?alt=media&token=37e2279a-582c-492b-95ff-94292f5ac965"
+          alt="Frente de la escuela"
+          title="Frente de la escuela"
+          class="w-full max-w-[600px] border border-tertiary"
+        />
+        <div
+          class="bg-primary p-5 border border-tertiary w-full max-w-[600px] text-pretty xl:relative xl:right-20"
+        >
+          <p class="mb-5 leading-9">
+            La Escuela de Educación Secundaria número 56 “Polo educativo” es una
+            institución que lleva cuatro años desde su conformación y que, con
+            matrícula creciente, es la única que sostiene jornada extendida en
+            el ciclo básico y la orientación en educación física en su ciclo
+            superior, en todo el distrito de Lanús. Tiene como principal
+            objetivo la construcción del proyecto de vida de cada uno de los
+            estudiantes tendiendo a la generación de acuerdos y acciones
+            colectivas que puedan transformar la realidad barrial y distrital.
+          </p>
+          <a
+            href="https://docs.google.com/document/d/1prjOSFVwWUC2HHSXC7cmki3tTPfCnzMc/edit"
+          >
+            <Button>Conocer más</Button>
+          </a>
+        </div>
+      </div>
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/school.webp?alt=media&token=4cf8ef8b-f822-47aa-8c46-65f6d37f2730"
+        alt="Frente de la escuela"
+        title="Frente de la escuela"
+        class="mt-20 w-full max-w-[900px] mx-auto border border-tertiary"
+      />
+      <iframe
+        class="pt-20 h-[800px] w-full mx-auto"
+        src="https://www.youtube.com/embed/ARe-awpyTLs?si=sYoR7H7_kYzP9jYf"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </Section>
+    <Section
+      title="Proyecto institucional"
+      centerTitle
+      centerMdTitle
+      class="pb-20"
+    >
+      <div class="flex flex-col gap-5 items-center lg:flex-row">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/school-project.webp?alt=media&token=ee4cfced-79c2-4cb1-ba00-c8888646eb3d"
+          alt="Proyecto institucional"
+          title="Proyecto institucional"
+          class="w-full max-w-[700px] mx-auto"
+        />
+        <Card
+          id="proyectoIns"
+          title="Proyecto institucional"
+          description="Presione sobre el siguiente botón para conocer más acerca del proyecto"
+          link="https://docs.google.com/document/d/12qgqx4EMZy6xitV6n7vrGcko1165hVZZ/edit?usp=sharing&ouid=111141329733704389804&rtpof=true&sd=true"
+        />
+      </div>
+    </Section>
+    <Section title="Proyectos" centerTitle centerMdTitle class="pb-20">
+      <div
+        class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center"
+      >
+        {
+          projects.map(
+            ({ title, description, media, mediaType, date, id, link }) => (
+              <Card
+                id={id}
+                title={title}
+                description={description}
+                media={media[0]}
+                mediaType={mediaType}
+                date={date}
+                link={link}
+              />
+            )
+          )
+        }
+      </div>
+    </Section>
+    <div class="pb-20">
+      <h2 class="text-3xl font-bold text-center mb-10">Proyecto Revista</h2>
+      <div class="container grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista1.webp?alt=media&token=33e0abaa-99d6-44f2-ad53-296fb0a54ce5"
+          alt="Revista 1"
+        />
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista2.webp?alt=media&token=47af6c17-cd73-4cf8-bc6f-9222586bfd4a"
+          alt="Revista 2"
+        />
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista3.webp?alt=media&token=9a410dfa-4158-4da7-9ed8-fb5629277cdc"
+          alt="Revista 3"
+        />
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista4.webp?alt=media&token=2174e95f-ade7-453a-adc1-814651e028ea"
+          alt="Revista 4"
+        />
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista5.webp?alt=media&token=8fdececc-aeb3-4741-802b-cb40659703bf"
+          alt="Revista 5"
+        />
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista6.webp?alt=media&token=f91d52dd-5f90-408c-a0cd-39b5358316cc"
+          alt="Revista 6"
+        />
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/revista7.webp?alt=media&token=a8e48537-897c-4e81-9741-f8ea65cd73a8"
+          alt="Revista 7"
+        />
+      </div>
+    </div>
+    <Section title="Otros proyectos" centerTitle centerMdTitle class="pb-20">
+      <div class="grid gap-5 grid-cols-[repeat(auto-fit,minmax(270px,1fr))]">
+        <Card
+          id="proyecto1"
+          title="Proyectos biblioteca"
+          description="Documento que contiene el detalle del proyecto de biblioteca de nuestra escuela."
+          link="https://docs.google.com/document/d/1E87Bb25rk4qqEHxB6uAR51Yv_P9ZAqLv/edit?usp=sharing&ouid=111141329733704389804&rtpof=true&sd=true"
+        />
+        <Card
+          id="proyecto2"
+          title="Proyectos musicales"
+          description="Documento que contiene el detalle de los proyectos musicales de nuestra escuela."
+          link="https://drive.google.com/file/d/1K9iaFyGeUNg-pz1jHLdmbUXTvIfY3ATB/view"
+        />
+        <Card
+          id="proyecto3"
+          title="Cuadrangular atletismo"
+          description="Documento que contiene el detalle del proyecto de atletismo."
+          link="https://drive.google.com/file/d/1cPM6bX4v5T2sTOH8kETofQpGqE0qMu0b/view"
+        />
+        <Card
+          id="proyecto4"
+          title="Proyecto ajedrez"
+          description="Documento que contiene el detalle del proyecto ajedrez."
+          link="https://docs.google.com/document/d/1rsbs35Mix-6wXdV1lDdh5T80rAFtlNFw/edit"
+        />
+        <Card
+          id="proyecto5"
+          title="Intervención del espacio"
+          description="Documento que contiene el detalle del proyecto Intervención del Espacio."
+          link="https://drive.google.com/file/d/10gucyQw9gGfA0SWKkiYFicMlDcdAzWIq/view"
+        />
+        <Card
+          id="proyecto6"
+          title="Proyecto Revista"
+          description="Los estudiantes de 6to año crearán y compartirán una revista como parte de su desarrollo ciudadano y proyectos educativos."
+          link=""
+        />
+        <Card
+          id="proyecto7"
+          title="Caja de sugerencias"
+          description="Se instalará una caja para recibir sugerencias, ideas y críticas constructivas, tanto individuales como grupales, como parte de un proceso participativo."
+          link="#"
+        />
+        <Card
+          id="proyecto8"
+          title="Proyecto identidad"
+          description="Es necesario ponerle un nombre a nuestra Escuela Secundaria 56. También queremos ponerle un nombre a la Biblioteca y a nuestro campo de deportes. Participemos juntos de la elección del nombre."
+          link="#"
+        />
+        <Card
+          id="proyecto9"
+          title="Proyecto cine-debate"
+          description="Se utilizará la videoteca escolar para seleccionar y mejorar material curricular, optimizando sonido y subtítulos. Se fomentará el debate sobre la historia y geografía mediante el cine para construir conocimiento."
+          link="#"
+        />
+        <Card
+          id="proyecto10"
+          title="Proyecto club de lectores"
+          description="Proyecto Club de Lectores, intentaremos desde la biblioteca promover y accionarla lectura comprensiva."
+          link="#"
+        />
+      </div>
+    </Section>
+  </main>
+</Layout>

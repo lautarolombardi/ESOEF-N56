@@ -1,0 +1,73 @@
+---
+import { CONTACT, INTERESTING_LINKS, SOCIAL_LINKS } from "@/app/consts";
+import FooterSection from "@/components/common/FooterSection.astro";
+import Link from "@/components/common/Link.astro";
+import EmailIcon from "@/icons/Email.astro";
+import FacebookIcon from "@/icons/Facebook.astro";
+import InstagramIcon from "@/icons/Instagram.astro";
+import LocationIcon from "@/icons/Location.astro";
+import PhoneIcon from "@/icons/Phone.astro";
+import YoutubeIcon from "@/icons/Youtube.astro";
+---
+
+<footer class="bg-primary text-secondary">
+  <div
+    class="container py-14 grid gap-10 grid-cols-1 md:grid-cols-2 md:place-items-center lg:grid-cols-4"
+  >
+    <div
+      class="h-[250px] w-full max-w-[300px] border border-tertiary place-self-center"
+    >
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13123.869692998183!2d-58.42875065!3d-34.68077165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccc73b39b1565%3A0xc7821d5c359dd36e!2sPolo%20Educativo%20%2F%20EES%20n56!5e0!3m2!1sen!2sar!4v1687309828391!5m2!1sen!2sar"
+        class="h-full w-full"
+        loading="lazy"
+      >
+      </iframe>
+    </div>
+    <FooterSection title="Sitios de interés" listGap={2}>
+      {
+        INTERESTING_LINKS.map((link) => (
+          <li>
+            <Link href={link.link}>{link.name}</Link>
+          </li>
+        ))
+      }
+    </FooterSection>
+    <FooterSection title="Contacto" listGap={3}>
+      {
+        CONTACT.map((contact) => (
+          <li class="flex items-center gap-3 h-max">
+            <span>
+              {contact.icon === "phone" && <PhoneIcon class="w-8" />}
+              {contact.icon === "email" && <EmailIcon class="w-8" />}
+              {contact.icon === "location" && <LocationIcon class="w-8" />}
+            </span>
+            {contact.icon === "email" ? (
+              <span>
+                {contact.value}
+                <br />
+                @gmail.com
+              </span>
+            ) : (
+              <span>{contact.value}</span>
+            )}
+          </li>
+        ))
+      }
+    </FooterSection>
+    <FooterSection title="Redes sociales" listGap={3}>
+      {
+        SOCIAL_LINKS.map((link) => (
+          <li>
+            <Link href={link.link} class="flex h-max items-center gap-3">
+              {link.icon === "facebook" && <FacebookIcon class="w-9" />}
+              {link.icon === "instagram" && <InstagramIcon class="w-9" />}
+              {link.icon === "youtube" && <YoutubeIcon class="w-9" />}
+              {link.user}
+            </Link>
+          </li>
+        ))
+      }
+    </FooterSection>
+  </div>
+</footer>

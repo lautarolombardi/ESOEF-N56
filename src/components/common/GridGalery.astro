@@ -1,0 +1,56 @@
+---
+interface Props {
+  media: string[];
+  mediaType: string;
+}
+const { media, mediaType } = Astro.props;
+---
+
+{
+  mediaType === "image" ? (
+    <>
+      <div class="flex flex-col gap-5 md:grid md:grid-cols-[repeat(2,1fr)] lg:hidden">
+        {media.map((img) => {
+          return <img src={img} class="border border-tertiary" />;
+        })}
+      </div>
+      <div class="hidden lg:grid lg:grid-cols-[25%,75%] lg:gap-5">
+        <div class="flex flex-col gap-3">
+          {media.map((img) => {
+            return (
+              <img
+                src={img}
+                class="h-[220px] object-cover object-center transition-all duration-300 cursor-pointer hover:scale-95 border border-tertiary img"
+              />
+            );
+          })}
+        </div>
+        <picture>
+          <img
+            src={media[0]}
+            class="h-full w-full object-cover object-center border border-tertiary"
+            id="selectedImg"
+          />
+        </picture>
+      </div>
+    </>
+  ) : (
+    <iframe
+      src={media[0]}
+      class="h-[700px] w-full"
+      title="YouTube video player"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    />
+  )
+}
+<script>
+  const imgs = document.querySelectorAll(".img");
+  const selectedImg = document.querySelector("#selectedImg");
+
+  imgs.forEach((img) => {
+    img.addEventListener("click", () => {
+      selectedImg.setAttribute("src", img.getAttribute("src"));
+    });
+  });
+</script>

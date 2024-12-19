@@ -1,0 +1,177 @@
+---
+import Button from "@/components/common/Button.astro";
+import Section from "@/components/common/Section.astro";
+import TeachersPhoto from "@/components/teachers/TeachersPhoto.astro";
+import LinkIcon from "@/icons/Link.astro";
+import Layout from "@/layouts/Layout.astro";
+
+import teachers from "@/data/teachers/teachers.json";
+import Card from "../components/common/Card.astro";
+---
+
+<Layout title="Docentes" description="Docentes">
+  <header class="container pt-40 pb-20 text-secondary">
+    <h1 class="text-center font-bold text-3xl md:text-4xl">Docentes</h1>
+  </header>
+  <main>
+    <div class="pb-20 container">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/mural.webp?alt=media&token=aba4aa4b-2a19-4292-8f4d-27e5a6e5f407"
+        class="w-full max-w-[800px] mx-auto mb-10 border border-tertiary"
+        alt="Mural"
+      />
+    </div>
+    <Section title="Normativa docente" centerTitle centerMdTitle class="pb-20">
+      <div
+        class="grid gap-5 grid-cols-[repeat(auto-fit,minmax(250px,1fr))] place-content-center"
+      >
+        <Card
+          id="Resolucion 1650-24"
+          title="Resolución 1650-24"
+          description="Presioná el boton para entrar a la presentación de power point"
+          link="https://drive.google.com/file/d/1NzaJ3Icg1-Ex65lW47ucBYX5OUb_4NAr/view?usp=sharing"
+        >
+          <Button class="h-max flex items-center gap-3">
+            Abrir <LinkIcon class="w-5" />
+          </Button>
+        </Card>
+        <Card
+          id="Actualización del reglamento académico"
+          title="Actualización del régimen académico"
+          description="Presioná el botón para entrar al archivo pdf"
+          link="https://drive.google.com/file/d/1NzaJ3Icg1-Ex65lW47ucBYX5OUb_4NAr/view?usp=sharing"
+        >
+          <Button class="h-max flex items-center gap-3">
+            Abrir <LinkIcon class="w-5" />
+          </Button>
+        </Card>
+        <Card
+          id="Normativa docente"
+          title="Normativa docente"
+          description="Presioná el boton para ver la normativa docente completa"
+          link="https://normas.gba.gob.ar/documentos/BodONdhz.html"
+        >
+          <Button class="h-max flex items-center gap-3">
+            Abrir <LinkIcon class="w-5" />
+          </Button>
+        </Card>
+        <Card
+          id="Estatuto Docente"
+          title="Estatuto Docente"
+          description="Ley 10579 disponible haciendo click en el boton de abajo"
+          link="https://drive.google.com/file/d/1D-1Vc0jecqnkNEXXcUIU2oT0ZnxI_ncK/view?usp=sharing"
+        >
+          <Button class="h-max flex items-center gap-3">
+            Abrir <LinkIcon class="w-5" />
+          </Button>
+        </Card>
+        <Card
+          id="Ley de Educación Nacional"
+          title="Ley de Educación Nacional"
+          description="Ley 26206 disponible haciendo click en el boton de abajo"
+          link="https://drive.google.com/file/d/1p6zZytrrWJv5DnGqA386YSc_thNPNMZb/view?usp=sharing"
+        >
+          <Button class="h-max flex items-center gap-3">
+            Abrir <LinkIcon class="w-5" />
+          </Button>
+        </Card>
+      </div>
+    </Section>
+    <Section
+      title="Equipo de conducción"
+      centerTitle
+      centerMdTitle
+      class="pb-20"
+    >
+      <div class="flex gap-5 justify-evenly text-center">
+        <TeachersPhoto
+          name="Andrea Campos"
+          img="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fandrea-campos.webp?alt=media&token=7d97abc7-1ce1-4605-8700-f47953d4be7d"
+          description="Directora"
+        />
+        <TeachersPhoto
+          name="Ricardo Lombardi"
+          img="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fricardo-lombardi.webp?alt=media&token=8dd24005-cbf4-4894-9e9b-e092c3282bf3"
+          description="Vicedirector"
+        />
+      </div>
+    </Section>
+    <Section title="Preceptores" centerTitle centerMdTitle class="pb-20">
+      <div
+        class="grid gap-5 grid-cols-[repeat(auto-fit,minmax(170px,1fr))] place-content-center"
+      >
+        <TeachersPhoto
+          name="Néstor Villalba"
+          img="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fnestor-villalba.webp?alt=media&token=805492bb-5a84-481d-ba0e-231253710780"
+          description="Turno tarde"
+        />
+        <TeachersPhoto
+          name="Eduardo Recalde"
+          img="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Feduardo-recalde.webp?alt=media&token=eb430b44-7336-4e8e-a153-c3e4ae3dfffb"
+          description="Turno tarde"
+        />
+        <TeachersPhoto
+          name="Cecilia Lazarte"
+          img="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fcecilia-lazarte.webp?alt=media&token=2363719b-8873-4982-a6e2-b9d88368c714"
+          description="Turno tarde"
+        />
+        <TeachersPhoto
+          name="Yanina Lodoli - Fabiana Maiorano"
+          img="https://firebasestorage.googleapis.com/v0/b/ees56-826e3.appspot.com/o/teachers%2Fyanina-fabiana.webp?alt=media&token=3b854ac5-22ef-48b2-bda3-bf8c99f279ca"
+          description="Turno mañana"
+        />
+      </div>
+    </Section>
+    <Section title="Docentes" centerTitle centerMdTitle class="pb-20">
+      <div
+        class="grid gap-5 grid-cols-[repeat(auto-fill,170px)] place-content-center"
+      >
+        {
+          teachers.teachers.map((teacher) => (
+            <TeachersPhoto
+              name={teacher.name}
+              description={teacher.subject}
+              img={teacher.img}
+            />
+          ))
+        }
+      </div>
+    </Section>
+    <Section
+      title="Documentos de utilidad"
+      centerTitle
+      centerMdTitle
+      class="pb-20"
+    >
+      <p class="font-bold text-center text-pretty mb-10">
+        Para usar estos documentos debe descargar una copia de los mismos
+      </p>
+      <div class="grid gap-5 grid-cols-[repeat(auto-fit,minmax(270px,1fr))]">
+        <Card
+          id="doc-1"
+          title="Declaración jurada 2024"
+          description="Documento que contiene una plantilla de declaración jurada."
+          link="https://docs.google.com/spreadsheets/d/1dISYm4qzu-M1Vwx4vcnQrRL2PZVvFwrt/edit#gid=1818121767"
+        />
+        <Card
+          id="doc-2"
+          title="Planilla SET 4"
+          description="Modelo de planilla SET 4 para completar."
+          link="https://drive.google.com/uc?id=1YmBPN2x6Gryws3XCSnr7J3wBLMq91k0a&export=download"
+        />
+        <Card
+          id="doc-3"
+          title="Formulario 354"
+          description="Documento que contiene una plantilla formulario 354"
+          link="https://drive.google.com/uc?id=1X2_0YG6zFF5y2xrmR0wIYEctVd_sfEpm&export=download"
+        />
+        <Card
+          id="doc-4"
+          title="Modelo de planificación"
+          description="Modelo de planificación para completar."
+          link="https://docs.google.com/document/d/10gK74ATs8MULoBctjKGEY23K05wnvCMv/edit?usp=drive_link&ouid=111141329733704389804&rtpof=true&sd=true"
+        />
+      </div>
+    </Section>
+  </main>
+</Layout>

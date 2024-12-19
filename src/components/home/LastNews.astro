@@ -1,0 +1,32 @@
+---
+import Button from "@/components/common/Button.astro";
+import Angle from "@/icons/Angle.astro";
+
+import Card from "@/components/common/Card.astro";
+import { news } from "@/data/news";
+---
+
+<div
+  class="mb-12 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center"
+>
+  {
+    news
+      .slice(0, 3)
+      .map(({ title, description, media, mediaType, date, id }) => (
+        <Card
+          id={id}
+          title={title}
+          description={description}
+          media={media[0]}
+          mediaType={mediaType}
+          date={date}
+          link={`/activities/${id}`}
+        />
+      ))
+  }
+</div>
+<a href="/news"
+  ><Button class="h-max flex items-center gap-3">
+    Ver todas las novedades <Angle class="w-3 -rotate-90" />
+  </Button></a
+>

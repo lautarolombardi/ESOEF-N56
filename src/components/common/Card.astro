@@ -1,0 +1,54 @@
+---
+import { MEDIA_TYPE } from "@/constants/card.constants";
+import Link from "@/icons/Link.astro";
+import type { CardProps } from "@/types/card";
+type Props = CardProps;
+
+const { title, description, media, mediaType, date, link } = Astro.props;
+---
+
+<div
+  class="h-full w-full max-w-[600px] bg-primary text-secondary shadow shadow-secondary"
+>
+  {
+    media && (
+      <div class="h-[300px]">
+        {mediaType === MEDIA_TYPE.IMAGE && (
+          <img
+            src={media}
+            alt={title}
+            class="w-full h-full object-cover object-center"
+          />
+        )}
+        {mediaType === MEDIA_TYPE.VIDEO && (
+          <iframe
+            src={media}
+            class="h-full w-full"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          />
+        )}
+      </div>
+    )
+  }
+  <div class="p-5 flex flex-col gap-3 justify-center">
+    <h5 class="text-xl font-bold">
+      {title}
+    </h5>
+    <p class="leading-7 line-clamp-2 text-pretty">{description}</p>
+    <a
+      href={link}
+      class="max-w-max h-max flex items-center gap-2 py-2 px-3 bg-tertiary text-white hover:bg-white hover:text-tertiary transition-all duration-300 cursor-pointer"
+    >
+      Conocer más<Link class="w-5" />
+    </a>
+    {
+      date && (
+        <span class="inline-block ml-auto py-1 px-2 text-sm text-right bg-tertiary text-white">
+          {date}
+        </span>
+      )
+    }
+  </div>
+</div>

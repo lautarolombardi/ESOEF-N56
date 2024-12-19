@@ -1,0 +1,20 @@
+---
+import DetailPage from "@/components/common/DetailPage.astro";
+import Layout from "@/layouts/Layout.astro";
+import { competitions } from "../../../data/competitions";
+const { id } = Astro.params;
+const competition = competitions.find((o) => o.id === id);
+const { title, description, media, mediaType, date, link } = competition;
+---
+
+<Layout title="Salidas" description="Salidas">
+  <DetailPage
+    cardType="competitions"
+    title={title}
+    description={description}
+    media={media}
+    date={date}
+    mediaType={mediaType}
+    link={link}
+  />
+</Layout>

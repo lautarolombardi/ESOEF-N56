@@ -1,0 +1,16 @@
+---
+interface Props {
+  href: string;
+  target?: string;
+  class?: string;
+}
+const { href, target, class: className } = Astro.props;
+---
+
+<a
+  href={href}
+  target={target}
+  class={`cursor-pointer transition-all duration-300 hover:text-tertiary ${className}`}
+>
+  <slot />
+</a>

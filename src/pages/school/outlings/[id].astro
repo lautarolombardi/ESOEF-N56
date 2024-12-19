@@ -1,0 +1,20 @@
+---
+import DetailPage from "@/components/common/DetailPage.astro";
+import { outlings } from "@/data/outlings";
+import Layout from "@/layouts/Layout.astro";
+const { id } = Astro.params;
+const outling = outlings.find((k) => k.id === id);
+const { title, description, media, mediaType, date, link } = outling;
+---
+
+<Layout title="Salidas" description="Salidas">
+  <DetailPage
+    cardType="outlings"
+    title={title}
+    description={description}
+    media={media}
+    date={date}
+    mediaType={mediaType}
+    link={link}
+  />
+</Layout>

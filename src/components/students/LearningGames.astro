@@ -1,0 +1,22 @@
+---
+import { LearningGame } from "@/services/learning-games.service";
+import Card from "../common/Card.astro";
+
+const learningGame = new LearningGame();
+const learningGames = await learningGame.getAll();
+---
+
+<div
+  class="grid grid-cols-1 place-items-center gap-5 md:grid-cols-[repeat(auto-fill,minmax(300px,1fr))]"
+>
+  {
+    learningGames.map(({ id, title, link }) => (
+      <Card
+        id={id}
+        title={title}
+        description={"Para jugar hace click en el siguiente enlace"}
+        link={link}
+      />
+    ))
+  }
+</div>

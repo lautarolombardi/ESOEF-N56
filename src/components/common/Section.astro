@@ -1,0 +1,20 @@
+---
+interface Props {
+  title?: string;
+  class?: string;
+  centerTitle?: boolean;
+  centerMdTitle?: boolean;
+}
+const { title, class: className, centerTitle, centerMdTitle } = Astro.props;
+---
+
+<section class={`container text-secondary ${className}`}>
+  <h2
+    class={`mb-14 font-bold text-2xl lg:text-3xl ${
+      centerTitle && "text-center"
+    } ${centerMdTitle ? "md:text-center" : "md:text-left"}`}
+  >
+    {title}
+  </h2>
+  <slot />
+</section>

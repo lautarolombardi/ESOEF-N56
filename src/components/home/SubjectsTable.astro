@@ -1,0 +1,185 @@
+<div class="mb-5 flex flex-col gap-3 md:flex-row md:items-center md:gap-8">
+  <div>
+    <label for="cycle">Ciclo:</label>
+    <select class="p-1 cursor-pointer" name="cycle" id="cycle">
+      <option value="Básico" class="cursor-pointer">Básico</option>
+      <option value="Superior" class="cursor-pointer">Superior</option>
+    </select>
+  </div>
+  <div class="flex h-max items-center gap-3">
+    <div class="w-4 h-4 bg-tertiary"></div>
+    <span>Materias especializadas</span>
+  </div>
+</div>
+<div class="overflow-x-auto">
+  <table
+    class="w-full text-pretty bg-primary text-secondary"
+    cellpadding="10"
+    cellspacing="10"
+    id="basicCycle"
+  >
+    <thead>
+      <tr>
+        <th class="border border-tertiary text-start">1er año</th>
+        <th class="border border-tertiary text-start">2do año</th>
+        <th class="border border-tertiary text-start">3er año</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border border-tertiary">Matemática</td>
+        <td class="border border-tertiary">Matemática</td>
+        <td class="border border-tertiary">Matemática</td>
+      </tr>
+      <tr>
+        <td class="border border-tertiary">Prácticas del lenguaje</td>
+        <td class="border border-tertiary">Prácticas del lenguaje</td>
+        <td class="border border-tertiary">Prácticas del lenguaje</td>
+      </tr>
+      <tr>
+        <td class="border border-tertiary">Construcción de la ciudadanía</td>
+        <td class="border border-tertiary">Construcción de la ciudadanía</td>
+        <td class="border border-tertiary">Construcción de la ciudadanía</td>
+      </tr>
+      <tr>
+        <td class="border border-tertiary">Ciencias naturales</td>
+        <td class="border border-tertiary">Biología</td>
+        <td class="border border-tertiary">Biología</td>
+      </tr>
+      <tr>
+        <td class="border border-tertiary">Ciencias sociales</td>
+        <td class="border border-tertiary">Físico-química</td>
+        <td class="border border-tertiary">Físico-química</td>
+      </tr>
+      <tr>
+        <td class="border border-tertiary">Educación física</td>
+        <td class="border border-tertiary">Geografía</td>
+        <td class="border border-tertiary">Geografía</td>
+      </tr>
+      <tr>
+        <td class="border border-tertiary">Educación artística</td>
+        <td class="border border-tertiary">Historia</td>
+        <td class="border border-tertiary">Historia</td>
+      </tr>
+      <tr>
+        <td class="border border-tertiary">Inglés</td>
+        <td class="border border-tertiary">Educación física</td>
+        <td class="border border-tertiary">Educación física</td>
+      </tr>
+      <tr>
+        <td class="border border-tertiary">Inglés</td>
+        <td class="border border-tertiary">Educación física</td>
+        <td class="border border-tertiary">Educación física</td>
+      </tr>
+      <tr>
+        <td class="border border-tertiary">Informática</td>
+        <td class="border border-tertiary">Educación artística</td>
+        <td class="border border-tertiary">Educación artística</td>
+      </tr>
+    </tbody>
+  </table>
+  <table
+    class="w-full text-pretty bg-primary text-secondary hidden"
+    cellpadding="10"
+    cellspacing="10"
+    id="highSchool"
+  >
+    <thead>
+      <tr>
+        <th class="text-start border border-tertiary">4to año</th>
+        <th class="text-start border border-tertiary">5to año</th>
+        <th class="text-start border border-tertiary">6to año</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border border-tertiary">Matemática</td>
+        <td class="border border-tertiary">Matemática</td>
+        <td class="border border-tertiary">Matemática</td>
+      </tr>
+      <tr>
+        <td class="border border-tertiary">Literatura</td>
+        <td class="border border-tertiary">Literatura</td>
+        <td class="border border-tertiary">Literatura</td>
+      </tr>
+      <tr>
+        <td class="border border-tertiary">Inglés</td>
+        <td class="border border-tertiary">Inglés</td>
+        <td class="border border-tertiary">Inglés</td>
+      </tr>
+      <tr>
+        <td class="border border-tertiary">Historia</td>
+        <td class="border border-tertiary">Historia</td>
+        <td class="border border-tertiary">Filosofía</td>
+      </tr>
+      <tr>
+        <td class="border border-tertiary">Geografía</td>
+        <td class="border border-tertiary">Geografía</td>
+        <td class="border border-tertiary">Arte</td>
+      </tr>
+      <tr>
+        <td class="border border-tertiary">Salud y adolescencia</td>
+        <td class="border border-tertiary">Política y ciudadanía</td>
+        <td class="border border-tertiary">Trabajo y ciudadanía</td>
+      </tr>
+      <tr>
+        <td class="border border-tertiary">Biología</td>
+        <td class="border border-tertiary">Int. a la química</td>
+        <td class="border border-tertiary">Educación física y com.</td>
+      </tr>
+      <tr>
+        <td class="border border-tertiary">NTICX</td>
+        <td class="border border-tertiary">Educación física y cult.</td>
+        <td class="border border-tertiary bg-tertiary text-white"
+          >Pr. dep. y juegos</td
+        >
+      </tr>
+      <tr>
+        <td class="border border-tertiary">Int. a la fís.</td>
+        <td class="border border-tertiary bg-tertiary text-white"
+          >Pr. dep. y acu.</td
+        >
+        <td class="border border-tertiary bg-tertiary text-white"
+          >Diseño y gestión de proyectos</td
+        >
+      </tr>
+      <tr>
+        <td class="border border-tertiary">Ed. fís. y corp.</td>
+        <td class="border border-tertiary bg-tertiary text-white"
+          >Pract. corporales y deporte en el ambiente natural</td
+        >
+        <td class="border border-tertiary bg-tertiary text-white"
+          >Pr. gimn. y exp. II</td
+        >
+      </tr>
+      <tr>
+        <td class="border border-tertiary bg-tertiary text-white">Psicología</td
+        >
+        <td class="border border-tertiary bg-tertiary text-white">Sociología</td
+        >
+        <td class="border border-tertiary"></td>
+      </tr>
+      <tr>
+        <td class="border border-tertiary bg-tertiary text-white"
+          >Pr. dep. y atl.</td
+        >
+        <td class="border border-tertiary bg-tertiary text-white"
+          >Pr. gimn. y exp I</td
+        >
+        <td class="border border-tertiary"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<script>
+  const cycle = document.querySelector("#cycle");
+  const basicCycle = document.querySelector("#basicCycle");
+  const highSchool = document.querySelector("#highSchool");
+
+  const handleChangeCycle = () => {
+    basicCycle.classList.toggle("hidden");
+    highSchool.classList.toggle("hidden");
+  };
+
+  cycle.addEventListener("change", handleChangeCycle);
+</script>

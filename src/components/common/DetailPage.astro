@@ -1,0 +1,46 @@
+---
+import Button from "@/components/common/Button.astro";
+import GridGalery from "@/components/common/GridGalery.astro";
+import Section from "@/components/common/Section.astro";
+import LinkIcon from "@/icons/Link.astro";
+interface Props {
+  title: string;
+  description: string;
+  media: string[];
+  mediaType: string;
+  date: string;
+  link: string;
+  cardType: string;
+}
+const { title, description, media, mediaType, date, link, cardType } =
+  Astro.props;
+---
+
+<main>
+  <Section
+    title={title}
+    centerTitle={true}
+    centerMdTitle={true}
+    class="pt-40 pb-20"
+  >
+    <p class="mb-5 leading-7">{description}</p>
+    <GridGalery media={media} mediaType={mediaType} />
+    {
+      mediaType === "image" && (
+        <a href={link} target="_blank" class="btn mt-5">
+          <Button class="h-max flex mt-10 items-center gap-3">
+            Ver álbum completo
+            <LinkIcon class="w-5" />
+          </Button>
+        </a>
+      )
+    }
+    {
+      cardType === "news" && (
+        <span class="w-max mt-8 flex ml-auto py-2 px-3 text-right justify-end bg-tertiary text-white">
+          {date}
+        </span>
+      )
+    }
+  </Section>
+</main>

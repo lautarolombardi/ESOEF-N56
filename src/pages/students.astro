@@ -1,0 +1,58 @@
+---
+import Section from "@/components/common/Section.astro";
+import Future from "@/components/students/Future.astro";
+import ImportantFiles from "@/components/students/ImportantFiles.astro";
+import LearningGames from "@/components/students/LearningGames.astro";
+import StudyMaterial from "@/components/students/StudyMaterial.astro";
+import Layout from "@/layouts/Layout.astro";
+import Card from "../components/common/Card.astro";
+---
+
+<Layout title="ESOEF N°56 | Estudiantes" description="ESOEF N°56 | Estudiantes">
+  <header class="container pt-40 pb-20 text-secondary">
+    <h1 class="text-center font-bold text-3xl md:text-4xl">Estudiantes</h1>
+  </header>
+  <main>
+    <Section
+      class="pb-20"
+      title="Archivos importantes"
+      centerTitle
+      centerMdTitle
+    >
+      <ImportantFiles />
+    </Section>
+    <Section
+      class="pb-20"
+      title="Material de estudio"
+      centerTitle
+      centerMdTitle
+    >
+      <StudyMaterial />
+    </Section>
+    <Section class="pb-20" title="Aprendé jugando" centerTitle centerMdTitle>
+      <LearningGames />
+    </Section>
+    <Section class="pb-20" title="Videoteca" centerTitle centerMdTitle>
+      <div class="flex flex-col items-center gap-5 lg:flex-row">
+        <img
+          src="videoteca.webp"
+          alt="Videoteca"
+          class="w-full max-w-[600px]"
+        />
+        <Card
+          id="videoteca"
+          title="Videoteca"
+          description="Estamos armando una videoteca práctica con material chequeado y en español. El control y el pendrive están en Dirección. (Se aceptan aportes y sugerencias)"
+          link="https://drive.google.com/uc?id=1M85JGz0vs1H0FnxkmOL4JHzdgh6F1Rqy&export=download"
+        />
+      </div>
+    </Section>
+    <Section class="pb-20" title="Tu futuro" centerTitle centerMdTitle>
+      <p class="mb-14 leading-8 text-pretty text-center">
+        Universidades de cercanía. Encontrá toda la información necesaria sobre
+        tus próximos estudios
+      </p>
+      <Future />
+    </Section>
+  </main>
+</Layout>

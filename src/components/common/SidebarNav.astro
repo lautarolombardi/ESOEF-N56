@@ -1,0 +1,77 @@
+---
+import { HEADER_NAV } from "@/app/consts";
+import Angle from "@/icons/Angle.astro";
+import CloseIcon from "@/icons/Close.astro";
+import Link from "@/components/common/Link.astro";
+---
+
+<div class="bg-[rgba(0,0,0,.5)] fixed inset-0 hidden" id="overlay"></div>
+<nav
+  class="bg-primary text-secondary shadow-sm shadow-[rgba(13,45,82,0.49)] fixed top-0 right-0 bottom-0 w-3/4 max-w-[300px] translate-x-full transition-all duration-300 z-[100]"
+  id="sidebarNav"
+>
+  <div class="container py-6 flex flex-col gap-14">
+    <div class="h-max flex items-center justify-end">
+      <button id="closeBtn"><CloseIcon class="w-6" /></button>
+    </div>
+    <ul class="flex flex-col gap-7 font-bold">
+      {
+        HEADER_NAV.map((item) => {
+          return item.name !== "Institucional" ? (
+            <li>
+              <Link href={item.path}>{item.name}</Link>
+            </li>
+          ) : (
+            <li class="h-max flex items-center gap-3 relative" id="dropdown">
+              Institucional
+              <Angle class="w-3 transition-all duration-300" id="angle-arrow" />
+              <ul
+                class="absolute left-0 top-10 max-h-0 overflow-hidden flex flex-col gap-3 transition-all duration-300"
+                id="dropdownList"
+              >
+                <li>
+                  <Link href="/school/about">Nosotros</Link>
+                </li>
+                <li>
+                  <Link href="/school/outlings">Salidas</Link>
+                </li>
+                <li>
+                  <Link href="/school/competitions">Competencias</Link>
+                </li>
+                <li>
+                  <Link href="/school/media-productions">Producción</Link>
+                </li>
+              </ul>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </div>
+</nav>
+
+<script>
+  const menuBtn = document.querySelector("#menuBtn");
+  const closeBtn = document.querySelector("#closeBtn");
+  const overlay = document.querySelector("#overlay");
+  const sidebarNav = document.querySelector("#sidebarNav");
+  const dropdown = document.querySelector("#dropdown");
+  const dropdownList = document.querySelector("#dropdownList");
+  const angleArrow = document.querySelector("#angle-arrow");
+
+  menuBtn.addEventListener("click", () => {
+    overlay.classList.toggle("hidden");
+    sidebarNav.classList.toggle("translate-x-full");
+  });
+
+  closeBtn.addEventListener("click", () => {
+    overlay.classList.toggle("hidden");
+    sidebarNav.classList.toggle("translate-x-full");
+  });
+
+  dropdown.addEventListener("click", () => {
+    dropdownList.classList.toggle("max-h-0");
+    dropdownList.classList.toggle("max-h-screen");
+    angleArrow.classList.toggle("rotate-180");
+  });
+</script>

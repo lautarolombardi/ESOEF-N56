@@ -1,0 +1,25 @@
+---
+import Card from "@/components/common/Card.astro";
+import { Activity } from "@/services/activities.service";
+
+const activity = new Activity();
+const activities = await activity.getAll();
+---
+
+<div
+  class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center"
+>
+  {
+    activities.map(({ title, description, media, media_type, date, id }) => (
+      <Card
+        id={id}
+        title={title}
+        description={description}
+        media={media[0]}
+        mediaType={media_type}
+        date={date}
+        link={`/activities/${id}`}
+      />
+    ))
+  }
+</div>

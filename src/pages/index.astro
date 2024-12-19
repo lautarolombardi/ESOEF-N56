@@ -1,0 +1,56 @@
+---
+import Section from "@/components/common/Section.astro";
+import Faq from "@/components/home/Faq.astro";
+import LastNews from "@/components/home/LastNews.astro";
+import MainHeader from "@/components/home/MainHeader.astro";
+import Mission from "@/components/home/Mission.astro";
+import Presentation from "@/components/home/Presentation.astro";
+import SubjectsTable from "@/components/home/SubjectsTable.astro";
+import Layout from "@/layouts/Layout.astro";
+---
+
+<Layout title="ESOEF N56" description="ESOEF N56">
+  <MainHeader />
+  <main class="overflow-x-hidden">
+    <Section
+      title="Presentación"
+      class="py-20"
+      centerTitle={true}
+      centerMdTitle={true}
+    >
+      <Presentation />
+    </Section>
+    <Section
+      title="Nuestra misión"
+      class="pb-20"
+      centerTitle={true}
+      centerMdTitle={true}
+    >
+      <Mission />
+    </Section>
+    <Section
+      title="Estructura curricular"
+      class="pb-20"
+      centerTitle={true}
+      centerMdTitle={true}
+    >
+      <SubjectsTable />
+    </Section>
+    <Section
+      title="Ultimas novedades"
+      class="pb-20"
+      centerTitle={true}
+      centerMdTitle={false}
+    >
+      <LastNews />
+    </Section>
+    <Section
+      title="Preguntas frecuentes"
+      class="pb-20"
+      centerTitle={false}
+      centerMdTitle={false}
+    >
+      <Faq />
+    </Section>
+  </main>
+</Layout>

@@ -1,0 +1,62 @@
+---
+import { HEADER_NAV } from "@/app/consts";
+import Link from "@/components/common/Link.astro";
+import Logo from "@/components/common/Logo.astro";
+import AngleIcon from "@/icons/Angle.astro";
+import MenuIcon from "@/icons/Menu.astro";
+---
+
+<nav
+  class="h-[80px] fixed top-0 left-0 w-full bg-primary text-secondary shadow-sm shadow-[#0d2d527e] z-50"
+>
+  <div class="container flex items-center justify-between h-full">
+    <a href="/" class="h-full transition-all duration-300 hover:text-tertiary">
+      <Logo class="h-full" />
+    </a>
+    <button class="lg:hidden" id="menuBtn">
+      <MenuIcon class="w-7" />
+    </button>
+    <ul class="hidden lg:flex items-center gap-10 font-bold">
+      {
+        HEADER_NAV.map((item) => {
+          return item.name !== "Institucional" ? (
+            <li>
+              <Link href={item.path} class="h-full">
+                {item.name}
+              </Link>
+            </li>
+          ) : (
+            <li class="h-[80px] flex items-center gap-2 relative group cursor-pointer">
+              Institucional <AngleIcon class="w-3" />
+              <ul class="p-5 bg-primary absolute bottom-[-195px] opacity-0 invisible left-0 flex flex-col gap-5 shadow-sm shadow-[#0d2d527e] transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                <li>
+                  <Link href="/school/about" class="w-full inline-block">
+                    Nosotros
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/school/outlings" class="w-full inline-block">
+                    Salidas
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/school/competitions" class="w-full inline-block">
+                    Competencias
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/school/media-productions"
+                    class="w-full inline-block"
+                  >
+                    Producción
+                  </Link>
+                </li>
+              </ul>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </div>
+</nav>

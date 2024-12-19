@@ -1,0 +1,17 @@
+---
+import Card from "@/components/common/Card.astro";
+import { StudyMaterialClass } from "@/services/study-material.service";
+
+const studyMaterial = new StudyMaterialClass();
+const studyMaterials = await studyMaterial.getAll();
+---
+
+<div
+  class="grid grid-cols-1 place-items-center gap-5 md:grid-cols-[repeat(auto-fill,minmax(300px,1fr))]"
+>
+  {
+    studyMaterials.map(({ id, title, description, link }) => (
+      <Card id={id} title={title} description={description} link={link} />
+    ))
+  }
+</div>

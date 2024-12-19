@@ -1,0 +1,66 @@
+---
+import Card from "@/components/common/Card.astro";
+import Section from "@/components/common/Section.astro";
+import { outlings } from "@/data/outlings";
+import Layout from "@/layouts/Layout.astro";
+---
+
+<Layout title="Salidas" description="Salidas">
+  <header class="container pt-40 pb-20 text-secondary">
+    <h1 class="text-center font-bold text-3xl md:text-4xl">Salidas</h1>
+  </header>
+  <main>
+    <Section
+      title="Salidas 2024"
+      class="pb-20"
+      centerTitle={true}
+      centerMdTitle={true}
+    >
+      <div
+        class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center"
+      >
+        {
+          outlings
+            .filter((outling) => outling.date.includes("2024"))
+            .map(({ title, description, media, mediaType, date, id, link }) => (
+              <Card
+                id={id}
+                title={title}
+                description={description}
+                media={media[0]}
+                mediaType={mediaType}
+                date={date}
+                link={link}
+              />
+            ))
+        }
+      </div>
+    </Section>
+    <Section
+      title="Salidas 2023"
+      class="pb-20"
+      centerTitle={true}
+      centerMdTitle={true}
+    >
+      <div
+        class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center"
+      >
+        {
+          outlings
+            .filter((outling) => outling.date === "2023")
+            .map(({ title, description, media, mediaType, date, id, link }) => (
+              <Card
+                id={id}
+                title={title}
+                description={description}
+                media={media[0]}
+                mediaType={mediaType}
+                date={date}
+                link={link}
+              />
+            ))
+        }
+      </div>
+    </Section>
+  </main>
+</Layout>
