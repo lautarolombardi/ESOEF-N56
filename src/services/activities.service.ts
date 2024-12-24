@@ -21,7 +21,7 @@ export class Activity {
         ...doc.data(),
       })) as ActivityType[];
     } catch (error) {
-      console.error("Error al obtener las actividades:", error);
+      console.error("Error al obtener la actividades:", error);
       throw new Error("No se pudieron obtener las actividades.");
     }
   }
